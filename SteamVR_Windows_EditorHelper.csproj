@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4F459F89-59B3-CED0-045F-ECA50401B99A}</ProjectGuid>
+    <ProjectGuid>{877B4FF8-0488-1DBC-033A-9835BFDEAD07}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Windows_EditorHelper</AssemblyName>
@@ -285,32 +285,32 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <Reference Include="Ookii.Dialogs">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Assets/Plugins/Ookii.Dialogs.dll</HintPath>
  </Reference>
  <Reference Include="System.Data.DataSetExtensions">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/System.Data.DataSetExtensions.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Assets/Plugins/System.Data.DataSetExtensions.dll</HintPath>
  </Reference>
  <Reference Include="System.Windows.Forms">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/System.Windows.Forms.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Assets/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
- <Reference Include="Ookii.Dialogs">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/Ookii.Dialogs.dll</HintPath>
+ <Reference Include="Valve.Newtonsoft.Json">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

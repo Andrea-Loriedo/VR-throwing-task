@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{98FE6F53-E4D3-E11C-3D09-6A29D833328E}</ProjectGuid>
+    <ProjectGuid>{EC7053EF-E7E8-460E-71DF-C3D5A9610515}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -124,19 +124,19 @@
      <Compile Include="Assets\UXF\Scripts\UI\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs" />
      <None Include="Assets\UXF\README.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -339,26 +339,26 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <Reference Include="Ookii.Dialogs">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Assets/Plugins/Ookii.Dialogs.dll</HintPath>
  </Reference>
  <Reference Include="System.Data.DataSetExtensions">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/System.Data.DataSetExtensions.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Assets/Plugins/System.Data.DataSetExtensions.dll</HintPath>
  </Reference>
  <Reference Include="System.Windows.Forms">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/System.Windows.Forms.dll</HintPath>
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Assets/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
- <Reference Include="Ookii.Dialogs">
- <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/Ookii.Dialogs.dll</HintPath>
+ <Reference Include="Valve.Newtonsoft.Json">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>C:/Users/Andrea Loriedo/Documents/Unity Projects Andrea/ThrowingTaskAndrea/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -717,15 +717,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{30C3DE01-E575-890A-A886-6D05D54F1F72}</Project>      <Name>SteamVR_Actions</Name>    </ProjectReference>
+      <Project>{EDE09FB0-ABDD-365D-3220-6AD08BD29593}</Project>      <Name>SteamVR_Actions</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{340322A4-D5A4-06DC-222D-B0F1A593283C}</Project>      <Name>SteamVR_Input_Editor</Name>    </ProjectReference>
+      <Project>{83D7D2AC-954A-1D1A-238B-63CF911A6AA9}</Project>      <Name>SteamVR_Input_Editor</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{5C3A3E2D-4651-9A30-5D0D-B19BFC531557}</Project>      <Name>SteamVR_Editor</Name>    </ProjectReference>
+      <Project>{906E5CFB-AF79-8B2B-26B9-8F370D3311B2}</Project>      <Name>SteamVR_Editor</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{17E26339-039F-9648-8FA4-161ABC21BDB9}</Project>      <Name>SteamVR</Name>    </ProjectReference>
+      <Project>{5706558C-B354-E38C-813A-E70A1741648A}</Project>      <Name>SteamVR</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{4F459F89-59B3-CED0-045F-ECA50401B99A}</Project>      <Name>SteamVR_Windows_EditorHelper</Name>    </ProjectReference>
+      <Project>{877B4FF8-0488-1DBC-033A-9835BFDEAD07}</Project>      <Name>SteamVR_Windows_EditorHelper</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

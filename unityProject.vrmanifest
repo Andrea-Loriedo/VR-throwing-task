@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.throwingtaskandrea.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\andrea\\Documents\\Andrea Level 3 Project\\Throwing Task Andrea\\vrmat-throwing-task\\actions.json",
+      "action_manifest_path": "C:\\Users\\Andrea Loriedo\\Documents\\Unity Projects Andrea\\ThrowingTaskAndrea\\actions.json",
       "strings": {
         "en_us": {
           "name": "ThrowingTaskAndrea [Testing]"
