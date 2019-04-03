@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RotateAlongVelocity : MonoBehaviour
 {
+    // Script to make the dart rotate along the velocity vector
 
     Rigidbody rb;
 
