@@ -7,12 +7,16 @@ public class ArmKinematicsController : MonoBehaviour
 
     public Limb[] arm;
 
+    void Start()
+    {
+    }
+
     // Update is called once per frame
     void Update()
     {   
+        ScaleLinks(arm);
         MoveLimb(arm);
     }
-
 
     void MoveLimb(Limb[] limb)
     {
@@ -24,6 +28,18 @@ public class ArmKinematicsController : MonoBehaviour
             limblink.link.rotation = limblink.previousJoint.rotation;
         }
     }
+
+    void ScaleLinks(Limb[] limb)
+    {
+        Vector3 linkLength = transform.localScale;
+
+        foreach (Limb limblink in limb)
+        {
+            linkLength.x = limblink.link_length * 5;
+            limblink.link.localScale = linkLength;
+        }
+    }
+
 
     [System.Serializable]
     public struct Limb
