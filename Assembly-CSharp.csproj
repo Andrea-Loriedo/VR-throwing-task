@@ -59,7 +59,70 @@
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThread.cs" />
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThreadCustomDelimiter.cs" />
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThreadLines.cs" />
+     <Compile Include="Assets\MyScripts\BullseyeScripts\BoundaryCollisionDetection.cs" />
+     <Compile Include="Assets\MyScripts\BullseyeScripts\HitsController.cs" />
+     <Compile Include="Assets\MyScripts\BullseyeScripts\StartPointController.cs" />
+     <Compile Include="Assets\MyScripts\BullseyeScripts\TargetCenterController.cs" />
+     <Compile Include="Assets\MyScripts\BullseyeScripts\TargetHitController.cs" />
+     <Compile Include="Assets\MyScripts\BullseyeScripts\TimingBullsEyeController.cs" />
+     <Compile Include="Assets\MyScripts\BullseyeScripts\TimingExperimentGenerator.cs" />
      <Compile Include="Assets\MyScripts\SerialMessageListener.cs" />
+     <Compile Include="Assets\UXF\Examples\Advanced\Scripts\CursorFollower.cs" />
+     <Compile Include="Assets\UXF\Examples\Advanced\Scripts\ExperimentGenerator.cs" />
+     <Compile Include="Assets\UXF\Examples\Advanced\Scripts\InstructionsController.cs" />
+     <Compile Include="Assets\UXF\Examples\Advanced\Scripts\StartBlockController.cs" />
+     <Compile Include="Assets\UXF\Examples\Advanced\Scripts\TargetController.cs" />
+     <Compile Include="Assets\UXF\Examples\Advanced\Scripts\TargetManager.cs" />
+     <Compile Include="Assets\UXF\Examples\Advanced\Scripts\TaskManager.cs" />
+     <Compile Include="Assets\UXF\Examples\Basic\BasicExampleScript.cs" />
+     <Compile Include="Assets\UXF\Examples\TrialLoop\TrialLoop.cs" />
+     <Compile Include="Assets\UXF\Examples\WithoutUI\InitialiseSessionWithoutUI.cs" />
+     <Compile Include="Assets\UXF\Scripts\ApplicationHandler.cs" />
+     <Compile Include="Assets\UXF\Scripts\CSVReader\CSV.cs" />
+     <Compile Include="Assets\UXF\Scripts\CSVReader\CSVReader.cs" />
+     <Compile Include="Assets\UXF\Scripts\CSVReader\CSVWriter.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\Block.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\ConditionalHideAttribute.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\Events.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\InspectorButton.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\MiniJSON.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\ReadOnlyAttribute.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\Settings.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\Tracker.cs" />
+     <Compile Include="Assets\UXF\Scripts\Etc\Trial.cs" />
+     <Compile Include="Assets\UXF\Scripts\EventSystemFallback.cs" />
+     <Compile Include="Assets\UXF\Scripts\FileIOManager.cs" />
+     <Compile Include="Assets\UXF\Scripts\PositionRotationTracker.cs" />
+     <Compile Include="Assets\UXF\Scripts\Session.cs" />
+     <Compile Include="Assets\UXF\Scripts\SessionLogger.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\BlockingQueue.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\ClickOutsidePanelEvent.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\DraggableUI.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\ExperimentStartupController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\Extensions.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\Form\CheckBoxController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\Form\DropDownController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\Form\FillableFormController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\Form\FormElementController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\Form\TextFormController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\InfoBarController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\InputFieldKeyboardReturnEvent.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\KeypressEvent.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\LinkOpener.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\NoteElementController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\NotesController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\OrderedResultDict.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\ParticipantListSelection.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\ParticipantSelector.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\PopupController.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\SettingsSelector.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\StandaloneFileBrowser\IStandaloneFileBrowser.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\StandaloneFileBrowser\StandaloneFileBrowser.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\StandaloneFileBrowser\StandaloneFileBrowserMac.cs" />
+     <Compile Include="Assets\UXF\Scripts\UI\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs" />
+     <None Include="Assets\UXF\README.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -287,6 +350,15 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.DataSetExtensions">
+ <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/System.Data.DataSetExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/System.Windows.Forms.dll</HintPath>
+ </Reference>
+ <Reference Include="Ookii.Dialogs">
+ <HintPath>C:/Users/andrea/Documents/Andrea Level 3 Project/Throwing Task Andrea/vrmat-throwing-task/Assets/Plugins/Ookii.Dialogs.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
