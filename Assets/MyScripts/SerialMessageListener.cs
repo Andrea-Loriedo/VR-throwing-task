@@ -12,14 +12,14 @@ using System.Collections;
  */
 public class SerialMessageListener : MonoBehaviour
 {
-    public GameObject upperArm;
-    public GameObject lowerArm;
+    public GameObject elbowLink;
+    public Vector3 elbowRotationOffset;
+
+    public GameObject wristLink;
+    public Vector3 wristRotationOffset;
 
     float q_u_real, q_u_i, q_u_j, q_u_k; // Upper arm components
     float q_l_real, q_l_i, q_l_j, q_l_k; // Lower arm components
-
-    Quaternion upperArmRotation;
-    Quaternion lowerArmRotation;
 
     // Invoked when a line of data is received from the serial device.
     void OnMessageArrived(string msg)
@@ -43,12 +43,12 @@ public class SerialMessageListener : MonoBehaviour
                 q_l_k = float.Parse(quat[i++]);
             }
         }
-
-        upperArmRotation = new Quaternion(q_u_real, q_u_i, q_u_j, q_u_k);
-        lowerArmRotation = new Quaternion(q_l_real, q_l_i, q_l_j, q_l_k);
         
-        upperArm.transform.rotation = upperArmRotation;
-        lowerArm.transform.rotation = lowerArmRotation;
+        Quaternion elbowLinkRotation = new Quaternion(q_u_i, q_u_j, q_u_k, q_u_real);
+        Quaternion wristLinkRotation = new Quaternion(q_l_i, q_l_j, q_l_k, q_l_real);
+        
+        elbowLink.transform.rotation = Quaternion.Euler(elbowRotationOffset) * elbowLinkRotation;
+        wristLink.transform.rotation = Quaternion.Euler(wristRotationOffset) * wristLinkRotation;
     }
 
     // Invoked when a connect/disconnect event occurs. The parameter 'success'
