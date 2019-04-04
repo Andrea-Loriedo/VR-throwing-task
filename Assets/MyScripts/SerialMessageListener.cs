@@ -47,8 +47,8 @@ public class SerialMessageListener : MonoBehaviour
         Quaternion elbowLinkRotation = new Quaternion(q_u_i, q_u_j, q_u_k, q_u_real);
         Quaternion wristLinkRotation = new Quaternion(q_l_i, q_l_j, q_l_k, q_l_real);
         
-        elbowLink.transform.rotation = Quaternion.Euler(elbowRotationOffset) * elbowLinkRotation;
-        wristLink.transform.rotation = Quaternion.Euler(wristRotationOffset) * wristLinkRotation;
+        elbowLink.transform.rotation = elbowLinkRotation.normalized * Quaternion.Euler(elbowRotationOffset);
+        wristLink.transform.rotation = wristLinkRotation.normalized * Quaternion.Euler(wristRotationOffset);
     }
 
     // Invoked when a connect/disconnect event occurs. The parameter 'success'
