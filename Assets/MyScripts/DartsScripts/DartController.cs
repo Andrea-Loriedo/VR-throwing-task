@@ -37,12 +37,10 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 //Debug.Log(string.Format("[SteamVR] Activating {0} action set.", actionSet.fullPath));
                 dartsActionSet.Activate(forSources, 0, disableAllOtherActionSets);
-                Debug.LogFormat("Activate darts action set");
             }
             else
             {
                 dartsActionSet.Deactivate(forSources); // Disable darts action set
-                Debug.LogFormat("Disable darts action set");
             }
         }
 
@@ -51,7 +49,6 @@ namespace Valve.VR.InteractionSystem.Sample
             if(zone.GetZone() == "Darts" && dartsActionSet != null)
             {
                 inZone = true;
-                Debug.LogFormat("In darts zone");
             }
             else
             {

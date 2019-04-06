@@ -1,34 +1,59 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR.InteractionSystem;
 
-public class ZoneDetector : MonoBehaviour
+namespace Valve.VR.InteractionSystem.Sample
 {
-    private bool playingDarts;
-
-    void OnTriggerEnter(Collider zone)
+    public class ZoneDetector : MonoBehaviour
     {
-        if(zone.CompareTag("Darts") || zone.CompareTag("Middle"))
-        {
-            playingDarts = true;
-            Debug.LogFormat("Playing darts");
-        }
-        else
-        {
-            playingDarts = false;
-            Debug.LogFormat("Not playing darts");
-        }
-    }
+        private bool playingDarts;
+        public GameObject dartsZone;
+        public GameObject midZone;
+        Hand hand;
 
-    public string GetZone()
-    {
-        if(playingDarts == true)
+        void Update()
         {
-            return "Darts";
+            DetectZone();
         }
-        else
+
+        private void OnEnable()
         {
-            return null;
+            if (hand == null)
+            {
+                hand = this.GetComponent<Hand>();
+            }
+        }
+
+        void DetectZone()
+        {
+            float distDarts = Vector3.Distance(hand.transform.position, dartsZone.transform.position);
+            float distMid = Vector3.Distance(hand.transform.position, midZone.transform.position);
+
+            if(distDarts > 0 && distDarts < 2)
+            {
+                playingDarts = true;
+            }
+            else if(distMid > 0 && distMid < 2)
+            {
+                playingDarts = true;
+            }
+            else
+            {
+                playingDarts = false;
+            }
+        }
+
+        public string GetZone()
+        {
+            if(playingDarts == true)
+            {
+                return "Darts";
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
