@@ -15,7 +15,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         ring hitZone;
         GameObject dart;
-        Collider dartCollider;
+        Collider dartColl;
 
         // Start is called before the first frame update
         void Start()
@@ -33,10 +33,11 @@ namespace Valve.VR.InteractionSystem.Sample
         void OnTriggerEnter(Collider dartCollider)
         {
             dart = GameObject.Find("RightHand").GetComponent<DartGrabbing>().dart;
+            dartColl = GameObject.Find("RightHand").GetComponent<CapsuleCollider>();
             targetHit = true;
             Debug.LogFormat("Hit!");
             SnapToBoard(dartCollider);
-            dartCollider.enabled = false;
+            dartColl.enabled = false;
         }
 
         public int ComputeScore()

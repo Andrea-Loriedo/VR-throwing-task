@@ -59,6 +59,6 @@ public class SerialMessageListener : MonoBehaviour
         if (success)
             Debug.Log("Connection established");
         else
-            Debug.Log("Connection attempt failed or disconnection detected");
+//            Debug.Log("Connection attempt failed or disconnection detected");
     }
 }
