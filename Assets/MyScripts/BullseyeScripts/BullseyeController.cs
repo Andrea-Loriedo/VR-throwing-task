@@ -10,7 +10,7 @@ public class BullseyeController : MonoBehaviour
     [HideInInspector]
     public int totalScore;
 
-    GameObject dart;
+    public GameObject dart;
     ring bullseyeZone;
 
     // Start is called before the first frame update
@@ -27,11 +27,19 @@ public class BullseyeController : MonoBehaviour
         {
             totalScore = ComputeScore();
         }
+        StickDart(targetHit);
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider dartCollider)
     {
         targetHit = true;
+        Debug.LogFormat("Hit!");
+
+        float dartOffset = (dart.transform.localScale.z / 2f);
+        if (dartCollider.attachedRigidbody){
+            dartCollider.attachedRigidbody.useGravity = false;
+        }
+        dart.transform.position = new Vector3(dart.transform.position.x, dart.transform.position.y, dart.transform.position.z - dartOffset);
     }
 
     int ComputeScore()
@@ -93,5 +101,9 @@ public class BullseyeController : MonoBehaviour
 
             hit = false;
         }
+    }
+    void StickDart(bool hit)
+    {
+
     }
 }

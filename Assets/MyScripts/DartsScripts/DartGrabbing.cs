@@ -11,6 +11,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public SteamVR_Action_Boolean grabAction;
         public Hand hand;
         public Transform attachmentPoint;
+        public Transform hoverPoint;
         public GameObject prefabToGrab;
 
         GameObject dart;
@@ -58,7 +59,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
             dart.transform.position = attachmentPoint.position;
-            //dart.transform.rotation = attachmentPoint.rotation;
+            dart.transform.rotation = attachmentPoint.rotation;
         }
 
         private void DestroyIfMiss(GameObject dart)
