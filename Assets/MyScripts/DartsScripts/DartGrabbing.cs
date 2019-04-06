@@ -54,18 +54,6 @@ namespace Valve.VR.InteractionSystem.Sample
             }
         }
 
-        void OnTriggerEnter(Collider other)
-        {
-            if (other.attachedRigidbody)
-            other.attachedRigidbody.useGravity = false; // Disable gravity when holding dart to prevent it from falling off the hand
-        }
-
-        void OnTriggerExit(Collider other)
-        {
-            if (other.attachedRigidbody)
-            other.attachedRigidbody.useGravity = true; // Disable gravity when holding dart to prevent it from falling off the hand
-        }
-
         private void GrabDart()
         {
             dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
