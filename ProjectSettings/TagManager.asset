@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Middle
+  - Darts
   layers:
   - Default
   - TransparentFX
