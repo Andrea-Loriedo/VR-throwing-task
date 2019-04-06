@@ -73,6 +73,7 @@
      <Compile Include="Assets\MyScripts\DartsScripts\FloorCollision.cs" />
      <Compile Include="Assets\MyScripts\DartsScripts\RotateAlongVelocity.cs" />
      <Compile Include="Assets\MyScripts\DeviceCommunication\SerialMessageListener.cs" />
+     <Compile Include="Assets\MyScripts\ScoreboardScripts\ScoreboardController.cs" />
      <Compile Include="Assets\MyScripts\WorldInteractionScripts\ZoneDetector.cs" />
      <Compile Include="Assets\UXF\Examples\Advanced\Scripts\CursorFollower.cs" />
      <Compile Include="Assets\UXF\Examples\Advanced\Scripts\ExperimentGenerator.cs" />

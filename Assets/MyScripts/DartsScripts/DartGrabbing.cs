@@ -14,13 +14,8 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform hoverPoint;
         public GameObject prefabToGrab;
 
-        GameObject dart;
 
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
+        public GameObject dart;
 
         // Update is called once per frame
         void Update()
