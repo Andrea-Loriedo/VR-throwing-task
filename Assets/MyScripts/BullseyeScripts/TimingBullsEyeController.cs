@@ -189,7 +189,6 @@ public class TimingBullsEyeController : MonoBehaviour {
         yield return new WaitForSeconds(2f);
 
 		float speedValue = 0f;
-
 		
 		Spawn();
 		Debug.LogFormat("Spawned");

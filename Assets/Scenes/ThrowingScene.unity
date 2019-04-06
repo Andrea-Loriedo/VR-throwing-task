@@ -1782,7 +1782,23 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6587361984667583796, guid: c0fb03a03c351284481c0c538ed04f82,
+        type: 3}
+      propertyPath: ShapeModule.type
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587361985099251172, guid: c0fb03a03c351284481c0c538ed04f82,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587361983264341427, guid: c0fb03a03c351284481c0c538ed04f82,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6587361984667583799, guid: c0fb03a03c351284481c0c538ed04f82, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c0fb03a03c351284481c0c538ed04f82, type: 3}
 --- !u!1001 &727808396
 PrefabInstance:
