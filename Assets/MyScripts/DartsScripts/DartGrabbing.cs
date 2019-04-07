@@ -14,6 +14,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform attachmentPoint;
         public Transform hoverPoint;
         public GameObject prefabToGrab;
+        public Transform spawnPoint;
 
         public GameObject dart;
 
@@ -23,7 +24,8 @@ namespace Valve.VR.InteractionSystem.Sample
         // Update is called once per frame
         void Update()
         {
-           DestroyIfMiss(dart);
+            if(dart != null)
+            DestroyIfMiss(dart);
         }
 
         private void OnEnable()
@@ -49,7 +51,6 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newValue)
             {
-                control.Respawned(true);
                 GrabDart();
             }
         }
@@ -65,22 +66,18 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void GrabDart()
         {
+            Quaternion rotationOffset = Quaternion.Euler(0, 180, 0);;
+            control.Respawned(true);
             floor.SetHit(false);
             prefabToGrab.SetActive(true);
             dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
             dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
-            dartRB = dart.GetComponent<Rigidbody>();
-            dartRB.isKinematic = true;
             dartCollider.enabled = true;
-            dart.transform.position = attachmentPoint.position;
-            dart.transform.rotation = attachmentPoint.rotation;
-            DelayedGravityActivation(2, dartRB);
+            // dart.transform.position = attachmentPoint.position;
+            // dart.transform.rotation = attachmentPoint.rotation;
+            dart.transform.position = spawnPoint.position + new Vector3(0, 0.2f, 0);
+            dart.transform.rotation = spawnPoint.rotation * rotationOffset;
         }
 
-        IEnumerator DelayedGravityActivation(float delay, Rigidbody rb)
-        {
-            rb.isKinematic = false;
-            yield return new WaitForSeconds(delay);
-        }
     }
 }
