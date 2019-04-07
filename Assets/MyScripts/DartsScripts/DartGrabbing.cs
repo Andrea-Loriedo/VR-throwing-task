@@ -66,6 +66,7 @@ namespace Valve.VR.InteractionSystem.Sample
             dartCollider.enabled = true;
             dart.transform.position = attachmentPoint.position;
             dart.transform.rotation = attachmentPoint.rotation;
+            yield return null;
         }
     }
 }
