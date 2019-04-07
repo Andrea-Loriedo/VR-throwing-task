@@ -13,14 +13,14 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform attachmentPoint;
         public Transform hoverPoint;
         public GameObject prefabToGrab;
-
-
         public GameObject dart;
+
+        Collider dartCollider;
 
         // Update is called once per frame
         void Update()
         {
-            DestroyIfMiss(dart);
+           DestroyIfMiss(dart);
         }
 
         private void OnEnable()
@@ -52,7 +52,10 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void GrabDart()
         {
+            floor.SetHit(false);
             dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
+            dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
+            dartCollider.enabled = true;
             dart.transform.position = attachmentPoint.position;
             dart.transform.rotation = attachmentPoint.rotation;
         }
@@ -61,8 +64,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if(floor.GetHit() == true)
             {
-                Destroy(dart);
-                floor.SetHit(false);
+                Destroy(dart); // Destroy the dart objects that have missed the bullseye
             }
         }
     }

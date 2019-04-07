@@ -33,11 +33,12 @@ namespace Valve.VR.InteractionSystem.Sample
         void OnTriggerEnter(Collider dartCollider)
         {
             dart = GameObject.Find("RightHand").GetComponent<DartGrabbing>().dart;
-            dartColl = GameObject.Find("RightHand").GetComponent<CapsuleCollider>();
+            dartColl = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
             targetHit = true;
             Debug.LogFormat("Hit!");
             SnapToBoard(dartCollider);
             dartColl.enabled = false;
+            // targetHit = false;
         }
 
         public int ComputeScore()
@@ -70,7 +71,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if(hit == true)
             {
-                float distanceFromCentre = Vector3.Distance(dart.transform.position, this.transform.position); // Calculate distance between dart and centre of the bullseye
+                float distanceFromCentre = Vector3.Distance(dart.transform.position, transform.position); // Calculate distance between dart and centre of the bullseye
 
                 if(distanceFromCentre > 0 && distanceFromCentre < 0.1)
                 {
@@ -100,7 +101,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 Debug.LogFormat("" + hitZone);
                 totalScore = ComputeScore();
                 hitZone = ring.Null;
-                hit = false;
+                targetHit = false;
             }
         }
 
@@ -119,7 +120,12 @@ namespace Valve.VR.InteractionSystem.Sample
                 dartCollider.attachedRigidbody.isKinematic = true; // Prevent dart from floating away
             }
             dart.transform.position = new Vector3(dart.transform.position.x, dart.transform.position.y, dart.transform.position.z - dartOffset); // Stick dart to the point it hit
-            dart.transform.rotation = dart.transform.rotation * rotationOffset; // Adjust orientation
+            //dart.transform.rotation = dart.transform.rotation * rotationOffset; // Adjust orientation
+        }
+
+        public bool TargetHitByDart()
+        {
+            return targetHit;
         }
     }
 }

@@ -1,22 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR.InteractionSystem;
 
-public class RotateAlongVelocity : MonoBehaviour
+namespace Valve.VR.InteractionSystem.Sample
 {
-    // Script to make the dart rotate along the velocity vector
-
-    Rigidbody rb;
-
-    void Awake()
+    public class RotateAlongVelocity : MonoBehaviour
     {
-        rb = GetComponent<Rigidbody>();
-    }
+        // Script to make the dart rotate along the velocity vector
 
-    // FixedUpdate has the frequency of the physics system
-    void FixedUpdate()
-    {   
-        // Constrain the dart to facing the dartboard
-        transform.rotation = Quaternion.LookRotation(-rb.velocity);
+        Rigidbody rb;
+        BullseyeController bullseye;
+        Quaternion rotationOffset;
+
+        void Awake()
+        {
+            rb = GetComponent<Rigidbody>();
+            rotationOffset = Quaternion.Euler(0, 180, 0);
+        }
+
+        // FixedUpdate has the frequency of the physics system
+        void FixedUpdate()
+        {   
+            if(rb.velocity != null) // If the dart is flying
+            // Constrain the dart to facing the dartboard
+            transform.rotation = Quaternion.LookRotation(-rb.velocity);
+            else
+            transform.rotation *= rotationOffset; 
+        }
     }
 }
