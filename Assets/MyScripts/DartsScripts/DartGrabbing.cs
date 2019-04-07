@@ -13,6 +13,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform attachmentPoint;
         public Transform hoverPoint;
         public GameObject prefabToGrab;
+
         public GameObject dart;
 
         Collider dartCollider;

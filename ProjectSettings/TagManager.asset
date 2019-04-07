@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Middle
   - Darts
+  - DartObject
   layers:
   - Default
   - TransparentFX

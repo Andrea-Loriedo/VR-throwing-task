@@ -13,8 +13,9 @@ public class FloorCollision : MonoBehaviour
         hitFloor = false;
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider dart)
     {
+        if(dart.CompareTag("DartObject"))
         hitFloor = true;
     }
 
