@@ -7,6 +7,7 @@ public class DartControl : MonoBehaviour
 {
     private AudioSource audioData;
     Collider dartCollider;
+    Rigidbody rb;
     bool thrown;
 
     // Start is called before the first frame update
@@ -14,6 +15,7 @@ public class DartControl : MonoBehaviour
     {
         audioData = GetComponent<AudioSource>();
         dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
+        rb = GameObject.Find("Dart").GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame

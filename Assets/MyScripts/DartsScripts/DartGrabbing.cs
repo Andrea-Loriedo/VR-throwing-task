@@ -8,6 +8,7 @@ namespace Valve.VR.InteractionSystem.Sample
     public class DartGrabbing : MonoBehaviour
     {
         public FloorCollision floor;
+        public DartControl control;
         public SteamVR_Action_Boolean grabAction;
         public Hand hand;
         public Transform attachmentPoint;
@@ -17,6 +18,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public GameObject dart;
 
         Collider dartCollider;
+        Rigidbody dartRB;
 
         // Update is called once per frame
         void Update()
@@ -47,7 +49,8 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newValue)
             {
-                StartCoroutine(GrabDart());
+                control.Respawned(true);
+                GrabDart();
             }
         }
 
@@ -60,16 +63,24 @@ namespace Valve.VR.InteractionSystem.Sample
             }
         }
 
-        IEnumerator GrabDart()
+        void GrabDart()
         {
             floor.SetHit(false);
             prefabToGrab.SetActive(true);
             dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
             dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
+            dartRB = dart.GetComponent<Rigidbody>();
+            dartRB.isKinematic = true;
             dartCollider.enabled = true;
             dart.transform.position = attachmentPoint.position;
             dart.transform.rotation = attachmentPoint.rotation;
-            yield return null;
+            DelayedGravityActivation(2, dartRB);
+        }
+
+        IEnumerator DelayedGravityActivation(float delay, Rigidbody rb)
+        {
+            rb.isKinematic = false;
+            yield return new WaitForSeconds(delay);
         }
     }
 }
