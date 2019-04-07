@@ -17,9 +17,12 @@ namespace Valve.VR.InteractionSystem.Sample
         GameObject dart;
         Collider dartColl;
 
+        private AudioSource audioData;
+
         // Start is called before the first frame update
         void Start()
         {
+            audioData = GetComponent<AudioSource>();
             targetHit = false;
             hitZone = ring.Null;
         }
@@ -38,6 +41,7 @@ namespace Valve.VR.InteractionSystem.Sample
             Debug.LogFormat("Hit!");
             SnapToBoard(dartCollider);
             dartColl.enabled = false;
+            audioData.Play();
             // targetHit = false;
         }
 

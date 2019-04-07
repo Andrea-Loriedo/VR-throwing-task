@@ -11,7 +11,7 @@ namespace Valve.VR.InteractionSystem.Sample
         // Script to make the dart rotate along the velocity vector
 
         Rigidbody rb;
-        BullseyeController bullseye;
+        public BullseyeController bullseye;
         Quaternion rotationOffset;
 
         void Awake()
@@ -26,9 +26,10 @@ namespace Valve.VR.InteractionSystem.Sample
 
             try
             {
-                if(rb.velocity != null) // If the dart is flying
+                if(!bullseye.TargetHitByDart()) // If the dart is flying
                 transform.rotation = Quaternion.LookRotation(-rb.velocity); // Constrain the dart to facing the dartboard
-
+                //else
+                //transform.rotation *= rotationOffset;
             }
             catch (System.FormatException e)
             {
