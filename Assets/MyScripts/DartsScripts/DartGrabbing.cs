@@ -46,18 +46,8 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newValue)
             {
-                GrabDart();
+                StartCoroutine(GrabDart());
             }
-        }
-
-        private void GrabDart()
-        {
-            floor.SetHit(false);
-            dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
-            dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
-            dartCollider.enabled = true;
-            dart.transform.position = attachmentPoint.position;
-            dart.transform.rotation = attachmentPoint.rotation;
         }
 
         private void DestroyIfMiss(GameObject dart)
@@ -66,6 +56,16 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 Destroy(dart); // Destroy the dart objects that have missed the bullseye
             }
+        }
+
+        IEnumerator GrabDart()
+        {
+            floor.SetHit(false);
+            dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
+            dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
+            dartCollider.enabled = true;
+            dart.transform.position = attachmentPoint.position;
+            dart.transform.rotation = attachmentPoint.rotation;
         }
     }
 }

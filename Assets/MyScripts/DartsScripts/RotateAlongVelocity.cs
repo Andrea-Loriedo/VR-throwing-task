@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
@@ -22,11 +23,17 @@ namespace Valve.VR.InteractionSystem.Sample
         // FixedUpdate has the frequency of the physics system
         void FixedUpdate()
         {   
-            if(rb.velocity != null) // If the dart is flying
-            // Constrain the dart to facing the dartboard
-            transform.rotation = Quaternion.LookRotation(-rb.velocity);
-            else
-            transform.rotation *= rotationOffset; 
+
+            try
+            {
+                if(rb.velocity != null) // If the dart is flying
+                transform.rotation = Quaternion.LookRotation(-rb.velocity); // Constrain the dart to facing the dartboard
+
+            }
+            catch (System.FormatException e)
+            {
+                
+            }
         }
     }
 }
