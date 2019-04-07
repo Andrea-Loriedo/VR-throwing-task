@@ -6,11 +6,13 @@ using UnityEngine;
 public class DartControl : MonoBehaviour
 {
     private AudioSource audioData;
+    Collider dartCollider;
 
     // Start is called before the first frame update
     void Start()
     {
         audioData = GetComponent<AudioSource>();
+        dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
     }
 
     // Update is called once per frame

@@ -55,12 +55,14 @@ namespace Valve.VR.InteractionSystem.Sample
             if(floor.GetHit() == true)
             {
                 Destroy(dart); // Destroy the dart objects that have missed the bullseye
+                Debug.LogFormat("Dart destroyed!");
             }
         }
 
         IEnumerator GrabDart()
         {
             floor.SetHit(false);
+            prefabToGrab.SetActive(true);
             dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
             dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
             dartCollider.enabled = true;
