@@ -22,7 +22,6 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             hoverButton.onButtonDown.AddListener(OnButtonDown);
             moveTarget = false;
-            moveText = GetComponent<TextMeshPro>() ?? gameObject.AddComponent<TextMeshPro>();
             gameMode = options.Still;
         }
 
