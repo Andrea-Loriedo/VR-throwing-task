@@ -219,9 +219,6 @@ public class TimingBullsEyeController : MonoBehaviour {
 			
 			trial.Begin();
 
-			
-
-
             while ((trial.status != UXF.TrialStatus.Done) || (diff.magnitude > 0.001 && (!outOfBounds || !hitSomething)))
 			{   				
 				//Debug.Log("Target moving");

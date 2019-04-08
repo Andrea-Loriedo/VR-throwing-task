@@ -12,6 +12,8 @@ namespace Valve.VR.InteractionSystem.Sample
         int score;
         [HideInInspector]
         public int totalScore;
+        public Transform boundA;
+        public Transform boundB;
 
         ring hitZone;
         GameObject dart;
@@ -130,6 +132,36 @@ namespace Valve.VR.InteractionSystem.Sample
         public bool TargetHitByDart()
         {
             return targetHit;
+        }
+
+        public IEnumerator MoveTarget()
+        {
+            // One instance of Swing() coroutine for each swing
+            yield return StartCoroutine(Swing(boundA.position, boundB.position, 3.0f)); // Move from left bound to right bound (duration 3s)
+            Debug.LogFormat("Swing right");
+            yield return StartCoroutine(Swing(boundB.position, boundA.position, 3.0f)); // Wait until transition complete, then move back towards left bound
+            Debug.LogFormat("Swing left");
+        }
+
+        public void StopTarget()
+        {
+            StopAllCoroutines();
+            Debug.Log("Stop coroutines");
+        }
+
+        IEnumerator Swing(Vector3 pointA, Vector3 pointB, float time)
+        {
+            Vector3 currPos = transform.localPosition;
+            float i = 0.0f;
+            float speed = 1/time;
+
+            while(i < 1.0f)
+            {
+                i += Time.deltaTime * speed;
+                transform.position = Vector3.Lerp(pointA, pointB, i); // Move linearly from point A to point B at a rate of i
+                currPos = transform.localPosition; // Update current position
+                yield return null;
+            }
         }
     }
 }

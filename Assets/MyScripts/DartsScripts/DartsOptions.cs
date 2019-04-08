@@ -9,7 +9,7 @@ namespace Valve.VR.InteractionSystem.Sample
     {
         public HoverButton hoverButton;
 
-        public GameObject bullseye;
+        public BullseyeController bullseye;
 
         enum options {Still, Move};
 
@@ -28,11 +28,13 @@ namespace Valve.VR.InteractionSystem.Sample
         void Update()
         {
             moveText.text = " " + ModeSelect();
+            PlayAnimation();
         }
 
         private void OnButtonDown(Hand hand)
         {
             moveTarget = !moveTarget;
+            ModeSelect();
         }
 
         options ModeSelect()
@@ -45,8 +47,24 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 gameMode = options.Still;
             }
-
             return gameMode;
+        }
+
+        void PlayAnimation()
+        {
+            switch(gameMode)
+            {
+                case options.Move:
+                StartCoroutine(bullseye.MoveTarget());
+                Debug.LogFormat("Moving!");
+                break;
+                case options.Still:
+                bullseye.StopTarget();
+                Debug.LogFormat("Stop!");
+                break;
+                default:
+                break;
+            }
         }
     }
 }
