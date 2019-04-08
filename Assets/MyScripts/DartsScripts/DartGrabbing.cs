@@ -73,10 +73,10 @@ namespace Valve.VR.InteractionSystem.Sample
             dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
             dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
             dartCollider.enabled = true;
-            // dart.transform.position = attachmentPoint.position;
-            // dart.transform.rotation = attachmentPoint.rotation;
-            dart.transform.position = spawnPoint.position + new Vector3(0, 0.2f, 0);
-            dart.transform.rotation = spawnPoint.rotation * rotationOffset;
+            dart.transform.position = attachmentPoint.position;
+            dart.transform.rotation = attachmentPoint.rotation;
+            // dart.transform.position = spawnPoint.position + new Vector3(0, 0.2f, 0);
+            // dart.transform.rotation = spawnPoint.rotation * rotationOffset;
         }
 
     }
