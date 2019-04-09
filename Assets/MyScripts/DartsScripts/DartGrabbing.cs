@@ -4,7 +4,7 @@ using UnityEngine;
 using Valve.VR.InteractionSystem;
 
 namespace Valve.VR.InteractionSystem.Sample
-{   [RequireComponent(typeof(AudioSource))]
+{   
     public class DartGrabbing : MonoBehaviour
     {
         public FloorCollision floor;
@@ -13,7 +13,6 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform attachmentPoint;
         public Transform hoverPoint;
         public GameObject prefabToGrab;
-        public Transform spawnPoint;
         public AudioSource audioFX;
 
         Collider dartCollider;
@@ -22,7 +21,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void Start() 
         {
-            audioFX = GetComponent<AudioSource>();
+
         }
 
         private void OnEnable()
