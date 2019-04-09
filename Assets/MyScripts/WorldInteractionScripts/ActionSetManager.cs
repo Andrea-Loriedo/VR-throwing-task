@@ -12,8 +12,6 @@ namespace Valve.VR.InteractionSystem.Sample
         public SteamVR_ActionSet defaultActionSet = SteamVR_Input.GetActionSet("default");
         public SteamVR_Input_Sources forSources = SteamVR_Input_Sources.Any;
 
-        
-
         bool inZone;
         string game; // Name of the minigame
 
@@ -57,6 +55,7 @@ namespace Valve.VR.InteractionSystem.Sample
             else
             {
                 inZone = false;
+                Destroy(GameObject.FindWithTag("DartObject"));
             }
         }
     }
