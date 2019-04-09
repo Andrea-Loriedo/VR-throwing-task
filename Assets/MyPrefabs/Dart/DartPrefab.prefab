@@ -207,7 +207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5425f7818e30f94fab6f25e7df8bac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullseye: {fileID: 0}
 --- !u!114 &3914533909191506670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e97349d86a52194ca0440d3cb6763ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velRatio: 5
+  velRatio: 1.5
   target: {fileID: 0}
 --- !u!1 &3914533909977092703
 GameObject:

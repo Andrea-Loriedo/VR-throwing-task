@@ -4,7 +4,7 @@ using UnityEngine;
 using Valve.VR.InteractionSystem;
 
 namespace Valve.VR.InteractionSystem.Sample
-{
+{   [RequireComponent(typeof(AudioSource))]
     public class DartGrabbing : MonoBehaviour
     {
         public FloorCollision floor;
@@ -14,16 +14,15 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform hoverPoint;
         public GameObject prefabToGrab;
         public Transform spawnPoint;
-
+        public AudioSource audioFX;
 
         Collider dartCollider;
         Rigidbody dartRB;
         Follower currentFollower;
 
-        // Update is called once per frame
-        void Update()
+        void Start() 
         {
-            
+            audioFX = GetComponent<AudioSource>();
         }
 
         private void OnEnable()
@@ -57,19 +56,10 @@ namespace Valve.VR.InteractionSystem.Sample
             }
         }
 
-
         void GrabDart()
         {
-
-            // check existing dart
-            if (currentFollower != null)
-            {
-                Destroy(currentFollower.gameObject);
-            }
-
-
+            DestroyDart();
             // Quaternion rotationOffset = Quaternion.Euler(0, 180, 0);
-            if(prefabToGrab != null)
             prefabToGrab.SetActive(true);
             GameObject dart = Instantiate(prefabToGrab); // Create new instance of the dart prefab
             if(dart!= null)
@@ -78,14 +68,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
             currentFollower = dart.GetComponent<Follower>();
             currentFollower.AttachTo(attachmentPoint);
-
-           
-            // hand.AttachObject(dart, GrabTypes.Pinch);
-            //hand.AttachObject(dart, GrabTypes.Pinch, Hand.AttachmentFlags.ParentToHand, attachmentPoint.transform);
-            // dart.transform.position = spawnPoint.position + new Vector3(0, 0.2f, 0);
-            // dart.transform.rotation = spawnPoint.rotation * rotationOffset;
         }
-
 
         void ReleaseDart()
         {
@@ -93,8 +76,16 @@ namespace Valve.VR.InteractionSystem.Sample
             currentFollower.GetComponent<Collider>().enabled = true;
             currentFollower.GetComponent<RotateAlongVelocity>().enabled = true;
             currentFollower = null;
+            audioFX.Play();
         }
 
-
+        public void DestroyDart()
+        {
+            // check existing dart
+            if (currentFollower != null)
+            {
+                Destroy(currentFollower.gameObject); // Destroy previous dart if two darts are instantiated simultaneously
+            }
+        }
     }
 }

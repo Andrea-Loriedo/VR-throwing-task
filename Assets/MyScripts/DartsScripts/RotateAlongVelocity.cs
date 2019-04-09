@@ -11,7 +11,6 @@ namespace Valve.VR.InteractionSystem.Sample
         // Script to make the dart rotate along the velocity vector
 
         Rigidbody rb;
-        public BullseyeController bullseye;
         Quaternion rotationOffset;
 
         void Awake()
@@ -30,7 +29,7 @@ namespace Valve.VR.InteractionSystem.Sample
             }
             catch (System.FormatException e)
             {
-                
+                ;
             }
         }
     }

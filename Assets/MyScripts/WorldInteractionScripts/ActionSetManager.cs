@@ -8,7 +8,7 @@ namespace Valve.VR.InteractionSystem.Sample
     public class ActionSetManager : MonoBehaviour
     {
         public ZoneDetector zone;
-        string game;
+        string game; // Name of the minigame
 
         public SteamVR_ActionSet dartsActionSet = SteamVR_Input.GetActionSet("dartsplaying");
         public SteamVR_ActionSet defaultActionSet = SteamVR_Input.GetActionSet("default");

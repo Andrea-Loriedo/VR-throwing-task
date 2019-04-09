@@ -14,7 +14,6 @@ public class DartControl : MonoBehaviour
     void Start()
     {
         audioData = GetComponent<AudioSource>();
-        dartCollider = GetComponent<CapsuleCollider>();
         rb = GetComponent<Rigidbody>();
     }
 
