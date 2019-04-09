@@ -119,7 +119,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void SnapToBoard(Collider dartCollider)
         {
-            float dartOffset = (dart.transform.localScale.z * 2); // Offset from the centre of the dart
+            float dartOffset = (dart.transform.localScale.z * 2 + 0.06f); // Offset from the centre of the dart
             Destroy(dart.GetComponent<Rigidbody>());
             dart.transform.position = new Vector3(dart.transform.position.x, dart.transform.position.y, dart.transform.position.z - dartOffset); // Stick dart to the point it hit
         }
