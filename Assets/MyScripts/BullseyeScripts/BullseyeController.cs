@@ -18,6 +18,7 @@ namespace Valve.VR.InteractionSystem.Sample
         ring hitZone;
         GameObject dart;
         Collider dartColl;
+        
 
         private AudioSource audioData;
 
@@ -137,10 +138,12 @@ namespace Valve.VR.InteractionSystem.Sample
         public IEnumerator MoveTarget()
         {
             // One instance of Swing() coroutine for each swing
-            yield return StartCoroutine(Swing(boundA.position, boundB.position, 3.0f)); // Move from left bound to right bound (duration 3s)
-            Debug.LogFormat("Swing right");
-            yield return StartCoroutine(Swing(boundB.position, boundA.position, 3.0f)); // Wait until transition complete, then move back towards left bound
-            Debug.LogFormat("Swing left");
+            while(true)
+            {
+                yield return StartCoroutine(Swing(boundA.position, boundB.position, 3.0f)); // Move from left bound to right bound (duration 3s)
+                yield return StartCoroutine(Swing(boundB.position, boundA.position, 3.0f)); // Wait until transition complete, then move back towards left bound
+                yield return null;
+            }
         }
 
         public void StopTarget()

@@ -54,13 +54,11 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             switch(gameMode)
             {
-                case options.Move:
+                case options.Move:       
                 StartCoroutine(bullseye.MoveTarget());
-                Debug.LogFormat("Moving!");
                 break;
                 case options.Still:
                 bullseye.StopTarget();
-                Debug.LogFormat("Stop!");
                 break;
                 default:
                 break;
