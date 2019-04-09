@@ -1560,6 +1560,7 @@ MonoBehaviour:
   defaultActionSet:
     actionSetPath: /actions/default
   forSources: 0
+  bullseye: {fileID: 1550833298}
   disableAllOtherActionSets: 0
 --- !u!114 &401759796
 MonoBehaviour:
@@ -1579,6 +1580,7 @@ MonoBehaviour:
   defaultActionSet:
     actionSetPath: /actions/default
   forSources: 0
+  bullseye: {fileID: 1550833298}
   disableAllOtherActionSets: 0
 --- !u!4 &424709022 stripped
 Transform:
@@ -5246,7 +5248,6 @@ MonoBehaviour:
   totalScore: 0
   boundA: {fileID: 690201073}
   boundB: {fileID: 1213260073}
-  dartOnBoard: {fileID: 0}
 --- !u!82 &1550833301
 AudioSource:
   m_ObjectHideFlags: 0

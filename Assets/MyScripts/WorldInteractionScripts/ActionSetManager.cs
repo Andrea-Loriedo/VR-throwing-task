@@ -11,6 +11,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public SteamVR_ActionSet dartsActionSet = SteamVR_Input.GetActionSet("dartsplaying");
         public SteamVR_ActionSet defaultActionSet = SteamVR_Input.GetActionSet("default");
         public SteamVR_Input_Sources forSources = SteamVR_Input_Sources.Any;
+        public BullseyeController bullseye;
 
         bool inZone;
         string game; // Name of the minigame
@@ -56,6 +57,7 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 inZone = false;
                 Destroy(GameObject.FindWithTag("DartObject"));
+                bullseye.StopTarget();
             }
         }
     }
