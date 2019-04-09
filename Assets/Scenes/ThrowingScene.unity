@@ -5246,6 +5246,7 @@ MonoBehaviour:
   totalScore: 0
   boundA: {fileID: 690201073}
   boundB: {fileID: 1213260073}
+  dartOnBoard: {fileID: 0}
 --- !u!82 &1550833301
 AudioSource:
   m_ObjectHideFlags: 0

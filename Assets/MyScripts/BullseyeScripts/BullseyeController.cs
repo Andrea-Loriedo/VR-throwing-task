@@ -14,11 +14,13 @@ namespace Valve.VR.InteractionSystem.Sample
         public int totalScore;
         public Transform boundA;
         public Transform boundB;
-
+        
         ring hitZone;
         GameObject dart;
         Collider dartColl;
         Vector3 initialPosition;
+        //Quaternion dartRotation;
+        Vector3 dartScale;
     
         private AudioSource audioData;
 
@@ -41,6 +43,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             dart = dartCollider.gameObject;
             dartColl = dartCollider;
+            dartScale = dart.transform.localScale;
             targetHit = true;
             Debug.LogFormat("Hit!");
             SnapToBoard(dartCollider);
@@ -121,6 +124,10 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             float dartOffset = (dart.transform.localScale.z * 2 + 0.06f); // Offset from the centre of the dart
             Destroy(dart.GetComponent<Rigidbody>());
+            //Quaternion dartRotation = dart.transform.rotation;
+            // dart.transform.parent = transform;
+            // dart.transform.scale = dartScale;
+            // dart.transform.rotation = dartRotation;
             dart.transform.position = new Vector3(dart.transform.position.x, dart.transform.position.y, dart.transform.position.z - dartOffset); // Stick dart to the point it hit
         }
 
