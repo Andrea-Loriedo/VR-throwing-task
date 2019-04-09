@@ -18,11 +18,6 @@ namespace Valve.VR.InteractionSystem.Sample
         Rigidbody dartRB;
         Follower currentFollower;
 
-        void Start() 
-        {
-
-        }
-
         private void OnEnable()
         {
             if (hand == null)
@@ -69,11 +64,14 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void ReleaseDart()
         {
-            currentFollower.Detach();
-            currentFollower.GetComponent<Collider>().enabled = true;
-            currentFollower.GetComponent<RotateAlongVelocity>().enabled = true;
-            currentFollower = null;
-            audioFX.Play();
+            if(currentFollower != null)
+            {
+                currentFollower.Detach();
+                currentFollower.GetComponent<Collider>().enabled = true;
+                currentFollower.GetComponent<RotateAlongVelocity>().enabled = true;
+                currentFollower = null;
+                audioFX.Play();
+            }
         }
 
         public void DestroyDart()

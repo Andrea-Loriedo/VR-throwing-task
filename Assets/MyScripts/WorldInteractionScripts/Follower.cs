@@ -32,12 +32,13 @@ namespace Valve.VR.InteractionSystem.Sample
         public void Detach()
         {
             this.target = null; 
-            rb.useGravity = true;
-
-            rb.velocity = ve.GetVelocityEstimate() * velRatio;
-            rb.angularVelocity = ve.GetAngularVelocityEstimate();
-
-            ve.FinishEstimatingVelocity();
+            if(rb != null)
+            {            
+                rb.useGravity = true;
+                rb.velocity = ve.GetVelocityEstimate() * velRatio;
+                rb.angularVelocity = ve.GetAngularVelocityEstimate();            
+                ve.FinishEstimatingVelocity();
+            }
         }
 
         // Update is called once per frame

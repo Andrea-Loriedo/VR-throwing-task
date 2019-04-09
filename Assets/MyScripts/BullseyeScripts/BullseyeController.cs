@@ -124,10 +124,9 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             float dartOffset = (dart.transform.localScale.z * 2 + 0.06f); // Offset from the centre of the dart
             Destroy(dart.GetComponent<Rigidbody>());
-            //Quaternion dartRotation = dart.transform.rotation;
-            // dart.transform.parent = transform;
-            // dart.transform.scale = dartScale;
-            // dart.transform.rotation = dartRotation;
+            var dartPlaceholder = new GameObject(); // Empty game object to ensure dart scale and rotation are preserved when bullseye is set as parent
+            dartPlaceholder.transform.parent = transform; // Set empty placeholder as child of the bullseye
+            dart.transform.parent = dartPlaceholder.transform; // Set the dart as child of the empty placeholder to make it follow the bullseye trajectory when moving
             dart.transform.position = new Vector3(dart.transform.position.x, dart.transform.position.y, dart.transform.position.z - dartOffset); // Stick dart to the point it hit
         }
 
