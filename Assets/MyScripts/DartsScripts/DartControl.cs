@@ -58,14 +58,13 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             DestroyDart();
             // Quaternion rotationOffset = Quaternion.Euler(0, 180, 0);
-            prefabToGrab.SetActive(true);
+            prefabToGrab.SetActive(true); // Enable dart object
             GameObject dart = Instantiate(prefabToGrab); // Create new instance of the dart prefab
             if(dart!= null)
-            dartCollider = dart.GetComponent<CapsuleCollider>();
-            dartCollider.enabled = false;
-
+            dartCollider = dart.GetComponent<Collider>();
+            dartCollider.enabled = false; // Disable dart collider
             currentFollower = dart.GetComponent<Follower>();
-            currentFollower.AttachTo(attachmentPoint);
+            currentFollower.AttachTo(attachmentPoint); // Attach dart to hand
         }
 
         void ReleaseDart()

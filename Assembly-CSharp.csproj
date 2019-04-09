@@ -59,7 +59,6 @@
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThread.cs" />
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThreadCustomDelimiter.cs" />
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThreadLines.cs" />
-     <Compile Include="Assets\Follower.cs" />
      <Compile Include="Assets\MyScripts\ArmModelScripts\ArmKinematicsController.cs" />
      <Compile Include="Assets\MyScripts\BullseyeScripts\BoundaryCollisionDetection.cs" />
      <Compile Include="Assets\MyScripts\BullseyeScripts\BullseyeController.cs" />
@@ -76,6 +75,7 @@
      <Compile Include="Assets\MyScripts\ScoreboardScripts\ScoreboardController.cs" />
      <Compile Include="Assets\MyScripts\WorldInteractionScripts\ActionSetManager.cs" />
      <Compile Include="Assets\MyScripts\WorldInteractionScripts\FloorCollision.cs" />
+     <Compile Include="Assets\MyScripts\WorldInteractionScripts\Follower.cs" />
      <Compile Include="Assets\MyScripts\WorldInteractionScripts\ZoneDetector.cs" />
      <Compile Include="Assets\UXF\Examples\Advanced\Scripts\CursorFollower.cs" />
      <Compile Include="Assets\UXF\Examples\Advanced\Scripts\ExperimentGenerator.cs" />

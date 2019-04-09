@@ -25,6 +25,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
             try
             {
+                if(rb != null)
                 transform.rotation = Quaternion.LookRotation(-rb.velocity); 
             }
             catch (System.FormatException e)

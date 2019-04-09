@@ -18,8 +18,8 @@ namespace Valve.VR.InteractionSystem.Sample
         ring hitZone;
         GameObject dart;
         Collider dartColl;
-        
-
+        Vector3 initialPosition;
+    
         private AudioSource audioData;
 
         // Start is called before the first frame update
@@ -28,6 +28,7 @@ namespace Valve.VR.InteractionSystem.Sample
             audioData = GetComponent<AudioSource>();
             targetHit = false;
             hitZone = ring.Null;
+            initialPosition = transform.localPosition;
         }
 
         // Update is called once per frame
@@ -45,7 +46,6 @@ namespace Valve.VR.InteractionSystem.Sample
             SnapToBoard(dartCollider);
             dartColl.enabled = false;
             audioData.Play();
-            // targetHit = false;
         }
 
         public int ComputeScore()
@@ -119,15 +119,9 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void SnapToBoard(Collider dartCollider)
         {
-            Quaternion rotationOffset = Quaternion.Euler(0, 180, 0); // Rotate dart 180 degrees when it lands
-            float dartOffset = ((dart.transform.localScale.z) / 2f); // Offset from the centre of the dart
-
-            if (dartCollider.attachedRigidbody){
-                dartCollider.attachedRigidbody.useGravity = false; // Prevent dart from falling
-                dartCollider.attachedRigidbody.isKinematic = true; // Prevent dart from floating away
-            }
+            float dartOffset = (dart.transform.localScale.z * 2); // Offset from the centre of the dart
+            Destroy(dart.GetComponent<Rigidbody>());
             dart.transform.position = new Vector3(dart.transform.position.x, dart.transform.position.y, dart.transform.position.z - dartOffset); // Stick dart to the point it hit
-            //dart.transform.rotation = dart.transform.rotation * rotationOffset; // Adjust orientation
         }
 
         public bool TargetHitByDart()
@@ -135,21 +129,25 @@ namespace Valve.VR.InteractionSystem.Sample
             return targetHit;
         }
 
+        void ResetPosition()
+        {
+            transform.localPosition = initialPosition;
+        }
+
         public IEnumerator MoveTarget()
         {
-            // One instance of Swing() coroutine for each swing
-            while(true)
-            {
+            while(true) // Loop forever
+            {   // One instance of Swing() coroutine for each swing
                 yield return StartCoroutine(Swing(boundA.position, boundB.position, 3.0f)); // Move from left bound to right bound (duration 3s)
                 yield return StartCoroutine(Swing(boundB.position, boundA.position, 3.0f)); // Wait until transition complete, then move back towards left bound
-                yield return null;
+                yield return null; // Continue running next frame, prevents application from crashing
             }
         }
 
         public void StopTarget()
         {
             StopAllCoroutines();
-            Debug.Log("Stop coroutines");
+            ResetPosition(); // Reposition bullseye in the centre of the workspace
         }
 
         IEnumerator Swing(Vector3 pointA, Vector3 pointB, float time)
