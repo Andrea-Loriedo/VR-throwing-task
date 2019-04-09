@@ -8,7 +8,6 @@ namespace Valve.VR.InteractionSystem.Sample
     public class DartGrabbing : MonoBehaviour
     {
         public FloorCollision floor;
-        public DartControl control;
         public SteamVR_Action_Boolean grabAction;
         public Hand hand;
         public Transform attachmentPoint;
@@ -16,16 +15,15 @@ namespace Valve.VR.InteractionSystem.Sample
         public GameObject prefabToGrab;
         public Transform spawnPoint;
 
-        public GameObject dart;
 
         Collider dartCollider;
         Rigidbody dartRB;
+        Follower currentFollower;
 
         // Update is called once per frame
         void Update()
         {
-            if(dart != null)
-            DestroyIfMiss(dart);
+            
         }
 
         private void OnEnable()
@@ -53,31 +51,50 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 GrabDart();
             }
-        }
-
-        private void DestroyIfMiss(GameObject dart)
-        {
-            if(floor.GetHit() == true)
+            else
             {
-                Destroy(dart); // Destroy the dart objects that have missed the bullseye
-                Debug.LogFormat("Dart destroyed!");
+                ReleaseDart();
             }
         }
 
+
         void GrabDart()
         {
-            Quaternion rotationOffset = Quaternion.Euler(0, 180, 0);;
-            control.Respawned(true);
-            floor.SetHit(false);
+
+            // check existing dart
+            if (currentFollower != null)
+            {
+                Destroy(currentFollower.gameObject);
+            }
+
+
+            // Quaternion rotationOffset = Quaternion.Euler(0, 180, 0);
+            if(prefabToGrab != null)
             prefabToGrab.SetActive(true);
-            dart = GameObject.Instantiate<GameObject>(prefabToGrab); // Create new instance of the dart prefab
-            dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
-            dartCollider.enabled = true;
-            dart.transform.position = attachmentPoint.position;
-            dart.transform.rotation = attachmentPoint.rotation;
+            GameObject dart = Instantiate(prefabToGrab); // Create new instance of the dart prefab
+            if(dart!= null)
+            dartCollider = dart.GetComponent<CapsuleCollider>();
+            dartCollider.enabled = false;
+
+            currentFollower = dart.GetComponent<Follower>();
+            currentFollower.AttachTo(attachmentPoint);
+
+           
+            // hand.AttachObject(dart, GrabTypes.Pinch);
+            //hand.AttachObject(dart, GrabTypes.Pinch, Hand.AttachmentFlags.ParentToHand, attachmentPoint.transform);
             // dart.transform.position = spawnPoint.position + new Vector3(0, 0.2f, 0);
             // dart.transform.rotation = spawnPoint.rotation * rotationOffset;
         }
+
+
+        void ReleaseDart()
+        {
+            currentFollower.Detach();
+            currentFollower.GetComponent<Collider>().enabled = true;
+            currentFollower.GetComponent<RotateAlongVelocity>().enabled = true;
+            currentFollower = null;
+        }
+
 
     }
 }

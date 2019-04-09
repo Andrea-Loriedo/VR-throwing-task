@@ -5,27 +5,13 @@ using Valve.VR.InteractionSystem;
 
 public class FloorCollision : MonoBehaviour
 {
-    [HideInInspector]
-    public bool hitFloor;
 
-    void Start()
+    void OnTriggerEnter(Collider col)
     {
-        hitFloor = false;
+        if (col.CompareTag("DartObject"))
+        {
+            Destroy(col.gameObject);
+        }
     }
 
-    void OnTriggerEnter(Collider dart)
-    {
-        if(dart.CompareTag("DartObject"))
-        hitFloor = true;
-    }
-
-    public void SetHit(bool hit)
-    {
-        hitFloor = hit;
-    }
-
-    public bool GetHit()
-    {
-        return hitFloor;
-    }
 }

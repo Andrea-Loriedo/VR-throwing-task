@@ -37,8 +37,8 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void OnTriggerEnter(Collider dartCollider)
         {
-            dart = GameObject.Find("RightHand").GetComponent<DartGrabbing>().dart;
-            dartColl = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
+            dart = dartCollider.gameObject;
+            dartColl = dartCollider;
             targetHit = true;
             Debug.LogFormat("Hit!");
             SnapToBoard(dartCollider);

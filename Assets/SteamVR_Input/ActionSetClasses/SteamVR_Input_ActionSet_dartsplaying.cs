@@ -24,5 +24,13 @@ namespace Valve.VR
                 return SteamVR_Actions.dartsplaying_GrabDart;
             }
         }
+        
+        public virtual SteamVR_Action_Boolean Teleport
+        {
+            get
+            {
+                return SteamVR_Actions.dartsplaying_Teleport;
+            }
+        }
     }
 }

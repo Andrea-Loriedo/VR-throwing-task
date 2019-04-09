@@ -76,6 +76,10 @@
     {
       "name": "/actions/dartsplaying/in/GrabDart",
       "type": "boolean"
+    },
+    {
+      "name": "/actions/dartsplaying/in/Teleport",
+      "type": "boolean"
     }
   ],
   "action_sets": [
@@ -151,7 +155,8 @@
       "/actions/default/in/Teleport": "Teleport",
       "/actions/default/out/Haptic": "Haptic",
       "/actions/platformer/in/Jump": "Jump",
-      "/actions/dartsplaying/in/GrabDart": "GrabDart"
+      "/actions/dartsplaying/in/GrabDart": "GrabDart",
+      "/actions/dartsplaying/in/Teleport": "Teleport"
     }
   ]
 }

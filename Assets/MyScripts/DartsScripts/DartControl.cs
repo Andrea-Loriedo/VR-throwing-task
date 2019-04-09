@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class DartControl : MonoBehaviour
 {
-    private AudioSource audioData;
+    public AudioSource audioData;
     Collider dartCollider;
     Rigidbody rb;
     bool thrown;
@@ -14,8 +14,8 @@ public class DartControl : MonoBehaviour
     void Start()
     {
         audioData = GetComponent<AudioSource>();
-        dartCollider = GameObject.Find("Dart").GetComponent<CapsuleCollider>();
-        rb = GameObject.Find("Dart").GetComponent<Rigidbody>();
+        dartCollider = GetComponent<CapsuleCollider>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame

@@ -59,6 +59,7 @@
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThread.cs" />
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThreadCustomDelimiter.cs" />
      <Compile Include="Assets\Ardity\ArdityScripts\Threads\SerialThreadLines.cs" />
+     <Compile Include="Assets\Follower.cs" />
      <Compile Include="Assets\MyScripts\ArmModelScripts\ArmKinematicsController.cs" />
      <Compile Include="Assets\MyScripts\BullseyeScripts\BoundaryCollisionDetection.cs" />
      <Compile Include="Assets\MyScripts\BullseyeScripts\BullseyeController.cs" />

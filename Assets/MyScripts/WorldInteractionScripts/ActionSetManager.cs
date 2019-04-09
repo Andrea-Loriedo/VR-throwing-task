@@ -11,6 +11,7 @@ namespace Valve.VR.InteractionSystem.Sample
         string game;
 
         public SteamVR_ActionSet dartsActionSet = SteamVR_Input.GetActionSet("dartsplaying");
+        public SteamVR_ActionSet defaultActionSet = SteamVR_Input.GetActionSet("default");
         public SteamVR_Input_Sources forSources = SteamVR_Input_Sources.Any;
 
         bool inZone;
@@ -37,10 +38,12 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 //Debug.Log(string.Format("[SteamVR] Activating {0} action set.", actionSet.fullPath));
                 dartsActionSet.Activate(forSources, 0, disableAllOtherActionSets);
+                //defaultActionSet.Deactivate(forSources);
             }
             else
             {
                 dartsActionSet.Deactivate(forSources); // Disable darts action set
+                //defaultActionSet.Activate(forSources);
             }
         }
 

@@ -26,10 +26,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
             try
             {
-                if(!bullseye.TargetHitByDart()) // If the dart is flying
-                transform.rotation = Quaternion.LookRotation(-rb.velocity); // Constrain the dart to facing the dartboard
-                //else
-                //transform.rotation *= rotationOffset;
+                transform.rotation = Quaternion.LookRotation(-rb.velocity); 
             }
             catch (System.FormatException e)
             {
