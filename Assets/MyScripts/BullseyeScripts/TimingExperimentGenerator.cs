@@ -8,7 +8,7 @@ public class TimingExperimentGenerator : MonoBehaviour {
 
 public void Generate(Session session)
     {
-        int numTrials = System.Convert.ToInt32(session.settings["trials_per_block"]);
+        int numTrials = session.settings.GetInt("trials_per_block");
 
         Dictionary<string, object> Block1Settings = (Dictionary<string, object>)session.settings["block_1_settings"];
         Dictionary<string, object> Block2Settings = (Dictionary<string, object>)session.settings["block_2_settings"];

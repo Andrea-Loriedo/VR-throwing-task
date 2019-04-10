@@ -70,6 +70,7 @@
      <Compile Include="Assets\MyScripts\BullseyeScripts\TimingExperimentGenerator.cs" />
      <Compile Include="Assets\MyScripts\DartsScripts\DartControl.cs" />
      <Compile Include="Assets\MyScripts\DartsScripts\DartsOptions.cs" />
+     <Compile Include="Assets\MyScripts\DartsScripts\InstructionScripts\DartsInstructionsManager.cs" />
      <Compile Include="Assets\MyScripts\DartsScripts\RotateAlongVelocity.cs" />
      <Compile Include="Assets\MyScripts\DeviceCommunication\SerialMessageListener.cs" />
      <Compile Include="Assets\MyScripts\ScoreboardScripts\ScoreboardController.cs" />

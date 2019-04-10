@@ -9,7 +9,7 @@ public class SessionGenerator : MonoBehaviour
 {     
     public void GenerateExperiment(Session session)
     {
-        int numTrials = System.Convert.ToInt32(session.settings["trials_per_block"]);
+        int numTrials = session.settings.GetInt("trials_per_block");
 
         //  Retrieve settings for each block from .json file
         Dictionary<string, object> Block1Settings = (Dictionary<string, object>)session.settings["block_1_settings"];
@@ -32,10 +32,10 @@ public class SessionGenerator : MonoBehaviour
 
     void AssignBlockSettings(Dictionary<string, object> settings, Block block)
 	{
-		string speed = System.Convert.ToString(settings["distance"]); // Either "Close" or "Far"
-		string mode = System.Convert.ToString(settings["target_mode"]); // Either "Still" or "Move"
-	
-		block.settings["distance"] = speed;
+		string distance = System.Convert.ToString(settings["distance"]); // Either "Close" or "Far"
+		string mode = System.Convert.ToString(settings["target_mode"]);; // Either "Still" or "Move"
+
+		block.settings["distance"] = distance;
 		block.settings["target_mode"] = mode;
 	}
 }

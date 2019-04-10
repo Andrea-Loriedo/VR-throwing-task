@@ -1,0 +1,19 @@
+{
+        "trials_per_block": 3,
+        "block_1_settings": {
+            "distance": "Close",
+            "target_mode": "Still"
+        },
+        "block_2_settings": {
+            "distance": "Close",
+            "target_mode": "Move"
+        },
+        "block_3_settings": {
+            "distance": "Far",
+            "target_mode": "Still"
+        },
+        "block_4_settings": {
+            "distance": "Far",
+            "target_mode": "Move"
+        }
+    }

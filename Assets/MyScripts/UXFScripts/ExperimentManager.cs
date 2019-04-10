@@ -7,7 +7,13 @@ public class ExperimentManager : MonoBehaviour
 {
     // UXF
     public Session session;
-    public ExperimentSettings settings;     
+    public ExperimentSettings settings;  
+    public DartsInstructionsManager instructions;
+
+    void Update()
+    {
+        instructions.ShowInstructions();
+    }   
 
     public void StartNextTrial()
     {
