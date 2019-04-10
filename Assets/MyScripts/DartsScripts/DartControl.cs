@@ -52,7 +52,6 @@ namespace Valve.VR.InteractionSystem.Sample
         void GrabDart()
         {
             DestroyDart();
-            // Quaternion rotationOffset = Quaternion.Euler(0, 180, 0);
             prefabToGrab.SetActive(true); // Enable dart object
             GameObject dart = Instantiate(prefabToGrab); // Create new instance of the dart prefab
             if(dart!= null)
@@ -77,7 +76,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public void DestroyDart()
         {
             // check existing dart
-            if (currentFollower != null)
+            if(currentFollower != null)
             {
                 Destroy(currentFollower.gameObject); // Destroy previous dart if two darts are instantiated simultaneously
             }

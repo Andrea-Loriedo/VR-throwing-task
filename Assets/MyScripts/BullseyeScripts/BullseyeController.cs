@@ -23,6 +23,8 @@ namespace Valve.VR.InteractionSystem.Sample
         Vector3 dartScale;
     
         private AudioSource audioData;
+        private Coroutine forwardsRoutine;
+        private Coroutine backwardsRoutine;
 
         // Start is called before the first frame update
         void Start()
@@ -150,15 +152,18 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             while(true) // Loop forever
             {   // One instance of Swing() coroutine for each swing
-                yield return StartCoroutine(Swing(boundA.position, boundB.position, 3.0f)); // Move from left bound to right bound (duration 3s)
-                yield return StartCoroutine(Swing(boundB.position, boundA.position, 3.0f)); // Wait until transition complete, then move back towards left bound
+                yield return forwardsRoutine = StartCoroutine(Swing(boundA.position, boundB.position, 3.0f)); // Move from left bound to right bound (duration 3s)
+                yield return backwardsRoutine = StartCoroutine(Swing(boundB.position, boundA.position, 3.0f)); // Wait until transition complete, then move back towards left bound
                 yield return null; // Continue running next frame, prevents application from crashing
             }
         }
 
         public void StopTarget()
         {
-            StopAllCoroutines();
+            if(forwardsRoutine != null && backwardsRoutine != null)
+            {
+                StopAllCoroutines();
+            }
             ResetPosition(); // Reposition bullseye in the centre of the workspace
         }
 
