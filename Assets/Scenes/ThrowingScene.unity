@@ -1461,7 +1461,7 @@ MonoBehaviour:
   attachmentPoint: {fileID: 2050649586}
   prefabToGrab: {fileID: 3914533909977092701, guid: 51afa6707b5f4ee479e4fac4e6d28807,
     type: 3}
-  audioFX: {fileID: 1333371735}
+  audioFX: {fileID: 1333371731}
 --- !u!114 &401759785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   attachmentPoint: {fileID: 424709022}
   prefabToGrab: {fileID: 3914533909977092701, guid: 51afa6707b5f4ee479e4fac4e6d28807,
     type: 3}
-  audioFX: {fileID: 1333371735}
+  audioFX: {fileID: 1333371731}
 --- !u!114 &401759791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4372,13 +4372,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!4 &1333371734 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6587361984667583786, guid: c0fb03a03c351284481c0c538ed04f82,
-    type: 3}
-  m_PrefabInstance: {fileID: 695938520}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1333371735
+--- !u!82 &1333371731
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4390,8 +4384,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2f800f3498cfcb94a8f6a5f8553d8aef, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.612
-  m_Pitch: 1.63
+  m_Volume: 0.2
+  m_Pitch: 1.8
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -4400,7 +4394,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0.185
+  Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -4434,7 +4428,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.32
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -4464,7 +4458,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 1.1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -4474,6 +4468,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &1333371734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6587361984667583786, guid: c0fb03a03c351284481c0c538ed04f82,
+    type: 3}
+  m_PrefabInstance: {fileID: 695938520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1413603056
 GameObject:
   m_ObjectHideFlags: 0
