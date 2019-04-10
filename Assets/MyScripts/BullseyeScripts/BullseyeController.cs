@@ -52,6 +52,7 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 hitZone = ring.Miss;
                 experiment.EndCurrentTrial();
+                collision.HitStateReset(false); // Reset target miss to false
             }
         }
 
@@ -122,7 +123,6 @@ namespace Valve.VR.InteractionSystem.Sample
             experiment.EndCurrentTrial();
             hitZone = ring.Null;
             targetHit = false; // Reset target hit to false
-            collision.HitStateReset(true); // Reset target miss to false
         }
 
         public int GetScore()
