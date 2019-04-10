@@ -29,7 +29,7 @@ public class DartsInstructionsManager : MonoBehaviour
         } 
         // modeInstructionsPlaceholder.transform.parent = spawnPoint;
         // transform.parent = modeInstructionsPlaceholder.transform; 
-        transform.localPosition = spawnPoint.localPosition + distanceInstructions.transform.localPosition;
+        transform.localPosition = spawnPoint.localPosition + new Vector3 (-0.6f, 1.4f, 0.7f);
     }
 
     public void ShowInstructions(String distance, String targetMode)
@@ -53,7 +53,7 @@ public class DartsInstructionsManager : MonoBehaviour
         }
         else if(distance == "Far" && targetMode == "Move")
         {
-            RelocateInstructionsPanel(spawnPointClose);
+            RelocateInstructionsPanel(spawnPointFar);
             distanceInstructions.SetActive(false);
             targetModeInstructions.SetActive(true);
         }

@@ -3319,12 +3319,12 @@ PrefabInstance:
     - target: {fileID: 6587361984667583786, guid: c0fb03a03c351284481c0c538ed04f82,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.10721953
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6587361984667583786, guid: c0fb03a03c351284481c0c538ed04f82,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.013290405
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 6587361984667583786, guid: c0fb03a03c351284481c0c538ed04f82,
         type: 3}
@@ -3483,7 +3483,7 @@ PrefabInstance:
     - target: {fileID: 6587361985099251174, guid: c0fb03a03c351284481c0c538ed04f82,
         type: 3}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6587361985099251174, guid: c0fb03a03c351284481c0c538ed04f82,
         type: 3}
@@ -4356,7 +4356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909821343}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.10721953, y: 1.9132904, z: 0.012425423}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1333371734}
@@ -6237,11 +6237,11 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1512451827}
@@ -7098,7 +7098,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631229740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5589193, y: 0, z: 0.71561193}
+  m_LocalPosition: {x: -0.6, y: 1.4, z: 0.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 122573356}
@@ -8027,7 +8027,7 @@ PrefabInstance:
     - target: {fileID: 9095003951824203112, guid: a01c22555ef49bb439161be51c22da42,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9132904
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9095003951824203112, guid: a01c22555ef49bb439161be51c22da42,
         type: 3}
@@ -8556,11 +8556,11 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2103904963}

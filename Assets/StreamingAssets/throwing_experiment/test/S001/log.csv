@@ -2,63 +2,65 @@ timestamp,log_type,message
 0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
 0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-4.043434,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-4.804358,Warning,Warning: Session already exists! Continuing will overwrite
-9.270639,Log,<b>SteamVR Interaction System</b> Headset placed on head
-14.72145,Log,Started trial 1
-16.17778,Log,Hit!
-16.18439,Log,Hit Blackzone
-16.18439,Log,Ended trial 1
-17.24468,Log,Started trial 2
-18.38889,Log,Hit!
-18.39618,Log,Hit Yellowzone
-18.39618,Log,Ended trial 2
-18.98834,Log,Started trial 3
-20.12222,Log,Hit!
-20.12772,Log,Hit Redzone
-20.12772,Log,Ended trial 3
-20.17142,Log,Started trial 4
-21.25556,Log,Hit!
-21.25596,Log,Hit Redzone
-21.25596,Log,Ended trial 4
-21.32245,Log,Started trial 5
-24.91111,Log,Hit!
-24.91959,Log,Hit Bluezone
-24.91959,Log,Ended trial 5
-25.27642,Log,Started trial 6
-26.15556,Log,Hit!
-26.15968,Log,Hit Redzone
-26.15968,Log,Ended trial 6
-26.1914,Log,Started trial 7
-27.1,Log,Hit!
-27.10778,Log,Hit Bluezone
-27.10778,Log,Ended trial 7
-27.61193,Log,Started trial 8
-28.56667,Log,Hit!
-28.57232,Log,Hit Redzone
-28.57232,Log,Ended trial 8
-28.91797,Log,Started trial 9
-35.10729,Log,Ended trial 9
-35.24084,Log,Started trial 10
-36.36667,Log,Hit!
-36.36938,Log,Hit Bluezone
-36.36938,Log,Ended trial 10
-36.63736,Log,Started trial 11
-37.83334,Log,Hit!
-37.84391,Log,Hit Blackzone
-37.84391,Log,Ended trial 11
-37.99537,Log,Started trial 12
-39.23333,Log,Hit!
-39.24094,Log,Hit Whitezone
-39.24094,Log,Ended trial 12
-41.3514,Log,Started trial 13
-46.07662,Log,Ended trial 13
-46.50069,Log,Started trial 14
-48.2883,Log,Ended trial 14
-48.77971,Log,Started trial 15
-50.13334,Log,Hit!
-50.14259,Log,Hit Whitezone
-50.14259,Log,Ended trial 15
-50.74603,Log,Started trial 16
-52.04445,Log,Hit!
-52.04617,Log,Hit Bluezone
+2.071559,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+3.412374,Warning,Warning: Session already exists! Continuing will overwrite
+7.95302,Log,<b>SteamVR Interaction System</b> Headset placed on head
+12.91194,Log,Started trial 1
+14.04445,Log,Hit!
+14.05524,Log,Hit Redzone
+14.05524,Log,Ended trial 1
+14.22338,Log,Started trial 2
+15,Log,Hit!
+15.00485,Log,Hit Bluezone
+15.00485,Log,Ended trial 2
+15.07102,Log,Started trial 3
+15.78889,Log,Hit!
+15.79874,Log,Hit Whitezone
+15.79874,Log,Ended trial 3
+19.97537,Log,Started trial 4
+22.15556,Log,Hit!
+22.15979,Log,Hit Redzone
+22.15979,Log,Ended trial 4
+22.30515,Log,Started trial 5
+23.14445,Log,Hit!
+23.14774,Log,Hit Bluezone
+23.14774,Log,Ended trial 5
+23.79579,Log,Started trial 6
+25.43781,Log,Ended trial 6
+25.71235,Log,Started trial 7
+26.75556,Log,Hit!
+26.75587,Log,Hit Bluezone
+26.75587,Log,Ended trial 7
+26.97827,Log,Started trial 8
+28.53333,Log,Hit!
+28.54312,Log,Hit Yellowzone
+28.54312,Log,Ended trial 8
+28.97696,Log,Started trial 9
+32.69375,Log,Ended trial 9
+33.12949,Log,Started trial 10
+34.25556,Log,Hit!
+34.26236,Log,Hit Blackzone
+34.26236,Log,Ended trial 10
+34.61841,Log,Started trial 11
+35.76667,Log,Hit!
+35.77663,Log,Hit Bluezone
+35.77663,Log,Ended trial 11
+35.84357,Log,Started trial 12
+37.15556,Log,Hit!
+37.15608,Log,Hit Redzone
+37.15608,Log,Ended trial 12
+37.41153,Log,Started trial 13
+40.21111,Log,Hit!
+40.21618,Log,Hit Yellowzone
+40.21618,Log,Ended trial 13
+40.39374,Log,Started trial 14
+41.52222,Log,Hit!
+41.52364,Log,Hit Blackzone
+41.52364,Log,Ended trial 14
+41.57839,Log,Started trial 15
+42.75556,Log,Hit!
+42.76314,Log,Hit Whitezone
+42.76314,Log,Ended trial 15
+42.97301,Log,Started trial 16
+43.83334,Log,Hit!
+43.84334,Log,Hit Bluezone
