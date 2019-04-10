@@ -1,0 +1,13 @@
+directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time
+throwing_settings/test/S001,throwing_settings,test,1,1,1,1,31.40431,33.57148
+throwing_settings/test/S001,throwing_settings,test,1,2,1,2,33.58419,36.62612
+throwing_settings/test/S001,throwing_settings,test,1,3,1,3,36.63746,38.34715
+throwing_settings/test/S001,throwing_settings,test,1,4,2,1,38.35645,39.92071
+throwing_settings/test/S001,throwing_settings,test,1,5,2,2,39.93162,41.17051
+throwing_settings/test/S001,throwing_settings,test,1,6,2,3,41.18341,42.24537
+throwing_settings/test/S001,throwing_settings,test,1,7,3,1,42.2593,43.65291
+throwing_settings/test/S001,throwing_settings,test,1,8,3,2,43.66659,44.84742
+throwing_settings/test/S001,throwing_settings,test,1,9,3,3,44.85863,45.96267
+throwing_settings/test/S001,throwing_settings,test,1,10,4,1,45.97353,47.28278
+throwing_settings/test/S001,throwing_settings,test,1,11,4,2,47.29358,48.5901
+throwing_settings/test/S001,throwing_settings,test,1,12,4,3,48.60087,48.60087
