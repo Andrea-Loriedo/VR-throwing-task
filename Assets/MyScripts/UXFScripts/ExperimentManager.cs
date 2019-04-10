@@ -10,17 +10,13 @@ public class ExperimentManager : MonoBehaviour
     public ExperimentSettings settings;  
     public DartsInstructionsManager instructions;
 
-    void Update()
-    {
-        instructions.ShowInstructions();
-    }   
-
     public void StartNextTrial()
     {
         session.nextTrial.Begin();
         Debug.LogFormat("Started trial {0}", session.currentTrialNum);
         settings.distance = session.currentTrial.settings["distance"].ToString();
         settings.targetMode = session.currentTrial.settings["target_mode"].ToString();
+        instructions.ShowInstructions(settings.distance, settings.targetMode);
     }
 
     public void EndCurrentTrial()

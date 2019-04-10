@@ -1,38 +1,64 @@
 timestamp,log_type,message
 0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
-0,Warning,Kinematic body only supports Speculative Continuous collision detection
-0,Warning,Kinematic body only supports Speculative Continuous collision detection
 0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-22.6844,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-23.93783,Warning,Warning: Session already exists! Continuing will overwrite
-26.76283,Log,Started trial 1
-29.05165,Log,Ended trial 1
-30.08819,Log,Started trial 2
-32.12125,Log,Ended trial 2
-32.63485,Log,Started trial 3
-34.4921,Log,Ended trial 3
-35.47412,Log,Started trial 4
-37.65066,Log,Ended trial 4
-38.45887,Log,Started trial 5
-40.29918,Log,Ended trial 5
-40.90162,Log,Started trial 6
-42.22828,Log,Ended trial 6
-43.17546,Log,Started trial 7
-45.39604,Log,Ended trial 7
-46.29171,Log,Started trial 8
-47.11447,Log,Started trial 9
-47.83834,Log,Ended trial 9
-47.98487,Log,Started trial 10
-48.26275,Log,Ended trial 10
-48.40796,Log,Started trial 11
-49.05709,Log,Ended trial 11
-49.27607,Log,Started trial 12
-49.53562,Log,Ended trial 12
-49.69313,Log,Started trial 13
-50.29762,Log,Ended trial 13
-50.54269,Log,Started trial 14
-50.68187,Log,Ended trial 14
-50.99685,Log,Started trial 15
-51.54885,Log,Ended trial 15
-51.88432,Log,Started trial 16
+4.043434,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+4.804358,Warning,Warning: Session already exists! Continuing will overwrite
+9.270639,Log,<b>SteamVR Interaction System</b> Headset placed on head
+14.72145,Log,Started trial 1
+16.17778,Log,Hit!
+16.18439,Log,Hit Blackzone
+16.18439,Log,Ended trial 1
+17.24468,Log,Started trial 2
+18.38889,Log,Hit!
+18.39618,Log,Hit Yellowzone
+18.39618,Log,Ended trial 2
+18.98834,Log,Started trial 3
+20.12222,Log,Hit!
+20.12772,Log,Hit Redzone
+20.12772,Log,Ended trial 3
+20.17142,Log,Started trial 4
+21.25556,Log,Hit!
+21.25596,Log,Hit Redzone
+21.25596,Log,Ended trial 4
+21.32245,Log,Started trial 5
+24.91111,Log,Hit!
+24.91959,Log,Hit Bluezone
+24.91959,Log,Ended trial 5
+25.27642,Log,Started trial 6
+26.15556,Log,Hit!
+26.15968,Log,Hit Redzone
+26.15968,Log,Ended trial 6
+26.1914,Log,Started trial 7
+27.1,Log,Hit!
+27.10778,Log,Hit Bluezone
+27.10778,Log,Ended trial 7
+27.61193,Log,Started trial 8
+28.56667,Log,Hit!
+28.57232,Log,Hit Redzone
+28.57232,Log,Ended trial 8
+28.91797,Log,Started trial 9
+35.10729,Log,Ended trial 9
+35.24084,Log,Started trial 10
+36.36667,Log,Hit!
+36.36938,Log,Hit Bluezone
+36.36938,Log,Ended trial 10
+36.63736,Log,Started trial 11
+37.83334,Log,Hit!
+37.84391,Log,Hit Blackzone
+37.84391,Log,Ended trial 11
+37.99537,Log,Started trial 12
+39.23333,Log,Hit!
+39.24094,Log,Hit Whitezone
+39.24094,Log,Ended trial 12
+41.3514,Log,Started trial 13
+46.07662,Log,Ended trial 13
+46.50069,Log,Started trial 14
+48.2883,Log,Ended trial 14
+48.77971,Log,Started trial 15
+50.13334,Log,Hit!
+50.14259,Log,Hit Whitezone
+50.14259,Log,Ended trial 15
+50.74603,Log,Started trial 16
+52.04445,Log,Hit!
+52.04617,Log,Hit Bluezone
