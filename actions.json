@@ -140,11 +140,17 @@
     {
       "controller_type": "vive_tracker_camera",
       "binding_url": "binding_vive_tracker_camera.json"
+    },
+    {
+      "controller_type": "vive_tracker_handed",
+      "binding_url": "application_generated_unity_throwingtaskandrea_exe_binding_vive_tracker_handed.json"
     }
   ],
   "localization": [
     {
       "language_tag": "en_US",
+      "/actions/dartsplaying/in/GrabDart": "GrabDart",
+      "/actions/dartsplaying/in/Teleport": "Teleport",
       "/actions/default/in/GrabGrip": "Grab Grip",
       "/actions/default/in/GrabPinch": "Grab Pinch",
       "/actions/default/in/HeadsetOnHead": "Headset on head (proximity sensor)",
@@ -154,9 +160,7 @@
       "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
       "/actions/default/in/Teleport": "Teleport",
       "/actions/default/out/Haptic": "Haptic",
-      "/actions/platformer/in/Jump": "Jump",
-      "/actions/dartsplaying/in/GrabDart": "GrabDart",
-      "/actions/dartsplaying/in/Teleport": "Teleport"
+      "/actions/platformer/in/Jump": "Jump"
     }
   ]
 }

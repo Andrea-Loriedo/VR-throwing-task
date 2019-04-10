@@ -28,13 +28,13 @@ namespace Valve.VR.InteractionSystem.Sample
                 Debug.LogError("<b>[SteamVR Interaction]</b> No grab action assigned");
                 return;
             }
-            grabAction.AddOnChangeListener(OnGrabActionChange, hand.handType);
+            grabAction.AddOnChangeListener(OnGrabActionChange, SteamVR_Input_Sources.RightHand);
         }
 
         private void OnDisable()
         {
             if (grabAction != null) // If grab action defined
-            grabAction.RemoveOnChangeListener(OnGrabActionChange, hand.handType);
+            grabAction.RemoveOnChangeListener(OnGrabActionChange, SteamVR_Input_Sources.RightHand);
         }
 
         private void OnGrabActionChange(SteamVR_Action_Boolean actionIn, SteamVR_Input_Sources inputSource, bool newValue)
