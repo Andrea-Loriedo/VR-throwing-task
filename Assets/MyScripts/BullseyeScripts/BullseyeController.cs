@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
+using UXF;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
@@ -14,6 +15,11 @@ namespace Valve.VR.InteractionSystem.Sample
         public int totalScore;
         public Transform boundA;
         public Transform boundB;
+        public FloorCollision collision;
+
+        // UXF
+        public Session session;
+        public ExperimentManager experiment;
         
         ring hitZone;
         GameObject dart;
@@ -22,9 +28,9 @@ namespace Valve.VR.InteractionSystem.Sample
         //Quaternion dartRotation;
         Vector3 dartScale;
     
-        private AudioSource audioData;
-        private Coroutine forwardsRoutine;
-        private Coroutine backwardsRoutine;
+        AudioSource audioData;
+        Coroutine forwardsRoutine;
+        Coroutine backwardsRoutine;
 
         // Start is called before the first frame update
         void Start()
@@ -38,7 +44,16 @@ namespace Valve.VR.InteractionSystem.Sample
         // Update is called once per frame
         void Update()
         {
-            DetectHit(targetHit);
+            if(TargetHitByDart())
+            {
+                DetectHit();
+                experiment.EndCurrentTrial();
+            }
+            else if(collision.MissDetected())
+            {
+                hitZone = ring.Miss;
+                experiment.EndCurrentTrial();
+            }
         }
 
         void OnTriggerEnter(Collider dartCollider)
@@ -75,46 +90,39 @@ namespace Valve.VR.InteractionSystem.Sample
                 default:
                 break;
             }
-
             return score;
         }
 
-        void DetectHit(bool hit)
+        void DetectHit()
         {
-            if(hit == true)
+            float distanceFromCentre = Vector2.Distance(dart.transform.position, transform.position); // Calculate 2D distance between dart and centre of the bullseye
+
+            if(distanceFromCentre > 0 && distanceFromCentre < 0.1)
             {
-                float distanceFromCentre = Vector2.Distance(dart.transform.position, transform.position); // Calculate 2D distance between dart and centre of the bullseye
-
-                if(distanceFromCentre > 0 && distanceFromCentre < 0.1)
-                {
-                    hitZone = ring.Yellow;
-                } 
-                else if(distanceFromCentre > 0.1 && distanceFromCentre < 0.2)
-                {
-                    hitZone = ring.Red;
-                }
-                else if(distanceFromCentre > 0.2 && distanceFromCentre < 0.3)
-                {
-                    hitZone = ring.Blue;
-                }
-                else if(distanceFromCentre > 0.3 && distanceFromCentre < 0.4)
-                {
-                    hitZone = ring.Black;
-                }
-                else if(distanceFromCentre > 0.4 && distanceFromCentre < 0.5)
-                {
-                    hitZone = ring.White;
-                }
-                else
-                {
-                    hitZone = ring.Miss;
-                }
-
-                Debug.LogFormat("" + hitZone);
-                totalScore = ComputeScore();
-                hitZone = ring.Null;
-                targetHit = false;
+                hitZone = ring.Yellow;
+            } 
+            else if(distanceFromCentre > 0.1 && distanceFromCentre < 0.2)
+            {
+                hitZone = ring.Red;
             }
+            else if(distanceFromCentre > 0.2 && distanceFromCentre < 0.3)
+            {
+                hitZone = ring.Blue;
+            }
+            else if(distanceFromCentre > 0.3 && distanceFromCentre < 0.4)
+            {
+                hitZone = ring.Black;
+            }
+            else if(distanceFromCentre > 0.4 && distanceFromCentre < 0.5)
+            {
+                hitZone = ring.White;
+            }
+
+            Debug.LogFormat("Hit {0}", hitZone + "zone");
+            totalScore = ComputeScore();
+            hitZone = ring.Null;
+            targetHit = false; // Reset target hit to false
+            collision.HitStateReset(true); // Reset target miss to false
         }
 
         public int GetScore()
@@ -154,7 +162,7 @@ namespace Valve.VR.InteractionSystem.Sample
             {   // One instance of Swing() coroutine for each swing
                 yield return forwardsRoutine = StartCoroutine(Swing(boundA.position, boundB.position, 3.0f)); // Move from left bound to right bound (duration 3s)
                 yield return backwardsRoutine = StartCoroutine(Swing(boundB.position, boundA.position, 3.0f)); // Wait until transition complete, then move back towards left bound
-                yield return null; // Continue running next frame, prevents application from crashing
+                yield return null; // Continue running next frame, prevents application from crashing when in an infinite loop
             }
         }
 

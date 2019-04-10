@@ -7,17 +7,35 @@ using UXF;
 
 public class SessionGenerator : MonoBehaviour
 {     
-    public void GenerateExperiment(Session experimentSession)
+    public void GenerateExperiment(Session session)
     {
-        // Retrieve the n_blockX_trials setting from the session settings
-        int n_block1Trials = experimentSession.settings.GetInt("n_block1_trials");
-        int n_block2Trials = experimentSession.settings.GetInt("n_block2_trials");
-        int n_block3Trials = experimentSession.settings.GetInt("n_block3_trials");
-        int n_block4Trials = experimentSession.settings.GetInt("n_block4_trials");
-        // Create block 1
-        Block Block1 = experimentSession.CreateBlock(n_block1Trials); // Block 1 (stationary target, close)
-        Block Block2 = experimentSession.CreateBlock(n_block1Trials); // Block 2 (moving target, close)
-        Block Block3 = experimentSession.CreateBlock(n_block1Trials); // Block 3 (stationary target, far)
-        Block Block4 = experimentSession.CreateBlock(n_block1Trials); // Block 4 (moving target, far)
+        int numTrials = System.Convert.ToInt32(session.settings["trials_per_block"]);
+
+        //  Retrieve settings for each block from .json file
+        Dictionary<string, object> Block1Settings = (Dictionary<string, object>)session.settings["block_1_settings"];
+        Dictionary<string, object> Block2Settings = (Dictionary<string, object>)session.settings["block_2_settings"];
+        Dictionary<string, object> Block3Settings = (Dictionary<string, object>)session.settings["block_3_settings"];
+        Dictionary<string, object> Block4Settings = (Dictionary<string, object>)session.settings["block_4_settings"];
+
+        // Create the experiment blocks
+        Block block1 = session.CreateBlock(numTrials); // Block 1 (stationary target, close)
+        Block block2 = session.CreateBlock(numTrials); // Block 2 (moving target, close)
+        Block block3 = session.CreateBlock(numTrials); // Block 3 (stationary target, far)
+        Block block4 = session.CreateBlock(numTrials); // Block 4 (moving target, far)
+
+        // Assign the relevant settingsto each block
+        AssignBlockSettings(Block1Settings, block1);
+        AssignBlockSettings(Block2Settings, block2);
+        AssignBlockSettings(Block3Settings, block3);
+        AssignBlockSettings(Block4Settings, block4);
     }
+
+    void AssignBlockSettings(Dictionary<string, object> settings, Block block)
+	{
+		string speed = System.Convert.ToString(settings["distance"]); // Either "Close" or "Far"
+		string mode = System.Convert.ToString(settings["target_mode"]); // Either "Still" or "Move"
+	
+		block.settings["distance"] = speed;
+		block.settings["target_mode"] = mode;
+	}
 }

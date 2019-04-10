@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
+using UXF;
 
 namespace Valve.VR.InteractionSystem.Sample
 {   
@@ -13,6 +14,10 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform attachmentPoint;
         public GameObject prefabToGrab;
         public AudioSource audioFX;
+
+        // UXF
+        public Session session;
+        public ExperimentManager experiment;
 
         Collider dartCollider;
         Rigidbody dartRB;
@@ -51,14 +56,18 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void GrabDart()
         {
-            DestroyDart();
-            prefabToGrab.SetActive(true); // Enable dart object
-            GameObject dart = Instantiate(prefabToGrab); // Create new instance of the dart prefab
-            if(dart!= null)
-            dartCollider = dart.GetComponent<Collider>();
-            dartCollider.enabled = false; // Disable dart collider
-            currentFollower = dart.GetComponent<Follower>();
-            currentFollower.AttachTo(attachmentPoint); // Attach dart to hand
+            if(session.currentTrial.numberInBlock == 1 || session.currentTrial.status == UXF.TrialStatus.Done)
+            {
+                DestroyDart(); // Destroy any leftover dart
+                experiment.StartNextTrial();
+                prefabToGrab.SetActive(true); // Enable dart object
+                GameObject dart = Instantiate(prefabToGrab); // Create new instance of the dart prefab
+                if(dart!= null)
+                dartCollider = dart.GetComponent<Collider>();
+                dartCollider.enabled = false; // Disable dart collider
+                currentFollower = dart.GetComponent<Follower>();
+                currentFollower.AttachTo(attachmentPoint); // Attach dart to hand
+            }
         }
 
         void ReleaseDart()
@@ -81,5 +90,17 @@ namespace Valve.VR.InteractionSystem.Sample
                 Destroy(currentFollower.gameObject); // Destroy previous dart if two darts are instantiated simultaneously
             }
         }
+
+        public void EndBehaviour(Trial endedTrial)
+        {
+            if (endedTrial == session.lastTrial)
+            {
+                session.End();
+            }
+            else
+            {
+                
+            }
+         }
     }
 }

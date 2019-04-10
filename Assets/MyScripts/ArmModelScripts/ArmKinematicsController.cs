@@ -7,10 +7,6 @@ public class ArmKinematicsController : MonoBehaviour
 
     public Limb[] arm;
 
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     void Update()
     {   
