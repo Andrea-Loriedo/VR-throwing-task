@@ -46,7 +46,12 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newValue)
             {
-                GrabDart();
+                DestroyDart(); // Destroy any leftover dart
+                if(session.nextTrial.numberInBlock == 1 || session.currentTrial.status == UXF.TrialStatus.Done)
+                {
+                    experiment.StartNextTrial();
+                    GrabDart();
+                }
             }
             else
             {
@@ -56,18 +61,13 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void GrabDart()
         {
-            if(session.nextTrial.numberInBlock == 1 || session.currentTrial.status == UXF.TrialStatus.Done)
-            {
-                DestroyDart(); // Destroy any leftover dart
-                experiment.StartNextTrial();
-                prefabToGrab.SetActive(true); // Enable dart object
-                GameObject dart = Instantiate(prefabToGrab); // Create new instance of the dart prefab
-                if(dart!= null)
-                dartCollider = dart.GetComponent<Collider>();
-                dartCollider.enabled = false; // Disable dart collider
-                currentFollower = dart.GetComponent<Follower>();
-                currentFollower.AttachTo(attachmentPoint); // Attach dart to hand
-            }
+            prefabToGrab.SetActive(true); // Enable dart object
+            GameObject dart = Instantiate(prefabToGrab); // Create new instance of the dart prefab
+            if(dart!= null)
+            dartCollider = dart.GetComponent<Collider>();
+            dartCollider.enabled = false; // Disable dart collider
+            currentFollower = dart.GetComponent<Follower>();
+            currentFollower.AttachTo(attachmentPoint); // Attach dart to hand
         }
 
         void ReleaseDart()

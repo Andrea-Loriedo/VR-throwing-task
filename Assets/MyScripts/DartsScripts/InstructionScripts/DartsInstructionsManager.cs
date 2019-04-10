@@ -34,31 +34,33 @@ public class DartsInstructionsManager : MonoBehaviour
 
     public void ShowInstructions()
     {
-        string distance = session.nextTrial.settings.GetString("distance");
-        string targetMode = session.nextTrial.settings.GetString("target_mode");
+        foreach (Trial trial in session.trials)
+        { 
+            string distance = trial.settings.GetString("distance");
+            string targetMode = trial.settings.GetString("target_mode");
 
-        if(distance == "Close" && targetMode == "Still")
-        {
-            distanceInstructions.SetActive(false);
-            targetModeInstructions.SetActive(false);
+            if(distance == "Close" && targetMode == "Still")
+            {
+                distanceInstructions.SetActive(false);
+                targetModeInstructions.SetActive(false);
+            }
+            else if(distance == "Close" && targetMode == "Move")
+            {
+                distanceInstructions.SetActive(false);
+                RelocateInstructionsPanel(spawnPointClose);
+                targetModeInstructions.SetActive(true);
+            }
+            else if(distance == "Far" && targetMode == "Still")
+            {
+                distanceInstructions.SetActive(true);
+                targetModeInstructions.SetActive(false);
+            }
+            else if(distance == "Far" && targetMode == "Move")
+            {
+                distanceInstructions.SetActive(false);
+                RelocateInstructionsPanel(spawnPointFar);
+                targetModeInstructions.SetActive(false);
+            }
         }
-        else if(distance == "Close" && targetMode == "Move")
-        {
-            distanceInstructions.SetActive(false);
-            RelocateInstructionsPanel(spawnPointClose);
-            targetModeInstructions.SetActive(true);
-        }
-        else if(distance == "Far" && targetMode == "Still")
-        {
-            distanceInstructions.SetActive(true);
-            targetModeInstructions.SetActive(false);
-        }
-        else if(distance == "Far" && targetMode == "Move")
-        {
-            distanceInstructions.SetActive(false);
-            RelocateInstructionsPanel(spawnPointFar);
-            targetModeInstructions.SetActive(false);
-        }
-
     }
 }

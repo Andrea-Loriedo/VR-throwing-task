@@ -47,7 +47,6 @@ namespace Valve.VR.InteractionSystem.Sample
             if(TargetHitByDart())
             {
                 DetectHit();
-                experiment.EndCurrentTrial();
             }
             else if(collision.MissDetected())
             {
@@ -120,6 +119,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
             Debug.LogFormat("Hit {0}", hitZone + "zone");
             totalScore = ComputeScore();
+            experiment.EndCurrentTrial();
             hitZone = ring.Null;
             targetHit = false; // Reset target hit to false
             collision.HitStateReset(true); // Reset target miss to false
