@@ -81,7 +81,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if(hit == true)
             {
-                float distanceFromCentre = Vector3.Distance(dart.transform.position, transform.position); // Calculate distance between dart and centre of the bullseye
+                float distanceFromCentre = Vector2.Distance(dart.transform.position, transform.position); // Calculate 2D distance between dart and centre of the bullseye
 
                 if(distanceFromCentre > 0 && distanceFromCentre < 0.1)
                 {
@@ -118,6 +118,12 @@ namespace Valve.VR.InteractionSystem.Sample
         public int GetScore()
         {
             return totalScore;
+        }
+
+        public void ResetScore()
+        {
+            score = 0;
+            totalScore = 0;
         }
 
         void SnapToBoard(Collider dartCollider)

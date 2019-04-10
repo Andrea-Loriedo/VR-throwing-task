@@ -58,6 +58,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 inZone = false;
                 Destroy(GameObject.FindWithTag("DartObject"));
                 bullseye.StopTarget();
+                bullseye.ResetScore();
             }
         }
     }
