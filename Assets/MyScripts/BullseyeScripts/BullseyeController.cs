@@ -70,7 +70,7 @@ namespace Valve.VR.InteractionSystem.Sample
             dartColl = dartCollider;
             dartScale = dart.transform.localScale;
             targetHit = true;
-            Debug.LogFormat("Hit!");
+            // Debug.LogFormat("Hit!");
             SnapToBoard(dartCollider);
             dartColl.enabled = false;
             audioData.Play();
@@ -126,7 +126,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 hitZone = ring.White;
             }
 
-            Debug.LogFormat("Hit {0}", hitZone + "zone");
+            Debug.LogFormat("Hit {0}", hitZone + " zone");
             totalScore = ComputeScore();
             // Save results
             results.targetZone = hitZone.ToString(); 

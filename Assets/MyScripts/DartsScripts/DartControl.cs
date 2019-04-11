@@ -25,6 +25,8 @@ namespace Valve.VR.InteractionSystem.Sample
         Rigidbody dartRB;
         Follower currentFollower;
 
+        int dartsLeft;
+
         private void OnEnable()
         {
             if (hand == null)
@@ -102,6 +104,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 currentFollower.GetComponent<RotateAlongVelocity>().enabled = true;
                 currentFollower = null;
                 audioFX.Play();
+                dartsLeft = session.settings.GetInt("trials_per_block") - session.currentTrial.numberInBlock; 
             }
         }
 
@@ -114,6 +117,11 @@ namespace Valve.VR.InteractionSystem.Sample
             }
         }
 
+        public int GetDartsLeft()
+        {
+            return dartsLeft;
+        }
+
         public void EndBehaviour(Trial endedTrial)
         {
             if (endedTrial == session.lastTrial)
@@ -124,6 +132,6 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 
             }
-         }
+        }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
+using UXF;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
@@ -12,6 +13,9 @@ namespace Valve.VR.InteractionSystem.Sample
         Rigidbody rb;
         VelocityEstimator ve;
         KinematicResults results;
+
+        // UXF
+        Session session;
 
         void Awake()
         {
@@ -34,7 +38,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             this.target = null; 
             if(rb != null)
-            {            
+            {          
                 rb.useGravity = true;
                 rb.velocity = ve.GetVelocityEstimate() * velRatio;
                 rb.angularVelocity = ve.GetAngularVelocityEstimate();       

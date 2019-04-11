@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Valve.VR.InteractionSystem;
+using UXF;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
     public class ScoreboardController : MonoBehaviour
     {
         private TextMeshPro scoreText;
-        private TextContainer m_TextContainer;
+        public TextMeshPro dartsLeftText;
+        // private TextContainer m_TextContainer;
         public BullseyeController score;
+        public Session session;
+        
+        public DartControl dart;
     
         void Awake()
         {
@@ -24,6 +29,7 @@ namespace Valve.VR.InteractionSystem.Sample
         void Update()
         {
             scoreText.text = "Score: " + score.GetScore();
+            dartsLeftText.text = "Darts remaining: " + dart.GetDartsLeft();
         }
     }
 }
