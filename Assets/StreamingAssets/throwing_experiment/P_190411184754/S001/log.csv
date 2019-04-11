@@ -3,55 +3,2301 @@ timestamp,log_type,message
 0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
 0.12,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
-30.60518,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-33.54135,Warning,Warning: Session already exists! Continuing will overwrite
-41.54451,Log,<b>SteamVR Interaction System</b> Headset placed on head
-45.38337,Log,Started trial 1
-48.01995,Log,Ended trial 1
-48.22093,Log,Started trial 2
-49.61111,Log,Hit!
-49.61712,Log,Hit Redzone
-49.61712,Log,Ended trial 2
-49.88537,Log,Started trial 3
-51.26667,Log,Hit!
-51.27004,Log,Hit Redzone
-51.27004,Log,Ended trial 3
-51.505,Log,Started trial 4
-52.88889,Log,Hit!
-52.89101,Log,Hit Yellowzone
-52.89101,Log,Ended trial 4
-53.04877,Log,Started trial 5
-58.11258,Log,Ended trial 5
-58.13064,Log,Started trial 6
-60.64445,Log,Hit!
-60.657,Log,Hit Bluezone
-60.657,Log,Ended trial 6
-60.97579,Log,Started trial 7
-63.90344,Log,Ended trial 7
-64.21261,Log,Started trial 8
-66.56667,Log,Hit!
-66.57986,Log,Hit Redzone
-66.57986,Log,Ended trial 8
-67.0851,Log,Started trial 9
-69.80049,Log,Ended trial 9
-69.95677,Log,Started trial 10
-71.42223,Log,Hit!
-71.42261,Log,Hit Blackzone
-71.42261,Log,Ended trial 10
-75.32951,Log,Started trial 11
-77.35181,Log,Ended trial 11
-77.60838,Log,Started trial 12
-79.05556,Log,Hit!
-79.06306,Log,Hit Bluezone
-79.06306,Log,Ended trial 12
-79.42917,Log,Started trial 13
-81.64036,Log,Ended trial 13
-81.68504,Log,Started trial 14
-83.92223,Log,Hit!
-83.93737,Log,Hit Whitezone
-83.93737,Log,Ended trial 14
-84.32835,Log,Started trial 15
-86.85556,Log,Hit!
-86.87059,Log,Hit Whitezone
-86.87059,Log,Ended trial 15
-87.29221,Log,Started trial 16
+4.2906,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+5.028405,Warning,Warning: Session already exists! Continuing will overwrite
+8.821298,Log,<b>SteamVR Interaction System</b> Headset placed on head
+13.25386,Log,Started trial 1
+14.45556,Log,Hit!
+14.46192,Log,Hit Blackzone
+14.46192,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.47591,Log,Hit Blackzone
+14.47591,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.48424,Log,Hit Blackzone
+14.48424,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.49572,Log,Hit Blackzone
+14.49572,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.50741,Log,Hit Blackzone
+14.50741,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.52034,Log,Hit Blackzone
+14.52034,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.53092,Log,Hit Blackzone
+14.53092,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.54134,Log,Hit Blackzone
+14.54134,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.55305,Log,Hit Blackzone
+14.55305,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.56363,Log,Hit Blackzone
+14.56363,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.57692,Log,Hit Blackzone
+14.57692,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.58619,Log,Hit Blackzone
+14.58619,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.59707,Log,Hit Blackzone
+14.59707,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.60899,Log,Hit Blackzone
+14.60899,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.61945,Log,Hit Blackzone
+14.61945,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.63077,Log,Hit Blackzone
+14.63077,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.64228,Log,Hit Blackzone
+14.64228,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.653,Log,Hit Blackzone
+14.653,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.66429,Log,Hit Blackzone
+14.66429,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.67897,Log,Hit Blackzone
+14.67897,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.68744,Log,Hit Blackzone
+14.68744,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.69781,Log,Hit Blackzone
+14.69781,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.70877,Log,Hit Blackzone
+14.70877,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.71993,Log,Hit Blackzone
+14.71993,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.73104,Log,Hit Blackzone
+14.73104,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.74234,Log,Hit Blackzone
+14.74234,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.75377,Log,Hit Blackzone
+14.75377,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.76478,Log,Hit Blackzone
+14.76478,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.77635,Log,Hit Blackzone
+14.77635,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.78684,Log,Hit Blackzone
+14.78684,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.79827,Log,Hit Blackzone
+14.79827,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.81019,Log,Hit Blackzone
+14.81019,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.82038,Log,Hit Blackzone
+14.82038,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.83166,Log,Hit Blackzone
+14.83166,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.8433,Log,Hit Blackzone
+14.8433,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.85411,Log,Hit Blackzone
+14.85411,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.86569,Log,Hit Blackzone
+14.86569,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.87873,Log,Hit Blackzone
+14.87873,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.88801,Log,Hit Blackzone
+14.88801,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.89949,Log,Hit Blackzone
+14.89949,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.91059,Log,Hit Blackzone
+14.91059,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.92191,Log,Hit Blackzone
+14.92191,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.9341,Log,Hit Blackzone
+14.9341,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.94422,Log,Hit Blackzone
+14.94422,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.95599,Log,Hit Blackzone
+14.95599,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.96672,Log,Hit Blackzone
+14.96672,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.97796,Log,Hit Blackzone
+14.97796,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+14.98925,Log,Hit Blackzone
+14.98925,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.00089,Log,Hit Blackzone
+15.00089,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.01208,Log,Hit Blackzone
+15.01208,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.02334,Log,Hit Blackzone
+15.02334,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.0347,Log,Hit Blackzone
+15.0347,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.04543,Log,Hit Blackzone
+15.04543,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.05676,Log,Hit Blackzone
+15.05676,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.06786,Log,Hit Blackzone
+15.06786,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.08097,Log,Hit Blackzone
+15.08097,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.09031,Log,Hit Blackzone
+15.09031,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.10137,Log,Hit Blackzone
+15.10137,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.11279,Log,Hit Blackzone
+15.11279,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.12366,Log,Hit Blackzone
+15.12366,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.13481,Log,Hit Blackzone
+15.13481,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.14622,Log,Hit Blackzone
+15.14622,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.15808,Log,Hit Blackzone
+15.15808,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.16825,Log,Hit Blackzone
+15.16825,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.17993,Log,Hit Blackzone
+15.17993,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.1911,Log,Hit Blackzone
+15.1911,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.20247,Log,Hit Blackzone
+15.20247,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.21316,Log,Hit Blackzone
+15.21316,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.22457,Log,Hit Blackzone
+15.22457,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.23553,Log,Hit Blackzone
+15.23553,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.24695,Log,Hit Blackzone
+15.24695,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.2578,Log,Hit Blackzone
+15.2578,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.26883,Log,Hit Blackzone
+15.26883,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.28206,Log,Hit Blackzone
+15.28206,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.29144,Log,Hit Blackzone
+15.29144,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.30231,Log,Hit Blackzone
+15.30231,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.31394,Log,Hit Blackzone
+15.31394,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.32482,Log,Hit Blackzone
+15.32482,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.33605,Log,Hit Blackzone
+15.33605,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.3472,Log,Hit Blackzone
+15.3472,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.35847,Log,Hit Blackzone
+15.35847,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.36957,Log,Hit Blackzone
+15.36957,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.38055,Log,Hit Blackzone
+15.38055,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.39213,Log,Hit Blackzone
+15.39213,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.4031,Log,Hit Blackzone
+15.4031,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.41444,Log,Hit Blackzone
+15.41444,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.4254,Log,Hit Blackzone
+15.4254,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.43718,Log,Hit Blackzone
+15.43718,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.44765,Log,Hit Blackzone
+15.44765,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.45908,Log,Hit Blackzone
+15.45908,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.47078,Log,Hit Blackzone
+15.47078,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.48332,Log,Hit Blackzone
+15.48332,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.49282,Log,Hit Blackzone
+15.49282,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.50351,Log,Hit Blackzone
+15.50351,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.51475,Log,Hit Blackzone
+15.51475,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.52672,Log,Hit Blackzone
+15.52672,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.53699,Log,Hit Blackzone
+15.53699,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.54825,Log,Hit Blackzone
+15.54825,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.55949,Log,Hit Blackzone
+15.55949,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.57086,Log,Hit Blackzone
+15.57086,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.58203,Log,Hit Blackzone
+15.58203,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.59299,Log,Hit Blackzone
+15.59299,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.60408,Log,Hit Blackzone
+15.60408,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.61508,Log,Hit Blackzone
+15.61508,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.62719,Log,Hit Blackzone
+15.62719,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.63749,Log,Hit Blackzone
+15.63749,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.64869,Log,Hit Blackzone
+15.64869,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.65989,Log,Hit Blackzone
+15.65989,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.67116,Log,Hit Blackzone
+15.67116,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.68407,Log,Hit Blackzone
+15.68407,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.69424,Log,Hit Blackzone
+15.69424,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.70442,Log,Hit Blackzone
+15.70442,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.71587,Log,Hit Blackzone
+15.71587,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.72699,Log,Hit Blackzone
+15.72699,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.73798,Log,Hit Blackzone
+15.73798,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.74939,Log,Hit Blackzone
+15.74939,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.76051,Log,Hit Blackzone
+15.76051,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.77169,Log,Hit Blackzone
+15.77169,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.78326,Log,Hit Blackzone
+15.78326,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.79453,Log,Hit Blackzone
+15.79453,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.80524,Log,Hit Blackzone
+15.80524,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.81621,Log,Hit Blackzone
+15.81621,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.82765,Log,Hit Blackzone
+15.82765,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.83865,Log,Hit Blackzone
+15.83865,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.84988,Log,Hit Blackzone
+15.84988,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.86098,Log,Hit Blackzone
+15.86098,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.87233,Log,Hit Blackzone
+15.87233,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.88502,Log,Hit Blackzone
+15.88502,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.89542,Log,Hit Blackzone
+15.89542,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.90544,Log,Hit Blackzone
+15.90544,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.9168,Log,Hit Blackzone
+15.9168,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.92778,Log,Hit Blackzone
+15.92778,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.94003,Log,Hit Blackzone
+15.94003,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.95061,Log,Hit Blackzone
+15.95061,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.96171,Log,Hit Blackzone
+15.96171,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.97312,Log,Hit Blackzone
+15.97312,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.98388,Log,Hit Blackzone
+15.98388,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+15.99477,Log,Hit Blackzone
+15.99477,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.00654,Log,Hit Blackzone
+16.00654,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.01733,Log,Hit Blackzone
+16.01733,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.02885,Log,Hit Blackzone
+16.02885,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.03991,Log,Hit Blackzone
+16.03991,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.051,Log,Hit Blackzone
+16.051,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.06201,Log,Hit Blackzone
+16.06201,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.07387,Log,Hit Blackzone
+16.07387,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.08613,Log,Hit Blackzone
+16.08613,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.09581,Log,Hit Blackzone
+16.09581,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.10688,Log,Hit Blackzone
+16.10688,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.11796,Log,Hit Blackzone
+16.11796,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.12911,Log,Hit Blackzone
+16.12911,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.14089,Log,Hit Blackzone
+16.14089,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.15143,Log,Hit Blackzone
+16.15143,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.16271,Log,Hit Blackzone
+16.16271,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.17408,Log,Hit Blackzone
+16.17408,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.18527,Log,Hit Blackzone
+16.18527,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.19641,Log,Hit Blackzone
+16.19641,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.20741,Log,Hit Blackzone
+16.20741,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.21852,Log,Hit Blackzone
+16.21852,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.22993,Log,Hit Blackzone
+16.22993,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.24106,Log,Hit Blackzone
+16.24106,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.25295,Log,Hit Blackzone
+16.25295,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.26292,Log,Hit Blackzone
+16.26292,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.27473,Log,Hit Blackzone
+16.27473,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.28717,Log,Hit Blackzone
+16.28717,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.29709,Log,Hit Blackzone
+16.29709,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.30819,Log,Hit Blackzone
+16.30819,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.31893,Log,Hit Blackzone
+16.31893,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.3301,Log,Hit Blackzone
+16.3301,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.3419,Log,Hit Blackzone
+16.3419,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.35263,Log,Hit Blackzone
+16.35263,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.3635,Log,Hit Blackzone
+16.3635,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.37505,Log,Hit Blackzone
+16.37505,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.38563,Log,Hit Blackzone
+16.38563,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.39759,Log,Hit Blackzone
+16.39759,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.40864,Log,Hit Blackzone
+16.40864,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.41912,Log,Hit Blackzone
+16.41912,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.43026,Log,Hit Blackzone
+16.43026,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.44156,Log,Hit Blackzone
+16.44156,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.45265,Log,Hit Blackzone
+16.45265,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.46382,Log,Hit Blackzone
+16.46382,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.47525,Log,Hit Blackzone
+16.47525,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.488,Log,Hit Blackzone
+16.488,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.49724,Log,Hit Blackzone
+16.49724,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.5086,Log,Hit Blackzone
+16.5086,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.52004,Log,Hit Blackzone
+16.52004,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.53119,Log,Hit Blackzone
+16.53119,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.54223,Log,Hit Blackzone
+16.54223,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.5536,Log,Hit Blackzone
+16.5536,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.5649,Log,Hit Blackzone
+16.5649,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.57554,Log,Hit Blackzone
+16.57554,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.58696,Log,Hit Blackzone
+16.58696,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.59801,Log,Hit Blackzone
+16.59801,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.60908,Log,Hit Blackzone
+16.60908,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.62014,Log,Hit Blackzone
+16.62014,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.63161,Log,Hit Blackzone
+16.63161,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.64267,Log,Hit Blackzone
+16.64267,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.65437,Log,Hit Blackzone
+16.65437,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.66527,Log,Hit Blackzone
+16.66527,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.67605,Log,Hit Blackzone
+16.67605,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.68888,Log,Hit Blackzone
+16.68888,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.69841,Log,Hit Blackzone
+16.69841,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.7095,Log,Hit Blackzone
+16.7095,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.72118,Log,Hit Blackzone
+16.72118,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.73207,Log,Hit Blackzone
+16.73207,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.74349,Log,Hit Blackzone
+16.74349,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.75455,Log,Hit Blackzone
+16.75455,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.76579,Log,Hit Blackzone
+16.76579,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.77706,Log,Hit Blackzone
+16.77706,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.78827,Log,Hit Blackzone
+16.78827,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.79932,Log,Hit Blackzone
+16.79932,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.8104,Log,Hit Blackzone
+16.8104,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.8218,Log,Hit Blackzone
+16.8218,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.83406,Log,Hit Blackzone
+16.83406,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.84399,Log,Hit Blackzone
+16.84399,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.85513,Log,Hit Blackzone
+16.85513,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.86631,Log,Hit Blackzone
+16.86631,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.87784,Log,Hit Blackzone
+16.87784,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.89009,Log,Hit Blackzone
+16.89009,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.90005,Log,Hit Blackzone
+16.90005,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.9108,Log,Hit Blackzone
+16.9108,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.92215,Log,Hit Blackzone
+16.92215,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.9332,Log,Hit Blackzone
+16.9332,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.94454,Log,Hit Blackzone
+16.94454,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.95552,Log,Hit Blackzone
+16.95552,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.96688,Log,Hit Blackzone
+16.96688,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.97813,Log,Hit Blackzone
+16.97813,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+16.98923,Log,Hit Blackzone
+16.98923,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.00028,Log,Hit Blackzone
+17.00028,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.01149,Log,Hit Blackzone
+17.01149,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.0229,Log,Hit Blackzone
+17.0229,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.03464,Log,Hit Blackzone
+17.03464,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.04492,Log,Hit Blackzone
+17.04492,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.05624,Log,Hit Blackzone
+17.05624,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.06752,Log,Hit Blackzone
+17.06752,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.07843,Log,Hit Blackzone
+17.07843,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.09189,Log,Hit Blackzone
+17.09189,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.10093,Log,Hit Blackzone
+17.10093,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.11198,Log,Hit Blackzone
+17.11198,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.12347,Log,Hit Blackzone
+17.12347,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.13567,Log,Hit Blackzone
+17.13567,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.14611,Log,Hit Blackzone
+17.14611,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.15705,Log,Hit Blackzone
+17.15705,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.16796,Log,Hit Blackzone
+17.16796,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.17914,Log,Hit Blackzone
+17.17914,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.19115,Log,Hit Blackzone
+17.19115,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.20155,Log,Hit Blackzone
+17.20155,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.21255,Log,Hit Blackzone
+17.21255,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.22377,Log,Hit Blackzone
+17.22377,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.23501,Log,Hit Blackzone
+17.23501,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.2462,Log,Hit Blackzone
+17.2462,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.25723,Log,Hit Blackzone
+17.25723,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.26836,Log,Hit Blackzone
+17.26836,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.27942,Log,Hit Blackzone
+17.27942,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.29258,Log,Hit Blackzone
+17.29258,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.3023,Log,Hit Blackzone
+17.3023,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.31306,Log,Hit Blackzone
+17.31306,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.32443,Log,Hit Blackzone
+17.32443,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.33548,Log,Hit Blackzone
+17.33548,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.3469,Log,Hit Blackzone
+17.3469,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.35814,Log,Hit Blackzone
+17.35814,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.36888,Log,Hit Blackzone
+17.36888,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.38014,Log,Hit Blackzone
+17.38014,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.39165,Log,Hit Blackzone
+17.39165,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.40237,Log,Hit Blackzone
+17.40237,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.41349,Log,Hit Blackzone
+17.41349,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.42467,Log,Hit Blackzone
+17.42467,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.43583,Log,Hit Blackzone
+17.43583,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.44695,Log,Hit Blackzone
+17.44695,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.45841,Log,Hit Blackzone
+17.45841,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.46933,Log,Hit Blackzone
+17.46933,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.48076,Log,Hit Blackzone
+17.48076,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.49359,Log,<b>SteamVR Interaction System</b> Headset removed
+17.49359,Log,Hit Blackzone
+17.49359,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.50369,Log,Hit Blackzone
+17.50369,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.51424,Log,Hit Blackzone
+17.51424,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.5253,Log,Hit Blackzone
+17.5253,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.53646,Log,Hit Blackzone
+17.53646,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.54764,Log,Hit Blackzone
+17.54764,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.55932,Log,Hit Blackzone
+17.55932,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.56989,Log,Hit Blackzone
+17.56989,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.5811,Log,Hit Blackzone
+17.5811,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.59231,Log,Hit Blackzone
+17.59231,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.60336,Log,Hit Blackzone
+17.60336,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.61456,Log,Hit Blackzone
+17.61456,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.62585,Log,Hit Blackzone
+17.62585,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.63705,Log,Hit Blackzone
+17.63705,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.64806,Log,Hit Blackzone
+17.64806,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.65964,Log,Hit Blackzone
+17.65964,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.67141,Log,Hit Blackzone
+17.67141,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.68179,Log,Hit Blackzone
+17.68179,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.69451,Log,Hit Blackzone
+17.69451,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.70419,Log,Hit Blackzone
+17.70419,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.71494,Log,Hit Blackzone
+17.71494,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.7262,Log,Hit Blackzone
+17.7262,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.73725,Log,Hit Blackzone
+17.73725,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.74853,Log,Hit Blackzone
+17.74853,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.75979,Log,Hit Blackzone
+17.75979,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.77162,Log,Hit Blackzone
+17.77162,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.78217,Log,Hit Blackzone
+17.78217,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.79336,Log,Hit Blackzone
+17.79336,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.80437,Log,Hit Blackzone
+17.80437,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.81611,Log,Hit Blackzone
+17.81611,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.82678,Log,Hit Blackzone
+17.82678,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.83881,Log,Hit Blackzone
+17.83881,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.84925,Log,Hit Blackzone
+17.84925,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.8602,Log,Hit Blackzone
+17.8602,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.87134,Log,Hit Blackzone
+17.87134,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.8827,Log,Hit Blackzone
+17.8827,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.89551,Log,Hit Blackzone
+17.89551,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.90535,Log,Hit Blackzone
+17.90535,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.91611,Log,Hit Blackzone
+17.91611,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.9273,Log,Hit Blackzone
+17.9273,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.93888,Log,Hit Blackzone
+17.93888,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.94979,Log,Hit Blackzone
+17.94979,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.96113,Log,Hit Blackzone
+17.96113,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.97227,Log,Hit Blackzone
+17.97227,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.9833,Log,Hit Blackzone
+17.9833,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+17.99421,Log,Hit Blackzone
+17.99421,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.00555,Log,Hit Blackzone
+18.00555,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.0168,Log,Hit Blackzone
+18.0168,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.028,Log,Hit Blackzone
+18.028,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.03906,Log,Hit Blackzone
+18.03906,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.05008,Log,Hit Blackzone
+18.05008,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.06178,Log,Hit Blackzone
+18.06178,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.07257,Log,Hit Blackzone
+18.07257,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.08382,Log,Hit Blackzone
+18.08382,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.09673,Log,Hit Blackzone
+18.09673,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.10608,Log,Hit Blackzone
+18.10608,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.11723,Log,Hit Blackzone
+18.11723,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.12882,Log,Hit Blackzone
+18.12882,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.13935,Log,Hit Blackzone
+18.13935,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.15071,Log,Hit Blackzone
+18.15071,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.16177,Log,Hit Blackzone
+18.16177,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.17328,Log,Hit Blackzone
+18.17328,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.18421,Log,Hit Blackzone
+18.18421,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.19553,Log,Hit Blackzone
+18.19553,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.2071,Log,Hit Blackzone
+18.2071,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.21776,Log,Hit Blackzone
+18.21776,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.22894,Log,Hit Blackzone
+18.22894,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.24018,Log,Hit Blackzone
+18.24018,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.25113,Log,Hit Blackzone
+18.25113,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.26238,Log,Hit Blackzone
+18.26238,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.27362,Log,Hit Blackzone
+18.27362,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.28516,Log,Hit Blackzone
+18.28516,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.29776,Log,Hit Blackzone
+18.29776,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.3076,Log,Hit Blackzone
+18.3076,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.31822,Log,Hit Blackzone
+18.31822,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.32958,Log,Hit Blackzone
+18.32958,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.34089,Log,Hit Blackzone
+18.34089,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.35174,Log,Hit Blackzone
+18.35174,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.36291,Log,Hit Blackzone
+18.36291,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.37432,Log,Hit Blackzone
+18.37432,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.38526,Log,Hit Blackzone
+18.38526,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.39658,Log,Hit Blackzone
+18.39658,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.40844,Log,Hit Blackzone
+18.40844,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.41879,Log,Hit Blackzone
+18.41879,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.43014,Log,Hit Blackzone
+18.43014,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.44158,Log,Hit Blackzone
+18.44158,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.45241,Log,Hit Blackzone
+18.45241,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.46341,Log,Hit Blackzone
+18.46341,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.47465,Log,Hit Blackzone
+18.47465,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.48609,Log,Hit Blackzone
+18.48609,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.4991,Log,Hit Blackzone
+18.4991,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.5082,Log,Hit Blackzone
+18.5082,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.51941,Log,Hit Blackzone
+18.51941,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.53024,Log,Hit Blackzone
+18.53024,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.54118,Log,Hit Blackzone
+18.54118,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.552,Log,Hit Blackzone
+18.552,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.56307,Log,Hit Blackzone
+18.56307,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.57495,Log,Hit Blackzone
+18.57495,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.58543,Log,Hit Blackzone
+18.58543,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.59714,Log,Hit Blackzone
+18.59714,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.60815,Log,Hit Blackzone
+18.60815,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.61956,Log,Hit Blackzone
+18.61956,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.63043,Log,Hit Blackzone
+18.63043,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.64172,Log,Hit Blackzone
+18.64172,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.65254,Log,Hit Blackzone
+18.65254,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.66366,Log,Hit Blackzone
+18.66366,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.67515,Log,Hit Blackzone
+18.67515,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.6866,Log,Hit Blackzone
+18.6866,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.69884,Log,Hit Blackzone
+18.69884,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.70868,Log,Hit Blackzone
+18.70868,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.71955,Log,Hit Blackzone
+18.71955,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.7309,Log,Hit Blackzone
+18.7309,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.74237,Log,Hit Blackzone
+18.74237,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.75349,Log,Hit Blackzone
+18.75349,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.76424,Log,Hit Blackzone
+18.76424,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.77919,Log,Hit Blackzone
+18.77919,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.78639,Log,Hit Blackzone
+18.78639,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.79711,Log,Hit Blackzone
+18.79711,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.8088,Log,Hit Blackzone
+18.8088,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.81954,Log,Hit Blackzone
+18.81954,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.83076,Log,Hit Blackzone
+18.83076,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.84228,Log,Hit Blackzone
+18.84228,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.85306,Log,Hit Blackzone
+18.85306,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.86432,Log,Hit Blackzone
+18.86432,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.87601,Log,Hit Blackzone
+18.87601,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.88667,Log,Hit Blackzone
+18.88667,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.89961,Log,Hit Blackzone
+18.89961,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.9095,Log,Hit Blackzone
+18.9095,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.92009,Log,Hit Blackzone
+18.92009,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.93156,Log,Hit Blackzone
+18.93156,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.94258,Log,Hit Blackzone
+18.94258,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.95347,Log,Hit Blackzone
+18.95347,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.96491,Log,Hit Blackzone
+18.96491,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.97667,Log,Hit Blackzone
+18.97667,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.98714,Log,Hit Blackzone
+18.98714,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+18.99845,Log,Hit Blackzone
+18.99845,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.00967,Log,Hit Blackzone
+19.00967,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.02057,Log,Hit Blackzone
+19.02057,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.03184,Log,Hit Blackzone
+19.03184,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.04315,Log,Hit Blackzone
+19.04315,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.05426,Log,Hit Blackzone
+19.05426,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.06562,Log,Hit Blackzone
+19.06562,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.07648,Log,Hit Blackzone
+19.07648,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.08874,Log,Hit Blackzone
+19.08874,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.10088,Log,Hit Blackzone
+19.10088,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.10991,Log,Hit Blackzone
+19.10991,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.12126,Log,Hit Blackzone
+19.12126,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.1324,Log,Hit Blackzone
+19.1324,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.14335,Log,Hit Blackzone
+19.14335,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.15516,Log,Hit Blackzone
+19.15516,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.16606,Log,Hit Blackzone
+19.16606,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.1773,Log,Hit Blackzone
+19.1773,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.18859,Log,Hit Blackzone
+19.18859,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.20002,Log,Hit Blackzone
+19.20002,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.21142,Log,Hit Blackzone
+19.21142,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.22319,Log,Hit Blackzone
+19.22319,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.23507,Log,Hit Blackzone
+19.23507,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.24516,Log,Hit Blackzone
+19.24516,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.25669,Log,Hit Blackzone
+19.25669,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.26778,Log,Hit Blackzone
+19.26778,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.292,Log,Hit Blackzone
+19.292,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.30307,Log,Hit Blackzone
+19.30307,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.31072,Log,Hit Blackzone
+19.31072,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.31867,Log,Hit Blackzone
+19.31867,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.32966,Log,Hit Blackzone
+19.32966,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.34109,Log,Hit Blackzone
+19.34109,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.35215,Log,Hit Blackzone
+19.35215,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.36337,Log,Hit Blackzone
+19.36337,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.37513,Log,Hit Blackzone
+19.37513,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.38567,Log,Hit Blackzone
+19.38567,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.39684,Log,Hit Blackzone
+19.39684,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.40816,Log,Hit Blackzone
+19.40816,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.4192,Log,Hit Blackzone
+19.4192,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.43059,Log,Hit Blackzone
+19.43059,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.44171,Log,Hit Blackzone
+19.44171,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.45257,Log,Hit Blackzone
+19.45257,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.46388,Log,Hit Blackzone
+19.46388,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.47514,Log,Hit Blackzone
+19.47514,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.48682,Log,Hit Blackzone
+19.48682,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.49726,Log,Hit Blackzone
+19.49726,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.51023,Log,Hit Blackzone
+19.51023,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.52003,Log,Hit Blackzone
+19.52003,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.5311,Log,Hit Blackzone
+19.5311,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.54224,Log,Hit Blackzone
+19.54224,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.553,Log,Hit Blackzone
+19.553,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.56442,Log,Hit Blackzone
+19.56442,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.57558,Log,Hit Blackzone
+19.57558,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.58723,Log,Hit Blackzone
+19.58723,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.59804,Log,Hit Blackzone
+19.59804,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.60925,Log,Hit Blackzone
+19.60925,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.62012,Log,Hit Blackzone
+19.62012,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.63178,Log,Hit Blackzone
+19.63178,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.64251,Log,Hit Blackzone
+19.64251,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.65386,Log,Hit Blackzone
+19.65386,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.66479,Log,Hit Blackzone
+19.66479,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.67618,Log,Hit Blackzone
+19.67618,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.68791,Log,Hit Blackzone
+19.68791,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.69852,Log,Hit Blackzone
+19.69852,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.71129,Log,Hit Blackzone
+19.71129,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.72059,Log,Hit Blackzone
+19.72059,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.73209,Log,Hit Blackzone
+19.73209,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.74316,Log,Hit Blackzone
+19.74316,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.75418,Log,Hit Blackzone
+19.75418,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.76546,Log,Hit Blackzone
+19.76546,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.77665,Log,Hit Blackzone
+19.77665,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.78784,Log,Hit Blackzone
+19.78784,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.79885,Log,Hit Blackzone
+19.79885,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.81053,Log,Hit Blackzone
+19.81053,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.82207,Log,Hit Blackzone
+19.82207,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.83381,Log,Hit Blackzone
+19.83381,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.84564,Log,Hit Blackzone
+19.84564,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.85735,Log,Hit Blackzone
+19.85735,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.86795,Log,Hit Blackzone
+19.86795,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.88001,Log,Hit Blackzone
+19.88001,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.89167,Log,Hit Blackzone
+19.89167,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.90294,Log,Hit Blackzone
+19.90294,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.9162,Log,Hit Blackzone
+19.9162,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.92634,Log,Hit Blackzone
+19.92634,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.93771,Log,Hit Blackzone
+19.93771,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.94923,Log,Hit Blackzone
+19.94923,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.96055,Log,Hit Blackzone
+19.96055,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.97155,Log,Hit Blackzone
+19.97155,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.98252,Log,Hit Blackzone
+19.98252,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+19.99426,Log,Hit Blackzone
+19.99426,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.00531,Log,Hit Blackzone
+20.00531,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.01645,Log,Hit Blackzone
+20.01645,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.0274,Log,Hit Blackzone
+20.0274,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.03866,Log,Hit Blackzone
+20.03866,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.05101,Log,Hit Blackzone
+20.05101,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.06094,Log,Hit Blackzone
+20.06094,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.07206,Log,Hit Blackzone
+20.07206,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.08339,Log,Hit Blackzone
+20.08339,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.09432,Log,Hit Blackzone
+20.09432,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.10543,Log,Hit Blackzone
+20.10543,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.11854,Log,Hit Blackzone
+20.11854,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.12794,Log,Hit Blackzone
+20.12794,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.13897,Log,Hit Blackzone
+20.13897,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.15018,Log,Hit Blackzone
+20.15018,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.16184,Log,Hit Blackzone
+20.16184,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.17257,Log,Hit Blackzone
+20.17257,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.18371,Log,Hit Blackzone
+20.18371,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.19504,Log,Hit Blackzone
+20.19504,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.2065,Log,Hit Blackzone
+20.2065,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.21719,Log,Hit Blackzone
+20.21719,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.22857,Log,Hit Blackzone
+20.22857,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.23977,Log,Hit Blackzone
+20.23977,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.25081,Log,Hit Blackzone
+20.25081,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.26184,Log,Hit Blackzone
+20.26184,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.27332,Log,Hit Blackzone
+20.27332,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.28493,Log,Hit Blackzone
+20.28493,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.29551,Log,Hit Blackzone
+20.29551,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.30684,Log,Hit Blackzone
+20.30684,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.31981,Log,Hit Blackzone
+20.31981,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.32902,Log,Hit Blackzone
+20.32902,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.34027,Log,Hit Blackzone
+20.34027,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.35145,Log,Hit Blackzone
+20.35145,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.36236,Log,Hit Blackzone
+20.36236,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.3739,Log,Hit Blackzone
+20.3739,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.38471,Log,Hit Blackzone
+20.38471,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.39612,Log,Hit Blackzone
+20.39612,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.4072,Log,Hit Blackzone
+20.4072,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.41831,Log,Hit Blackzone
+20.41831,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.42948,Log,Hit Blackzone
+20.42948,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.44097,Log,Hit Blackzone
+20.44097,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.45181,Log,Hit Blackzone
+20.45181,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.46299,Log,Hit Blackzone
+20.46299,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.47487,Log,Hit Blackzone
+20.47487,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.4852,Log,Hit Blackzone
+20.4852,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.4979,Log,Hit Blackzone
+20.4979,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.50788,Log,Hit Blackzone
+20.50788,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.52051,Log,Hit Blackzone
+20.52051,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.52989,Log,Hit Blackzone
+20.52989,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.54135,Log,Hit Blackzone
+20.54135,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.55241,Log,Hit Blackzone
+20.55241,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.56351,Log,Hit Blackzone
+20.56351,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.57494,Log,Hit Blackzone
+20.57494,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.58583,Log,Hit Blackzone
+20.58583,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.59689,Log,Hit Blackzone
+20.59689,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.60838,Log,Hit Blackzone
+20.60838,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.61934,Log,Hit Blackzone
+20.61934,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.63109,Log,Hit Blackzone
+20.63109,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.64203,Log,Hit Blackzone
+20.64203,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.65325,Log,Hit Blackzone
+20.65325,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.66419,Log,Hit Blackzone
+20.66419,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.67537,Log,Hit Blackzone
+20.67537,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.68658,Log,Hit Blackzone
+20.68658,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.69764,Log,Hit Blackzone
+20.69764,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.70887,Log,Hit Blackzone
+20.70887,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.7218,Log,Hit Blackzone
+20.7218,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.73097,Log,Hit Blackzone
+20.73097,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.74233,Log,Hit Blackzone
+20.74233,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.75335,Log,Hit Blackzone
+20.75335,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.76473,Log,Hit Blackzone
+20.76473,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.77585,Log,Hit Blackzone
+20.77585,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.78724,Log,Hit Blackzone
+20.78724,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.79802,Log,Hit Blackzone
+20.79802,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.80916,Log,Hit Blackzone
+20.80916,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.82055,Log,Hit Blackzone
+20.82055,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.83155,Log,Hit Blackzone
+20.83155,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.8429,Log,Hit Blackzone
+20.8429,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.85398,Log,Hit Blackzone
+20.85398,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.86499,Log,Hit Blackzone
+20.86499,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.8763,Log,Hit Blackzone
+20.8763,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.88756,Log,Hit Blackzone
+20.88756,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.89849,Log,Hit Blackzone
+20.89849,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.90985,Log,Hit Blackzone
+20.90985,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.92277,Log,Hit Blackzone
+20.92277,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.93203,Log,Hit Blackzone
+20.93203,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.94409,Log,Hit Blackzone
+20.94409,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.95448,Log,Hit Blackzone
+20.95448,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.96557,Log,Hit Blackzone
+20.96557,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.97694,Log,Hit Blackzone
+20.97694,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.98803,Log,Hit Blackzone
+20.98803,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+20.9996,Log,Hit Blackzone
+20.9996,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.01041,Log,Hit Blackzone
+21.01041,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.02157,Log,Hit Blackzone
+21.02157,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.03301,Log,Hit Blackzone
+21.03301,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.04422,Log,Hit Blackzone
+21.04422,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.05516,Log,Hit Blackzone
+21.05516,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.06631,Log,Hit Blackzone
+21.06631,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.07729,Log,Hit Blackzone
+21.07729,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.08843,Log,Hit Blackzone
+21.08843,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.10006,Log,Hit Blackzone
+21.10006,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.11106,Log,Hit Blackzone
+21.11106,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.12404,Log,Hit Blackzone
+21.12404,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.13324,Log,Hit Blackzone
+21.13324,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.14437,Log,Hit Blackzone
+21.14437,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.15565,Log,Hit Blackzone
+21.15565,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.16666,Log,Hit Blackzone
+21.16666,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.17778,Log,Hit Blackzone
+21.17778,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.18907,Log,Hit Blackzone
+21.18907,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.20023,Log,Hit Blackzone
+21.20023,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.21144,Log,Hit Blackzone
+21.21144,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.22264,Log,Hit Blackzone
+21.22264,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.23373,Log,Hit Blackzone
+21.23373,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.24498,Log,Hit Blackzone
+21.24498,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.25677,Log,Hit Blackzone
+21.25677,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.26729,Log,Hit Blackzone
+21.26729,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.27961,Log,Hit Blackzone
+21.27961,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.28974,Log,Hit Blackzone
+21.28974,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.30076,Log,Hit Blackzone
+21.30076,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.31264,Log,Hit Blackzone
+21.31264,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.32529,Log,Hit Blackzone
+21.32529,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.33419,Log,Hit Blackzone
+21.33419,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.34547,Log,Hit Blackzone
+21.34547,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.35683,Log,Hit Blackzone
+21.35683,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.36771,Log,Hit Blackzone
+21.36771,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.37896,Log,Hit Blackzone
+21.37896,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.39118,Log,Hit Blackzone
+21.39118,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.40124,Log,Hit Blackzone
+21.40124,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.41271,Log,Hit Blackzone
+21.41271,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.424,Log,Hit Blackzone
+21.424,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.43484,Log,Hit Blackzone
+21.43484,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.44612,Log,Hit Blackzone
+21.44612,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.4574,Log,Hit Blackzone
+21.4574,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.46871,Log,Hit Blackzone
+21.46871,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.47942,Log,Hit Blackzone
+21.47942,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.49079,Log,Hit Blackzone
+21.49079,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.50188,Log,Hit Blackzone
+21.50188,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.51304,Log,Hit Blackzone
+21.51304,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.52593,Log,Hit Blackzone
+21.52593,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.53523,Log,Hit Blackzone
+21.53523,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.54644,Log,Hit Blackzone
+21.54644,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.55781,Log,Hit Blackzone
+21.55781,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.56975,Log,Hit Blackzone
+21.56975,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.58008,Log,Hit Blackzone
+21.58008,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.59171,Log,Hit Blackzone
+21.59171,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.60247,Log,Hit Blackzone
+21.60247,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.6138,Log,Hit Blackzone
+21.6138,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.62599,Log,Hit Blackzone
+21.62599,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.63622,Log,Hit Blackzone
+21.63622,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.64754,Log,Hit Blackzone
+21.64754,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.65859,Log,Hit Blackzone
+21.65859,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.67004,Log,Hit Blackzone
+21.67004,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.68074,Log,Hit Blackzone
+21.68074,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.69201,Log,Hit Blackzone
+21.69201,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.70316,Log,Hit Blackzone
+21.70316,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.7142,Log,Hit Blackzone
+21.7142,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.72894,Log,Hit Blackzone
+21.72894,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.73679,Log,Hit Blackzone
+21.73679,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.7483,Log,Hit Blackzone
+21.7483,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.7602,Log,Hit Blackzone
+21.7602,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.7704,Log,Hit Blackzone
+21.7704,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.78136,Log,Hit Blackzone
+21.78136,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.7925,Log,Hit Blackzone
+21.7925,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.80371,Log,Hit Blackzone
+21.80371,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.81478,Log,Hit Blackzone
+21.81478,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.82606,Log,Hit Blackzone
+21.82606,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.83719,Log,Hit Blackzone
+21.83719,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.84832,Log,Hit Blackzone
+21.84832,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.85948,Log,Hit Blackzone
+21.85948,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.87066,Log,Hit Blackzone
+21.87066,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.88194,Log,Hit Blackzone
+21.88194,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.8929,Log,Hit Blackzone
+21.8929,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.90396,Log,Hit Blackzone
+21.90396,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.91527,Log,Hit Blackzone
+21.91527,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.92833,Log,Hit Blackzone
+21.92833,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.9376,Log,Hit Blackzone
+21.9376,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.94854,Log,Hit Blackzone
+21.94854,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.95988,Log,Hit Blackzone
+21.95988,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.97113,Log,Hit Blackzone
+21.97113,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.9827,Log,Hit Blackzone
+21.9827,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+21.99317,Log,Hit Blackzone
+21.99317,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.0044,Log,Hit Blackzone
+22.0044,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.01611,Log,Hit Blackzone
+22.01611,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.02687,Log,Hit Blackzone
+22.02687,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.03855,Log,Hit Blackzone
+22.03855,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.04936,Log,Hit Blackzone
+22.04936,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.06076,Log,Hit Blackzone
+22.06076,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.07206,Log,Hit Blackzone
+22.07206,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.08319,Log,Hit Blackzone
+22.08319,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.09414,Log,Hit Blackzone
+22.09414,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.10515,Log,Hit Blackzone
+22.10515,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.11663,Log,Hit Blackzone
+22.11663,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.12938,Log,Hit Blackzone
+22.12938,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.13867,Log,Hit Blackzone
+22.13867,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.15016,Log,Hit Blackzone
+22.15016,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.16119,Log,Hit Blackzone
+22.16119,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.17222,Log,Hit Blackzone
+22.17222,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.18358,Log,Hit Blackzone
+22.18358,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.19515,Log,Hit Blackzone
+22.19515,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.20601,Log,Hit Blackzone
+22.20601,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.21683,Log,Hit Blackzone
+22.21683,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.22835,Log,Hit Blackzone
+22.22835,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.23922,Log,Hit Blackzone
+22.23922,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.25051,Log,Hit Blackzone
+22.25051,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.26177,Log,Hit Blackzone
+22.26177,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.27316,Log,Hit Blackzone
+22.27316,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.28423,Log,Hit Blackzone
+22.28423,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.29539,Log,Hit Blackzone
+22.29539,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.30699,Log,Hit Blackzone
+22.30699,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.31778,Log,Hit Blackzone
+22.31778,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.33067,Log,Hit Blackzone
+22.33067,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.34268,Log,Hit Blackzone
+22.34268,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.35209,Log,Hit Blackzone
+22.35209,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.36211,Log,Hit Blackzone
+22.36211,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.37463,Log,Hit Blackzone
+22.37463,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.38453,Log,Hit Blackzone
+22.38453,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.39589,Log,Hit Blackzone
+22.39589,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.40665,Log,Hit Blackzone
+22.40665,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.41814,Log,Hit Blackzone
+22.41814,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.42937,Log,Hit Blackzone
+22.42937,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.44058,Log,Hit Blackzone
+22.44058,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.45144,Log,Hit Blackzone
+22.45144,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.46269,Log,Hit Blackzone
+22.46269,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.474,Log,Hit Blackzone
+22.474,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.48507,Log,Hit Blackzone
+22.48507,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.4961,Log,Hit Blackzone
+22.4961,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.50789,Log,Hit Blackzone
+22.50789,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.51818,Log,Hit Blackzone
+22.51818,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.53168,Log,Hit Blackzone
+22.53168,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.54106,Log,Hit Blackzone
+22.54106,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.55223,Log,Hit Blackzone
+22.55223,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.56335,Log,Hit Blackzone
+22.56335,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.57433,Log,Hit Blackzone
+22.57433,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.58523,Log,Hit Blackzone
+22.58523,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.5967,Log,Hit Blackzone
+22.5967,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.60769,Log,Hit Blackzone
+22.60769,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.61876,Log,Hit Blackzone
+22.61876,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.63013,Log,Hit Blackzone
+22.63013,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.64221,Log,Hit Blackzone
+22.64221,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.65315,Log,Hit Blackzone
+22.65315,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.66441,Log,Hit Blackzone
+22.66441,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.67572,Log,Hit Blackzone
+22.67572,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.6862,Log,Hit Blackzone
+22.6862,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.69687,Log,Hit Blackzone
+22.69687,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.70839,Log,Hit Blackzone
+22.70839,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.71929,Log,Hit Blackzone
+22.71929,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.73229,Log,Hit Blackzone
+22.73229,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.74224,Log,Hit Blackzone
+22.74224,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.75301,Log,Hit Blackzone
+22.75301,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.76401,Log,Hit Blackzone
+22.76401,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.7754,Log,Hit Blackzone
+22.7754,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.7863,Log,Hit Blackzone
+22.7863,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.79759,Log,Hit Blackzone
+22.79759,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.80887,Log,Hit Blackzone
+22.80887,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.82028,Log,Hit Blackzone
+22.82028,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.83162,Log,Hit Blackzone
+22.83162,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.84267,Log,Hit Blackzone
+22.84267,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.85355,Log,Hit Blackzone
+22.85355,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.86461,Log,Hit Blackzone
+22.86461,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.87654,Log,Hit Blackzone
+22.87654,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.88724,Log,Hit Blackzone
+22.88724,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.89831,Log,Hit Blackzone
+22.89831,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.9097,Log,Hit Blackzone
+22.9097,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.92119,Log,Hit Blackzone
+22.92119,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.93425,Log,Hit Blackzone
+22.93425,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.94268,Log,Hit Blackzone
+22.94268,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.95415,Log,Hit Blackzone
+22.95415,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.96535,Log,Hit Blackzone
+22.96535,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.97653,Log,Hit Blackzone
+22.97653,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.98754,Log,Hit Blackzone
+22.98754,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+22.99871,Log,Hit Blackzone
+22.99871,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.00988,Log,Hit Blackzone
+23.00988,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.02109,Log,Hit Blackzone
+23.02109,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.03207,Log,Hit Blackzone
+23.03207,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.04333,Log,Hit Blackzone
+23.04333,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.05447,Log,Hit Blackzone
+23.05447,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.06562,Log,Hit Blackzone
+23.06562,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.07707,Log,Hit Blackzone
+23.07707,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.08787,Log,Hit Blackzone
+23.08787,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.09911,Log,Hit Blackzone
+23.09911,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.11029,Log,Hit Blackzone
+23.11029,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.12163,Log,Hit Blackzone
+23.12163,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.13484,Log,Hit Blackzone
+23.13484,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.14369,Log,Hit Blackzone
+23.14369,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.15507,Log,Hit Blackzone
+23.15507,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.1662,Log,Hit Blackzone
+23.1662,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.17743,Log,Hit Blackzone
+23.17743,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.1887,Log,Hit Blackzone
+23.1887,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.20061,Log,Hit Blackzone
+23.20061,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.21134,Log,Hit Blackzone
+23.21134,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.22224,Log,Hit Blackzone
+23.22224,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.23384,Log,Hit Blackzone
+23.23384,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.24467,Log,Hit Blackzone
+23.24467,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.25578,Log,Hit Blackzone
+23.25578,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.26764,Log,Hit Blackzone
+23.26764,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.27921,Log,Hit Blackzone
+23.27921,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.28978,Log,Hit Blackzone
+23.28978,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.30026,Log,Hit Blackzone
+23.30026,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.31141,Log,Hit Blackzone
+23.31141,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.32278,Log,Hit Blackzone
+23.32278,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.33552,Log,Hit Blackzone
+23.33552,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.34496,Log,Hit Blackzone
+23.34496,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.35614,Log,Hit Blackzone
+23.35614,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.36752,Log,Hit Blackzone
+23.36752,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.37864,Log,Hit Blackzone
+23.37864,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.3899,Log,Hit Blackzone
+23.3899,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.401,Log,Hit Blackzone
+23.401,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.41275,Log,Hit Blackzone
+23.41275,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.42397,Log,Hit Blackzone
+23.42397,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.43452,Log,Hit Blackzone
+23.43452,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.44615,Log,Hit Blackzone
+23.44615,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.45719,Log,Hit Blackzone
+23.45719,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.46805,Log,Hit Blackzone
+23.46805,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.47922,Log,Hit Blackzone
+23.47922,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.49071,Log,Hit Blackzone
+23.49071,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.50176,Log,Hit Blackzone
+23.50176,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.51281,Log,Hit Blackzone
+23.51281,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.52462,Log,Hit Blackzone
+23.52462,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.53676,Log,Hit Blackzone
+23.53676,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.54664,Log,Hit Blackzone
+23.54664,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.55751,Log,Hit Blackzone
+23.55751,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.56894,Log,Hit Blackzone
+23.56894,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.58056,Log,Hit Blackzone
+23.58056,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.59148,Log,Hit Blackzone
+23.59148,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.6022,Log,Hit Blackzone
+23.6022,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.61322,Log,Hit Blackzone
+23.61322,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.62416,Log,Hit Blackzone
+23.62416,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.63591,Log,Hit Blackzone
+23.63591,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.6466,Log,Hit Blackzone
+23.6466,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.65808,Log,Hit Blackzone
+23.65808,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.66906,Log,Hit Blackzone
+23.66906,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.68059,Log,Hit Blackzone
+23.68059,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.69176,Log,Hit Blackzone
+23.69176,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.70345,Log,Hit Blackzone
+23.70345,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.71344,Log,Hit Blackzone
+23.71344,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.72498,Log,Hit Blackzone
+23.72498,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.73787,Log,Hit Blackzone
+23.73787,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.74733,Log,Hit Blackzone
+23.74733,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.75894,Log,Hit Blackzone
+23.75894,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.76938,Log,Hit Blackzone
+23.76938,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.78084,Log,Hit Blackzone
+23.78084,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.79224,Log,Hit Blackzone
+23.79224,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.80336,Log,Hit Blackzone
+23.80336,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.81451,Log,Hit Blackzone
+23.81451,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.82563,Log,Hit Blackzone
+23.82563,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.83688,Log,Hit Blackzone
+23.83688,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.84801,Log,Hit Blackzone
+23.84801,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.85919,Log,Hit Blackzone
+23.85919,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.86998,Log,Hit Blackzone
+23.86998,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.8812,Log,Hit Blackzone
+23.8812,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.89285,Log,Hit Blackzone
+23.89285,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.9035,Log,Hit Blackzone
+23.9035,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.91513,Log,Hit Blackzone
+23.91513,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.92637,Log,Hit Blackzone
+23.92637,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.93912,Log,Hit Blackzone
+23.93912,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.94844,Log,Hit Blackzone
+23.94844,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.95968,Log,Hit Blackzone
+23.95968,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.97094,Log,Hit Blackzone
+23.97094,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.98192,Log,Hit Blackzone
+23.98192,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+23.99325,Log,Hit Blackzone
+23.99325,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.00417,Log,Hit Blackzone
+24.00417,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.01519,Log,Hit Blackzone
+24.01519,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.02642,Log,Hit Blackzone
+24.02642,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.03746,Log,Hit Blackzone
+24.03746,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.04865,Log,Hit Blackzone
+24.04865,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.06046,Log,Hit Blackzone
+24.06046,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.07145,Log,Hit Blackzone
+24.07145,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.08241,Log,Hit Blackzone
+24.08241,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.09331,Log,Hit Blackzone
+24.09331,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.10445,Log,Hit Blackzone
+24.10445,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.11563,Log,Hit Blackzone
+24.11563,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.12697,Log,Hit Blackzone
+24.12697,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.13986,Log,Hit Blackzone
+24.13986,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.14911,Log,Hit Blackzone
+24.14911,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.16046,Log,Hit Blackzone
+24.16046,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.17148,Log,Hit Blackzone
+24.17148,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.18269,Log,Hit Blackzone
+24.18269,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.19393,Log,Hit Blackzone
+24.19393,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.20504,Log,Hit Blackzone
+24.20504,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.21622,Log,Hit Blackzone
+24.21622,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.22783,Log,Hit Blackzone
+24.22783,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.2387,Log,Hit Blackzone
+24.2387,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.24992,Log,Hit Blackzone
+24.24992,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.26096,Log,Hit Blackzone
+24.26096,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.27206,Log,Hit Blackzone
+24.27206,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.29994,Log,Hit Blackzone
+24.29994,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.30769,Log,Hit Blackzone
+24.30769,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.31469,Log,Hit Blackzone
+24.31469,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.32288,Log,Hit Blackzone
+24.32288,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.33409,Log,Hit Blackzone
+24.33409,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.34696,Log,Hit Blackzone
+24.34696,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.35662,Log,Hit Blackzone
+24.35662,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.36785,Log,Hit Blackzone
+24.36785,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.37906,Log,Hit Blackzone
+24.37906,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.38996,Log,Hit Blackzone
+24.38996,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.40129,Log,Hit Blackzone
+24.40129,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.41242,Log,Hit Blackzone
+24.41242,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.42397,Log,Hit Blackzone
+24.42397,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.4347,Log,Hit Blackzone
+24.4347,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.44591,Log,Hit Blackzone
+24.44591,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.45734,Log,Hit Blackzone
+24.45734,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.46872,Log,Hit Blackzone
+24.46872,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.47943,Log,Hit Blackzone
+24.47943,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.4907,Log,Hit Blackzone
+24.4907,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.50167,Log,Hit Blackzone
+24.50167,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.51288,Log,Hit Blackzone
+24.51288,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.52427,Log,Hit Blackzone
+24.52427,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.53574,Log,Hit Blackzone
+24.53574,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.54825,Log,Hit Blackzone
+24.54825,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.5577,Log,Hit Blackzone
+24.5577,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.56876,Log,Hit Blackzone
+24.56876,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.57992,Log,Hit Blackzone
+24.57992,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.59123,Log,Hit Blackzone
+24.59123,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.60215,Log,Hit Blackzone
+24.60215,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.61336,Log,Hit Blackzone
+24.61336,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.62475,Log,Hit Blackzone
+24.62475,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.63576,Log,Hit Blackzone
+24.63576,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.64691,Log,Hit Blackzone
+24.64691,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.65803,Log,Hit Blackzone
+24.65803,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.66914,Log,Hit Blackzone
+24.66914,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.68045,Log,Hit Blackzone
+24.68045,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.69238,Log,Hit Blackzone
+24.69238,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.70275,Log,Hit Blackzone
+24.70275,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.71387,Log,Hit Blackzone
+24.71387,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.72517,Log,Hit Blackzone
+24.72517,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.73622,Log,Hit Blackzone
+24.73622,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.74921,Log,Hit Blackzone
+24.74921,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.75858,Log,Hit Blackzone
+24.75858,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.7699,Log,Hit Blackzone
+24.7699,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.78093,Log,Hit Blackzone
+24.78093,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.79233,Log,Hit Blackzone
+24.79233,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.80333,Log,Hit Blackzone
+24.80333,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.81459,Log,Hit Blackzone
+24.81459,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.82602,Log,Hit Blackzone
+24.82602,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.83689,Log,Hit Blackzone
+24.83689,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.84828,Log,Hit Blackzone
+24.84828,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.8595,Log,Hit Blackzone
+24.8595,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.87096,Log,Hit Blackzone
+24.87096,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.88298,Log,Hit Blackzone
+24.88298,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.89464,Log,Hit Blackzone
+24.89464,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.90617,Log,Hit Blackzone
+24.90617,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.91752,Log,Hit Blackzone
+24.91752,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.92916,Log,Hit Blackzone
+24.92916,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.94135,Log,Hit Blackzone
+24.94135,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.95432,Log,Hit Blackzone
+24.95432,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.96453,Log,Hit Blackzone
+24.96453,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.97604,Log,Hit Blackzone
+24.97604,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.98685,Log,Hit Blackzone
+24.98685,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+24.99843,Log,Hit Blackzone
+24.99843,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.00938,Log,Hit Blackzone
+25.00938,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.0209,Log,Hit Blackzone
+25.0209,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.03159,Log,Hit Blackzone
+25.03159,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.04299,Log,Hit Blackzone
+25.04299,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.05397,Log,Hit Blackzone
+25.05397,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.06525,Log,Hit Blackzone
+25.06525,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.07628,Log,Hit Blackzone
+25.07628,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.08755,Log,Hit Blackzone
+25.08755,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.09887,Log,Hit Blackzone
+25.09887,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.11,Log,Hit Blackzone
+25.11,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.12098,Log,Hit Blackzone
+25.12098,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.13232,Log,Hit Blackzone
+25.13232,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.1434,Log,Hit Blackzone
+25.1434,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.15785,Log,Hit Blackzone
+25.15785,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.16554,Log,Hit Blackzone
+25.16554,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.17682,Log,Hit Blackzone
+25.17682,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.18833,Log,Hit Blackzone
+25.18833,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.19912,Log,Hit Blackzone
+25.19912,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.21039,Log,Hit Blackzone
+25.21039,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.22163,Log,Hit Blackzone
+25.22163,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.23266,Log,Hit Blackzone
+25.23266,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.24388,Log,Hit Blackzone
+25.24388,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.25514,Log,Hit Blackzone
+25.25514,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.2664,Log,Hit Blackzone
+25.2664,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.27777,Log,Hit Blackzone
+25.27777,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.2887,Log,Hit Blackzone
+25.2887,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.29983,Log,Hit Blackzone
+25.29983,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.312,Log,Hit Blackzone
+25.312,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.32218,Log,Hit Blackzone
+25.32218,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.33325,Log,Hit Blackzone
+25.33325,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.34455,Log,Hit Blackzone
+25.34455,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.35779,Log,Hit Blackzone
+25.35779,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.3668,Log,Hit Blackzone
+25.3668,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.37791,Log,Hit Blackzone
+25.37791,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.38901,Log,Hit Blackzone
+25.38901,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.40022,Log,Hit Blackzone
+25.40022,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.41242,Log,Hit Blackzone
+25.41242,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.42257,Log,Hit Blackzone
+25.42257,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.43378,Log,Hit Blackzone
+25.43378,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.44516,Log,Hit Blackzone
+25.44516,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.45614,Log,Hit Blackzone
+25.45614,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.46762,Log,Hit Blackzone
+25.46762,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.47964,Log,Hit Blackzone
+25.47964,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.48976,Log,Hit Blackzone
+25.48976,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.50071,Log,Hit Blackzone
+25.50071,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.5123,Log,Hit Blackzone
+25.5123,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.52377,Log,Hit Blackzone
+25.52377,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.53432,Log,Hit Blackzone
+25.53432,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.54562,Log,Hit Blackzone
+25.54562,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.56012,Log,Hit Blackzone
+25.56012,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.56771,Log,Hit Blackzone
+25.56771,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.57901,Log,Hit Blackzone
+25.57901,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.59034,Log,Hit Blackzone
+25.59034,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.60135,Log,Hit Blackzone
+25.60135,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.61254,Log,Hit Blackzone
+25.61254,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.62461,Log,Hit Blackzone
+25.62461,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.63492,Log,Hit Blackzone
+25.63492,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.64604,Log,Hit Blackzone
+25.64604,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.65769,Log,Hit Blackzone
+25.65769,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.66842,Log,Hit Blackzone
+25.66842,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.67952,Log,Hit Blackzone
+25.67952,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.69076,Log,Hit Blackzone
+25.69076,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.70186,Log,Hit Blackzone
+25.70186,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.7138,Log,Hit Blackzone
+25.7138,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.7243,Log,Hit Blackzone
+25.7243,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.73533,Log,Hit Blackzone
+25.73533,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.7467,Log,Hit Blackzone
+25.7467,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.75962,Log,Hit Blackzone
+25.75962,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.76888,Log,Hit Blackzone
+25.76888,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.78048,Log,Hit Blackzone
+25.78048,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.79133,Log,Hit Blackzone
+25.79133,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.80257,Log,Hit Blackzone
+25.80257,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.81385,Log,Hit Blackzone
+25.81385,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.82493,Log,Hit Blackzone
+25.82493,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.83593,Log,Hit Blackzone
+25.83593,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.84711,Log,Hit Blackzone
+25.84711,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.85855,Log,Hit Blackzone
+25.85855,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.86935,Log,Hit Blackzone
+25.86935,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.88066,Log,Hit Blackzone
+25.88066,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.89205,Log,Hit Blackzone
+25.89205,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.90303,Log,Hit Blackzone
+25.90303,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.9142,Log,Hit Blackzone
+25.9142,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.92562,Log,Hit Blackzone
+25.92562,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.93674,Log,Hit Blackzone
+25.93674,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.94764,Log,Hit Blackzone
+25.94764,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.9608,Log,Hit Blackzone
+25.9608,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.96986,Log,Hit Blackzone
+25.96986,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.98112,Log,Hit Blackzone
+25.98112,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+25.99355,Log,Hit Blackzone
+25.99355,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.00344,Log,Hit Blackzone
+26.00344,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.01462,Log,Hit Blackzone
+26.01462,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.02606,Log,Hit Blackzone
+26.02606,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.03705,Log,Hit Blackzone
+26.03705,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.04816,Log,Hit Blackzone
+26.04816,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.05947,Log,Hit Blackzone
+26.05947,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.07038,Log,Hit Blackzone
+26.07038,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.08191,Log,Hit Blackzone
+26.08191,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.09333,Log,Hit Blackzone
+26.09333,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.10409,Log,Hit Blackzone
+26.10409,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.11558,Log,Hit Blackzone
+26.11558,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.12639,Log,Hit Blackzone
+26.12639,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.13744,Log,Hit Blackzone
+26.13744,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.1488,Log,Hit Blackzone
+26.1488,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.16171,Log,Hit Blackzone
+26.16171,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.17096,Log,Hit Blackzone
+26.17096,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.18228,Log,Hit Blackzone
+26.18228,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.19338,Log,Hit Blackzone
+26.19338,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.20454,Log,Hit Blackzone
+26.20454,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.21583,Log,Hit Blackzone
+26.21583,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.22705,Log,Hit Blackzone
+26.22705,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.23809,Log,Hit Blackzone
+26.23809,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.24971,Log,Hit Blackzone
+26.24971,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.26059,Log,Hit Blackzone
+26.26059,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.27161,Log,Hit Blackzone
+26.27161,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.28288,Log,Hit Blackzone
+26.28288,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.29385,Log,Hit Blackzone
+26.29385,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.30549,Log,Hit Blackzone
+26.30549,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.31633,Log,Hit Blackzone
+26.31633,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.3274,Log,Hit Blackzone
+26.3274,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.33863,Log,Hit Blackzone
+26.33863,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.34989,Log,Hit Blackzone
+26.34989,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.36341,Log,Hit Blackzone
+26.36341,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.37224,Log,Hit Blackzone
+26.37224,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.38316,Log,Hit Blackzone
+26.38316,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.39467,Log,Hit Blackzone
+26.39467,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.406,Log,Hit Blackzone
+26.406,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.41669,Log,Hit Blackzone
+26.41669,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.42792,Log,Hit Blackzone
+26.42792,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.43924,Log,Hit Blackzone
+26.43924,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.45036,Log,Hit Blackzone
+26.45036,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.46156,Log,Hit Blackzone
+26.46156,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.47296,Log,Hit Blackzone
+26.47296,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.48379,Log,Hit Blackzone
+26.48379,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.495,Log,Hit Blackzone
+26.495,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.5063,Log,Hit Blackzone
+26.5063,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.51722,Log,Hit Blackzone
+26.51722,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.52868,Log,Hit Blackzone
+26.52868,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.53981,Log,Hit Blackzone
+26.53981,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.55097,Log,Hit Blackzone
+26.55097,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.56399,Log,Hit Blackzone
+26.56399,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.57308,Log,Hit Blackzone
+26.57308,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.58446,Log,Hit Blackzone
+26.58446,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.59563,Log,Hit Blackzone
+26.59563,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.60669,Log,Hit Blackzone
+26.60669,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.61808,Log,Hit Blackzone
+26.61808,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.62914,Log,Hit Blackzone
+26.62914,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.64038,Log,Hit Blackzone
+26.64038,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.6514,Log,Hit Blackzone
+26.6514,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.66258,Log,Hit Blackzone
+26.66258,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.67393,Log,Hit Blackzone
+26.67393,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.68494,Log,Hit Blackzone
+26.68494,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.69591,Log,Hit Blackzone
+26.69591,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.70739,Log,Hit Blackzone
+26.70739,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.71884,Log,Hit Blackzone
+26.71884,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.72966,Log,Hit Blackzone
+26.72966,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.74096,Log,Hit Blackzone
+26.74096,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.75202,Log,Hit Blackzone
+26.75202,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.76478,Log,Hit Blackzone
+26.76478,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.7746,Log,Hit Blackzone
+26.7746,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.78537,Log,Hit Blackzone
+26.78537,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.79652,Log,Hit Blackzone
+26.79652,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.80834,Log,Hit Blackzone
+26.80834,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.81903,Log,Hit Blackzone
+26.81903,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.83033,Log,Hit Blackzone
+26.83033,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.84135,Log,Hit Blackzone
+26.84135,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.85232,Log,Hit Blackzone
+26.85232,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.8637,Log,Hit Blackzone
+26.8637,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.87554,Log,Hit Blackzone
+26.87554,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.88597,Log,Hit Blackzone
+26.88597,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.89714,Log,Hit Blackzone
+26.89714,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.90865,Log,Hit Blackzone
+26.90865,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.91957,Log,Hit Blackzone
+26.91957,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.93078,Log,Hit Blackzone
+26.93078,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.94191,Log,Hit Blackzone
+26.94191,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.95367,Log,Hit Blackzone
+26.95367,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.96611,Log,Hit Blackzone
+26.96611,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.9756,Log,Hit Blackzone
+26.9756,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.98654,Log,Hit Blackzone
+26.98654,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+26.99784,Log,Hit Blackzone
+26.99784,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.00899,Log,Hit Blackzone
+27.00899,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.02021,Log,Hit Blackzone
+27.02021,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.03171,Log,Hit Blackzone
+27.03171,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.04255,Log,Hit Blackzone
+27.04255,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.05365,Log,Hit Blackzone
+27.05365,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.0647,Log,Hit Blackzone
+27.0647,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.07578,Log,Hit Blackzone
+27.07578,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.087,Log,Hit Blackzone
+27.087,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.09816,Log,Hit Blackzone
+27.09816,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.1093,Log,Hit Blackzone
+27.1093,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.12045,Log,Hit Blackzone
+27.12045,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.13305,Log,Hit Blackzone
+27.13305,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.14276,Log,Hit Blackzone
+27.14276,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.15795,Log,Hit Blackzone
+27.15795,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.16791,Log,Hit Blackzone
+27.16791,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.17636,Log,Hit Blackzone
+27.17636,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.18805,Log,Hit Blackzone
+27.18805,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.19877,Log,Hit Blackzone
+27.19877,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.2099,Log,Hit Blackzone
+27.2099,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.22116,Log,Hit Blackzone
+27.22116,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.23244,Log,Hit Blackzone
+27.23244,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.24367,Log,Hit Blackzone
+27.24367,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.25477,Log,Hit Blackzone
+27.25477,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.26596,Log,Hit Blackzone
+27.26596,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"
+27.28077,Log,Hit Blackzone
+27.28077,Exception,"KeyNotFoundException: Custom header ""ang_vel_at_release_y"" does not exist!"

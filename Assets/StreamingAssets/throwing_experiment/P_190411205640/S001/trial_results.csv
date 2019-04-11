@@ -1,0 +1,17 @@
+directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,target_zone_hit,total_score,vel_at_release_x,vel_at_release_y,vel_at_release_z,ang_vel_at_release_x,ang_vel_at_release_y,ang_vel_at_release_z
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,1,1,1,17.92577,19.29047,Yellow,25,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,2,1,2,19.49783,20.48053,White,30,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,3,1,3,20.73722,22.22622,Yellow,55,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,4,1,4,22.43623,23.5769,Red,75,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,5,2,1,23.731,28.04523,Black,85,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,6,2,2,28.26654,31.15183,Red,105,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,7,2,3,31.36102,33.76475,Red,125,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,8,2,4,34.01732,36.93727,Red,145,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,9,3,1,37.22527,41.30207,White,150,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,10,3,2,48.07112,49.69382,Red,170,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,11,3,3,49.83611,51.91731,Miss,170,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,12,3,4,52.05137,53.43727,Red,190,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,13,4,1,53.59028,55.1196,Blue,205,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,14,4,2,55.37648,58.93207,Miss,205,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,15,4,3,60.32842,64.23776,Blue,220,0,0,0,0,0,0
+throwing_experiment/P_190411205640/S001,throwing_experiment,P_190411205640,1,16,4,4,67.04205,68.50439,White,225,0,0,0,0,0,0

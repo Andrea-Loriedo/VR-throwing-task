@@ -11,6 +11,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform target;
         Rigidbody rb;
         VelocityEstimator ve;
+        KinematicResults results;
 
         void Awake()
         {
@@ -36,8 +37,9 @@ namespace Valve.VR.InteractionSystem.Sample
             {            
                 rb.useGravity = true;
                 rb.velocity = ve.GetVelocityEstimate() * velRatio;
-                rb.angularVelocity = ve.GetAngularVelocityEstimate();            
+                rb.angularVelocity = ve.GetAngularVelocityEstimate();       
                 ve.FinishEstimatingVelocity();
+                LogResults(ve.GetVelocityEstimate() * velRatio, ve.GetAngularVelocityEstimate());
             }
         }
 
@@ -49,6 +51,32 @@ namespace Valve.VR.InteractionSystem.Sample
                 rb.MovePosition(target.position);
                 rb.MoveRotation(target.rotation);
             }
+        }
+
+        void LogResults(Vector3 velocity, Vector3 angularVelocity)
+        {
+            results.velocityAtReleaseX = velocity.x;
+            results.velocityAtReleaseX = velocity.y;
+            results.velocityAtReleaseX = velocity.z;
+            results.angVelocityAtReleaseX = angularVelocity.x;
+            results.angVelocityAtReleaseX = angularVelocity.y;
+            results.angVelocityAtReleaseX = angularVelocity.z;
+
+        }
+
+        public KinematicResults GetKinematicResults()
+        {
+            return results;
+        }
+
+        public struct KinematicResults
+        {
+            public float velocityAtReleaseX;
+            public float velocityAtReleaseY;
+            public float velocityAtReleaseZ;
+            public float angVelocityAtReleaseX;
+            public float angVelocityAtReleaseY;
+            public float angVelocityAtReleaseZ;
         }
     }
 }

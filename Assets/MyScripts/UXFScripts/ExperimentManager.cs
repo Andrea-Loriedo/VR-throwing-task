@@ -14,6 +14,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public DartsOptions options;
         public ParticipantDetails ppDetails;
         public BullseyeController bullseye;
+        public Follower dart;
 
         public void StartNextTrial()
         {
@@ -27,7 +28,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public void EndCurrentTrial()
         {
-            RecordResults(bullseye.GetBullseyeResults());
+            RecordResults(bullseye.GetBullseyeResults(), dart.GetKinematicResults());
             session.currentTrial.End();
             Debug.LogFormat("Ended trial {0}", session.currentTrialNum);
         }
@@ -49,10 +50,19 @@ namespace Valve.VR.InteractionSystem.Sample
             ppDetails.gloveOn = (bool) session.participantDetails["glove_on"];
         }
 
-        public void RecordResults(BullseyeController.TrialResults results)
+        public void RecordResults(BullseyeController.TrialResults bullseyeResults, Follower.KinematicResults kinematicResults)
         {
-            session.currentTrial.result["target_zone_hit"] = results.targetZone;
-            session.currentTrial.result["total_score"] = results.totalScore;
+            // Behavioural results
+            session.currentTrial.result["target_zone_hit"] = bullseyeResults.targetZone;
+            session.currentTrial.result["total_score"] = bullseyeResults.totalScore;
+
+            // Kinematic results
+            session.currentTrial.result["vel_at_release_x"] = kinematicResults.velocityAtReleaseX;
+            session.currentTrial.result["vel_at_release_y"] = kinematicResults.velocityAtReleaseX;
+            session.currentTrial.result["vel_at_release_z"] = kinematicResults.velocityAtReleaseX;
+            session.currentTrial.result["ang_vel_at_release_x"] = kinematicResults.angVelocityAtReleaseX;
+            session.currentTrial.result["ang_vel_at_release_y"] = kinematicResults.angVelocityAtReleaseX;
+            session.currentTrial.result["ang_vel_at_release_z"] = kinematicResults.angVelocityAtReleaseX;
         }
 
         // Structs for session parameters

@@ -1,17 +1,17 @@
-directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,target_zone_hit,total_score
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,1,1,1,45.38337,48.01995,Miss,0
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,2,1,2,48.22093,49.61712,Red,20
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,3,1,3,49.88537,51.27004,Red,40
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,4,1,4,51.505,52.89101,Yellow,65
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,5,2,1,53.04877,58.11258,Miss,65
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,6,2,2,58.13064,60.657,Blue,80
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,7,2,3,60.97579,63.90344,Miss,80
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,8,2,4,64.21261,66.57986,Red,100
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,9,3,1,67.0851,69.80049,Miss,100
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,10,3,2,69.95677,71.42261,Black,110
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,11,3,3,75.32951,77.35181,Miss,110
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,12,3,4,77.60838,79.06306,Blue,125
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,13,4,1,79.42917,81.64036,Miss,125
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,14,4,2,81.68504,83.93737,White,130
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,15,4,3,84.32835,86.87059,White,135
-throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,16,4,4,87.29221,90.0769,Miss,135
+directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,target_zone_hit,total_score,velocity_at_release,angular_velocity_at_release
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,1,1,1,12.63614,14.21527,Yellow,25,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,2,1,2,15.14747,16.32444,Red,45,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,3,1,3,16.52151,17.88907,Black,55,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,4,1,4,18.92818,19.86683,Black,65,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,5,2,1,20.65931,22.31956,Blue,80,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,6,2,2,22.75898,24.69205,White,85,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,7,2,3,25.11656,27.68316,White,90,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,8,2,4,28.18875,30.64583,Black,100,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,9,3,1,32.19378,34.92345,Miss,100,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,10,3,2,35.16893,37.37695,Miss,100,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,11,3,3,37.47707,39.06833,Blue,115,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,12,3,4,39.29135,40.75513,Blue,130,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,13,4,1,41.30227,42.78318,Blue,145,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,14,4,2,42.97291,45.6805,Blue,160,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,15,4,3,45.95556,48.64158,Red,180,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,16,4,4,48.9532,51.46779,Black,190,(0.0, 0.0, 0.0),(0.0, 0.0, 0.0)

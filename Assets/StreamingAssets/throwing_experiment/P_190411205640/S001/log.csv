@@ -1,0 +1,67 @@
+timestamp,log_type,message
+0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
+0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
+0.12,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
+4.176822,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+5.057078,Warning,Warning: Session already exists! Continuing will overwrite
+9.390822,Log,<b>SteamVR Interaction System</b> Headset placed on head
+17.92577,Log,Started trial 1
+19.27778,Log,Hit!
+19.29047,Log,Hit Yellowzone
+19.29047,Log,Ended trial 1
+19.49783,Log,Started trial 2
+20.47778,Log,Hit!
+20.48053,Log,Hit Whitezone
+20.48053,Log,Ended trial 2
+20.73722,Log,Started trial 3
+22.22222,Log,Hit!
+22.22622,Log,Hit Yellowzone
+22.22622,Log,Ended trial 3
+22.43623,Log,Started trial 4
+23.56667,Log,Hit!
+23.5769,Log,Hit Redzone
+23.5769,Log,Ended trial 4
+23.731,Log,Started trial 5
+28.04445,Log,Hit!
+28.04523,Log,Hit Blackzone
+28.04523,Log,Ended trial 5
+28.26654,Log,Started trial 6
+31.14445,Log,Hit!
+31.15183,Log,Hit Redzone
+31.15183,Log,Ended trial 6
+31.36102,Log,Started trial 7
+33.75556,Log,Hit!
+33.76475,Log,Hit Redzone
+33.76475,Log,Ended trial 7
+34.01732,Log,Started trial 8
+36.93333,Log,Hit!
+36.93727,Log,Hit Redzone
+36.93727,Log,Ended trial 8
+37.22527,Log,Started trial 9
+41.3,Log,Hit!
+41.30207,Log,Hit Whitezone
+41.30207,Log,Ended trial 9
+48.07112,Log,Started trial 10
+49.68889,Log,Hit!
+49.69382,Log,Hit Redzone
+49.69382,Log,Ended trial 10
+49.83611,Log,Started trial 11
+51.91731,Log,Ended trial 11
+52.05137,Log,Started trial 12
+53.43333,Log,Hit!
+53.43727,Log,Hit Redzone
+53.43727,Log,Ended trial 12
+53.59028,Log,Started trial 13
+55.11111,Log,Hit!
+55.1196,Log,Hit Bluezone
+55.1196,Log,Ended trial 13
+55.37648,Log,Started trial 14
+58.93207,Log,Ended trial 14
+60.32842,Log,Started trial 15
+64.23334,Log,Hit!
+64.23776,Log,Hit Bluezone
+64.23776,Log,Ended trial 15
+67.04205,Log,Started trial 16
+68.5,Log,Hit!
+68.50439,Log,Hit Whitezone
