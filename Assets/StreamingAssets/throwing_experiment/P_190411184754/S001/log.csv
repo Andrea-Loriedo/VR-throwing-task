@@ -1,0 +1,57 @@
+timestamp,log_type,message
+0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
+0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
+0.12,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
+30.60518,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+33.54135,Warning,Warning: Session already exists! Continuing will overwrite
+41.54451,Log,<b>SteamVR Interaction System</b> Headset placed on head
+45.38337,Log,Started trial 1
+48.01995,Log,Ended trial 1
+48.22093,Log,Started trial 2
+49.61111,Log,Hit!
+49.61712,Log,Hit Redzone
+49.61712,Log,Ended trial 2
+49.88537,Log,Started trial 3
+51.26667,Log,Hit!
+51.27004,Log,Hit Redzone
+51.27004,Log,Ended trial 3
+51.505,Log,Started trial 4
+52.88889,Log,Hit!
+52.89101,Log,Hit Yellowzone
+52.89101,Log,Ended trial 4
+53.04877,Log,Started trial 5
+58.11258,Log,Ended trial 5
+58.13064,Log,Started trial 6
+60.64445,Log,Hit!
+60.657,Log,Hit Bluezone
+60.657,Log,Ended trial 6
+60.97579,Log,Started trial 7
+63.90344,Log,Ended trial 7
+64.21261,Log,Started trial 8
+66.56667,Log,Hit!
+66.57986,Log,Hit Redzone
+66.57986,Log,Ended trial 8
+67.0851,Log,Started trial 9
+69.80049,Log,Ended trial 9
+69.95677,Log,Started trial 10
+71.42223,Log,Hit!
+71.42261,Log,Hit Blackzone
+71.42261,Log,Ended trial 10
+75.32951,Log,Started trial 11
+77.35181,Log,Ended trial 11
+77.60838,Log,Started trial 12
+79.05556,Log,Hit!
+79.06306,Log,Hit Bluezone
+79.06306,Log,Ended trial 12
+79.42917,Log,Started trial 13
+81.64036,Log,Ended trial 13
+81.68504,Log,Started trial 14
+83.92223,Log,Hit!
+83.93737,Log,Hit Whitezone
+83.93737,Log,Ended trial 14
+84.32835,Log,Started trial 15
+86.85556,Log,Hit!
+86.87059,Log,Hit Whitezone
+86.87059,Log,Ended trial 15
+87.29221,Log,Started trial 16

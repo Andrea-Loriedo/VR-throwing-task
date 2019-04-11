@@ -8,9 +8,12 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class BullseyeController : MonoBehaviour
     {
-        enum ring {White, Black, Blue, Red, Yellow, Miss, Null};
-        bool targetHit;
-        int score;
+        [HideInInspector]
+        public enum ring {White, Black, Blue, Red, Yellow, Miss, Null};
+        
+        [HideInInspector]
+        public ring hitZone;
+
         [HideInInspector]
         public int totalScore;
         public Transform boundA;
@@ -20,8 +23,11 @@ namespace Valve.VR.InteractionSystem.Sample
         // UXF
         public Session session;
         public ExperimentManager experiment;
+        public TrialResults results;
         
-        ring hitZone;
+        bool targetHit;
+        int score;
+        
         GameObject dart;
         Collider dartColl;
         Vector3 initialPosition;
@@ -51,6 +57,8 @@ namespace Valve.VR.InteractionSystem.Sample
             else if(collision.MissDetected())
             {
                 hitZone = ring.Miss;
+                results.targetZone = hitZone.ToString(); 
+                results.totalScore = GetScore();
                 experiment.EndCurrentTrial();
                 collision.HitStateReset(false); // Reset target miss to false
             }
@@ -120,8 +128,12 @@ namespace Valve.VR.InteractionSystem.Sample
 
             Debug.LogFormat("Hit {0}", hitZone + "zone");
             totalScore = ComputeScore();
+            // Save results
+            results.targetZone = hitZone.ToString(); 
+            results.totalScore = GetScore(); 
+            // End trial
             experiment.EndCurrentTrial();
-            hitZone = ring.Null;
+            hitZone = ring.Null; // Reset target zone hit as 'Null'
             targetHit = false; // Reset target hit to false
         }
 
@@ -188,6 +200,17 @@ namespace Valve.VR.InteractionSystem.Sample
                 currPos = transform.localPosition; // Update current position
                 yield return null;
             }
+        }
+
+        public TrialResults GetBullseyeResults()
+        {
+            return results;
+        }
+
+        public struct TrialResults
+        {
+            public string targetZone;
+            public int totalScore;
         }
     }
 }

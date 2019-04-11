@@ -1,0 +1,17 @@
+directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,target_zone_hit,total_score
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,1,1,1,45.38337,48.01995,Miss,0
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,2,1,2,48.22093,49.61712,Red,20
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,3,1,3,49.88537,51.27004,Red,40
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,4,1,4,51.505,52.89101,Yellow,65
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,5,2,1,53.04877,58.11258,Miss,65
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,6,2,2,58.13064,60.657,Blue,80
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,7,2,3,60.97579,63.90344,Miss,80
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,8,2,4,64.21261,66.57986,Red,100
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,9,3,1,67.0851,69.80049,Miss,100
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,10,3,2,69.95677,71.42261,Black,110
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,11,3,3,75.32951,77.35181,Miss,110
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,12,3,4,77.60838,79.06306,Blue,125
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,13,4,1,79.42917,81.64036,Miss,125
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,14,4,2,81.68504,83.93737,White,130
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,15,4,3,84.32835,86.87059,White,135
+throwing_experiment/P_190411184754/S001,throwing_experiment,P_190411184754,1,16,4,4,87.29221,90.0769,Miss,135

@@ -13,6 +13,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public DartsInstructionsManager instructions;
         public DartsOptions options;
         public ParticipantDetails ppDetails;
+        public BullseyeController bullseye;
 
         public void StartNextTrial()
         {
@@ -26,6 +27,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public void EndCurrentTrial()
         {
+            RecordResults(bullseye.GetBullseyeResults());
             session.currentTrial.End();
             Debug.LogFormat("Ended trial {0}", session.currentTrialNum);
         }
@@ -42,7 +44,15 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public void RetrieveParticipantDetails()
         {
+            ppDetails.age = (int) session.participantDetails["participant_age"];
+            ppDetails.gender = (string) session.participantDetails["participant_gender"];
             ppDetails.gloveOn = (bool) session.participantDetails["glove_on"];
+        }
+
+        public void RecordResults(BullseyeController.TrialResults results)
+        {
+            session.currentTrial.result["target_zone_hit"] = results.targetZone;
+            session.currentTrial.result["total_score"] = results.totalScore;
         }
 
         // Structs for session parameters
@@ -54,6 +64,8 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public struct ParticipantDetails
         {
+            public int age;
+            public string gender;
             public bool gloveOn;
         }
     }
