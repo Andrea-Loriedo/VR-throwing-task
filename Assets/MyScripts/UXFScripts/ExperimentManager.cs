@@ -3,36 +3,41 @@ using System.Collections.Generic;
 using UnityEngine;
 using UXF;
 
-public class ExperimentManager : MonoBehaviour
+namespace Valve.VR.InteractionSystem.Sample
 {
-    // UXF
-    public Session session;
-    public ExperimentSettings settings;  
-    public DartsInstructionsManager instructions;
-
-    public void StartNextTrial()
+    public class ExperimentManager : MonoBehaviour
     {
-        session.nextTrial.Begin();
-        Debug.LogFormat("Started trial {0}", session.currentTrialNum);
-        settings.distance = session.currentTrial.settings["distance"].ToString();
-        settings.targetMode = session.currentTrial.settings["target_mode"].ToString();
-        instructions.ShowInstructions(settings.distance, settings.targetMode);
-    }
+        // UXF
+        public Session session;
+        public BlockSettings settings;  
+        public DartsInstructionsManager instructions;
+        public DartsOptions options;
 
-    public void EndCurrentTrial()
-    {
-        session.currentTrial.End();
-        Debug.LogFormat("Ended trial {0}", session.currentTrialNum);
-    }
+        public void StartNextTrial()
+        {
+            session.nextTrial.Begin();
+            Debug.LogFormat("Started trial {0}", session.currentTrialNum);
+            settings.distance = session.currentTrial.settings["distance"].ToString();
+            settings.targetMode = session.currentTrial.settings["target_mode"].ToString();
+            instructions.ShowInstructions(settings);
+            options.ApplyBlockSettings(settings);
+        }
 
-    public ExperimentSettings GetExperimetSettings()
-    {
-        return settings;
-    }
+        public void EndCurrentTrial()
+        {
+            session.currentTrial.End();
+            Debug.LogFormat("Ended trial {0}", session.currentTrialNum);
+        }
 
-    public struct ExperimentSettings
-    {
-        public string distance;
-        public string targetMode;
+        public BlockSettings GetBlockSettings()
+        {
+            return settings;
+        }
+
+        public struct BlockSettings
+        {
+            public string distance;
+            public string targetMode;
+        }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UXF;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
@@ -9,13 +10,19 @@ namespace Valve.VR.InteractionSystem.Sample
     {
         public HoverButton hoverButton;
         public BullseyeController bullseye;
+        public TextMeshPro moveText;
+        public ExperimentManager experiment;
+        public Transform player;
+        public Transform closeDistance;
+        public Transform FarDistance;
 
-        enum options {Still, Move};
+        // UXF
+        public Session session;
 
         private bool moveTarget;
         private bool buttonPress;
-        public TextMeshPro moveText;
 
+        enum options {Still, Move};
         options gameMode;
 
         private void Start()
@@ -25,6 +32,7 @@ namespace Valve.VR.InteractionSystem.Sample
             buttonPress = false;
             gameMode = options.Still;
             moveText.text = " " + ModeSelect(); // Button text initially set to "Still"
+            MovePlayer(closeDistance);
         }
 
         void Update()
@@ -54,6 +62,35 @@ namespace Valve.VR.InteractionSystem.Sample
                 gameMode = options.Still;
             }
             return gameMode;
+        }
+
+        public void ApplyBlockSettings(ExperimentManager.BlockSettings settings)
+        {
+            if(settings.distance == "Close" && settings.targetMode == "Still")
+            {
+                MovePlayer(closeDistance);
+                gameMode = options.Still;
+            }
+            else if(settings.distance == "Close" && settings.targetMode == "Move")
+            {
+                MovePlayer(closeDistance);
+                gameMode = options.Move;
+            }
+            else if(settings.distance == "Far" && settings.targetMode == "Still")
+            {
+                MovePlayer(FarDistance);
+                gameMode = options.Still;
+            }
+            else if(settings.distance == "Far" && settings.targetMode == "Move")
+            {
+                MovePlayer(FarDistance);
+                gameMode = options.Move;
+            }
+        }
+
+        void MovePlayer(Transform spawnPlayer)
+        {
+            player.localPosition = spawnPlayer.localPosition; 
         }
 
         void PlayAnimation()

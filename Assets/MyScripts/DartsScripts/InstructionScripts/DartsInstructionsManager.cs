@@ -5,55 +5,60 @@ using System;
 using System.IO;
 using UXF;
 
-public class DartsInstructionsManager : MonoBehaviour
+namespace Valve.VR.InteractionSystem.Sample
 {
-    public GameObject distanceInstructions;
-    public GameObject targetModeInstructions;
-    public Transform spawnPointClose;
-    public Transform spawnPointFar;
-    public Session session;
-    GameObject modeInstructionsPlaceholder; // Empty game object to ensure dart scale and rotation are preserved
-
-    // Start is called before the first frame update
-    void Start()
+    public class DartsInstructionsManager : MonoBehaviour
     {
-        targetModeInstructions.SetActive(false);
-        distanceInstructions.SetActive(false);
-        RelocateInstructionsPanel(spawnPointClose);
-    }
+        public GameObject distanceInstructions;
+        public GameObject targetModeInstructions;
+        public Transform spawnPointClose;
+        public Transform spawnPointFar;
 
-    void RelocateInstructionsPanel(Transform spawnPoint)
-    {
-        if(modeInstructionsPlaceholder == null){
-            modeInstructionsPlaceholder = new GameObject();
-        } 
-        transform.localPosition = spawnPoint.localPosition + new Vector3 (-0.6f, 1.4f, 0.7f);
-    }
+        // UXF
+        public Session session;
+        public ExperimentManager experiment;
 
-    public void ShowInstructions(String distance, String targetMode)
-    {
-        if(distance == "Close" && targetMode == "Still")
+        GameObject modeInstructionsPlaceholder; // Empty game object to ensure dart scale and rotation are preserved
+
+
+        // Start is called before the first frame update
+        void Start()
         {
-            distanceInstructions.SetActive(false);
             targetModeInstructions.SetActive(false);
-        }
-        else if(distance == "Close" && targetMode == "Move")
-        {
+            distanceInstructions.SetActive(false);
             RelocateInstructionsPanel(spawnPointClose);
-            distanceInstructions.SetActive(false);
-            targetModeInstructions.SetActive(true);
         }
-        else if(distance == "Far" && targetMode == "Still")
+
+        void RelocateInstructionsPanel(Transform spawnPoint)
         {
-            RelocateInstructionsPanel(spawnPointFar);
-            distanceInstructions.SetActive(true);
-            targetModeInstructions.SetActive(false);
+            transform.localPosition = spawnPoint.localPosition + new Vector3 (-0.6f, 1.4f, 0.7f);
         }
-        else if(distance == "Far" && targetMode == "Move")
+
+        public void ShowInstructions(ExperimentManager.BlockSettings settings)
         {
-            RelocateInstructionsPanel(spawnPointFar);
-            distanceInstructions.SetActive(false);
-            targetModeInstructions.SetActive(true);
+            if(settings.distance == "Close" && settings.targetMode == "Still")
+            {
+                distanceInstructions.SetActive(false);
+                targetModeInstructions.SetActive(false);
+            }
+            else if(settings.distance == "Close" && settings.targetMode == "Move")
+            {
+                RelocateInstructionsPanel(spawnPointClose);
+                distanceInstructions.SetActive(false);
+                targetModeInstructions.SetActive(true);
+            }
+            else if(settings.distance == "Far" && settings.targetMode == "Still")
+            {
+                RelocateInstructionsPanel(spawnPointFar);
+                distanceInstructions.SetActive(true);
+                targetModeInstructions.SetActive(false);
+            }
+            else if(settings.distance == "Far" && settings.targetMode == "Move")
+            {
+                RelocateInstructionsPanel(spawnPointFar);
+                distanceInstructions.SetActive(false);
+                targetModeInstructions.SetActive(true);
+            }
         }
     }
 }

@@ -8,33 +8,31 @@ namespace Valve.VR.InteractionSystem.Sample
     public class ZoneDetector : MonoBehaviour
     {
         private bool playingDarts;
-        public GameObject dartsZone;
-        public GameObject midZone;
-        Hand hand;
+        public GameObject dartsZoneClose;
+        public GameObject dartsZoneFar;
+
+        int zoneRange;
+
+        void Start()
+        {
+            zoneRange = 3;
+        }
 
         void Update()
         {
             DetectZone();
         }
 
-        private void OnEnable()
-        {
-            if (hand == null)
-            {
-                hand = this.GetComponent<Hand>();
-            }
-        }
-
         void DetectZone()
         {
-            float distDarts = Vector3.Distance(hand.transform.position, dartsZone.transform.position);
-            float distMid = Vector3.Distance(hand.transform.position, midZone.transform.position);
+            float distDarts = Vector2.Distance(this.transform.position, dartsZoneClose.transform.position);
+            float distMid = Vector2.Distance(this.transform.position, dartsZoneFar.transform.position);
 
-            if(distDarts > 0 && distDarts < 2)
+            if(distDarts >= 0 && distDarts < zoneRange)
             {
                 playingDarts = true;
             }
-            else if(distMid > 0 && distMid < 2)
+            else if(distMid >= 0 && distMid < zoneRange)
             {
                 playingDarts = true;
             }
