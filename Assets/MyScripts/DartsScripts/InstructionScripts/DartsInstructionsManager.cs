@@ -27,8 +27,6 @@ public class DartsInstructionsManager : MonoBehaviour
         if(modeInstructionsPlaceholder == null){
             modeInstructionsPlaceholder = new GameObject();
         } 
-        // modeInstructionsPlaceholder.transform.parent = spawnPoint;
-        // transform.parent = modeInstructionsPlaceholder.transform; 
         transform.localPosition = spawnPoint.localPosition + new Vector3 (-0.6f, 1.4f, 0.7f);
     }
 

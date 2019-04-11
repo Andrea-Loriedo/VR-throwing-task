@@ -8,12 +8,12 @@ namespace Valve.VR.InteractionSystem.Sample
     public class DartsOptions : MonoBehaviour
     {
         public HoverButton hoverButton;
-
         public BullseyeController bullseye;
 
         enum options {Still, Move};
 
         private bool moveTarget;
+        private bool buttonPress;
         public TextMeshPro moveText;
 
         options gameMode;
@@ -22,18 +22,24 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             hoverButton.onButtonDown.AddListener(OnButtonDown);
             moveTarget = false;
+            buttonPress = false;
             gameMode = options.Still;
+            moveText.text = " " + ModeSelect(); // Button text initially set to "Still"
         }
 
         void Update()
         {
-            moveText.text = " " + ModeSelect();
+            if(buttonPress){
+                moveText.text = " " + ModeSelect();
+                buttonPress = false;
+            }
             PlayAnimation();
         }
 
         private void OnButtonDown(Hand hand)
         {
-            moveTarget = !moveTarget;
+            moveTarget = !moveTarget; // Toggle target mode
+            buttonPress = true;
             ModeSelect();
         }
 

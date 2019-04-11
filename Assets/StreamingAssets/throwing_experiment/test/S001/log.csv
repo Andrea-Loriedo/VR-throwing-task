@@ -2,11 +2,67 @@ timestamp,log_type,message
 0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
 0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-26.13316,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-27.27514,Warning,Warning: Session already exists! Continuing will overwrite
-28.17577,Log,Started trial 1
-31.30365,Log,Ended trial 1
-32.15656,Log,Started trial 2
-33.17456,Log,Ended trial 2
-33.70857,Log,Started trial 3
-34.61383,Log,Ended trial 3
+5.195982,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+6.165076,Warning,Warning: Session already exists! Continuing will overwrite
+8.6443,Log,<b>SteamVR Interaction System</b> Headset placed on head
+8.689189,Log,<b>SteamVR Interaction System</b> Headset removed
+8.745708,Log,<b>SteamVR Interaction System</b> Headset placed on head
+21.41958,Log,Started trial 1
+23.04445,Log,Hit!
+23.05346,Log,Hit Whitezone
+23.05346,Log,Ended trial 1
+23.51044,Log,Started trial 2
+25.32222,Log,Hit!
+25.33232,Log,Hit Redzone
+25.33232,Log,Ended trial 2
+25.74513,Log,Started trial 3
+28.34444,Log,Hit!
+28.34833,Log,Hit Bluezone
+28.34833,Log,Ended trial 3
+28.8014,Log,Started trial 4
+31.47778,Log,Hit!
+31.4873,Log,Hit Whitezone
+31.4873,Log,Ended trial 4
+32.0344,Log,Started trial 5
+35.8324,Log,Ended trial 5
+36.32082,Log,Started trial 6
+40.54445,Log,Hit!
+40.5467,Log,Hit Whitezone
+40.5467,Log,Ended trial 6
+40.97802,Log,Started trial 7
+43.27778,Log,Hit!
+43.2831,Log,Hit Whitezone
+43.2831,Log,Ended trial 7
+43.60718,Log,Started trial 8
+46.54445,Log,Hit!
+46.54498,Log,Hit Bluezone
+46.54498,Log,Ended trial 8
+46.80083,Log,Started trial 9
+50.0194,Log,Ended trial 9
+50.14096,Log,Started trial 10
+52.35556,Log,Hit!
+52.35961,Log,Hit Whitezone
+52.35961,Log,Ended trial 10
+52.70822,Log,Started trial 11
+55.34444,Log,Hit!
+55.34731,Log,Hit Bluezone
+55.34731,Log,Ended trial 11
+55.62594,Log,Started trial 12
+58.33334,Log,Hit!
+58.34052,Log,Hit Blackzone
+58.34052,Log,Ended trial 12
+58.64883,Log,Started trial 13
+61.52222,Log,Hit!
+61.52449,Log,Hit Blackzone
+61.52449,Log,Ended trial 13
+61.77637,Log,Started trial 14
+64.56667,Log,Hit!
+64.57397,Log,Hit Bluezone
+64.57397,Log,Ended trial 14
+64.8298,Log,Started trial 15
+67.41111,Log,Hit!
+67.4136,Log,Hit Blackzone
+67.4136,Log,Ended trial 15
+67.68552,Log,Started trial 16
+70.41111,Log,Hit!
+70.41556,Log,Hit Blackzone
