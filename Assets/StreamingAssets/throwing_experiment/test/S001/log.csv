@@ -2,73 +2,55 @@ timestamp,log_type,message
 0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
 0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-3.195028,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-4.110873,Warning,Warning: Session already exists! Continuing will overwrite
-7.49273,Log,<b>SteamVR Interaction System</b> Headset placed on head
-7.650267,Log,<b>SteamVR Interaction System</b> Headset removed
-7.691168,Log,<b>SteamVR Interaction System</b> Headset placed on head
-7.747015,Log,<b>SteamVR Interaction System</b> Headset removed
-7.791571,Log,<b>SteamVR Interaction System</b> Headset placed on head
-24.18181,Log,Started trial 1
-25.9,Log,Hit!
-25.90873,Log,Hit Redzone
-25.90873,Log,Ended trial 1
-26.3461,Log,Started trial 2
-28.05556,Log,Hit!
-28.05654,Log,Hit Bluezone
-28.05654,Log,Ended trial 2
-28.32493,Log,Started trial 3
-29.3,Log,Hit!
-29.30911,Log,Hit Bluezone
-29.30911,Log,Ended trial 3
-29.42005,Log,Started trial 4
-30.36667,Log,Hit!
-30.37039,Log,Hit Redzone
-30.37039,Log,Ended trial 4
-30.58127,Log,Started trial 5
-32.03333,Log,Hit!
-32.03469,Log,Hit Redzone
-32.03469,Log,Ended trial 5
-32.2033,Log,Started trial 6
-34.68889,Log,Hit!
-34.69341,Log,Hit Blackzone
-34.69341,Log,Ended trial 6
-34.85854,Log,Started trial 7
-38.06667,Log,Hit!
-38.07294,Log,Hit Yellowzone
-38.07294,Log,Ended trial 7
-38.26284,Log,Started trial 8
-40.74445,Log,Hit!
-40.75384,Log,Hit Redzone
-40.75384,Log,Ended trial 8
-41.28401,Log,Started trial 9
-43.94445,Log,Hit!
-43.95362,Log,Hit Whitezone
-43.95362,Log,Ended trial 9
-44.13179,Log,Started trial 10
-45.34444,Log,Hit!
-45.34985,Log,Hit Redzone
-45.34985,Log,Ended trial 10
-45.42719,Log,Started trial 11
-46.57778,Log,Hit!
-46.57884,Log,Hit Bluezone
-46.57884,Log,Ended trial 11
-46.73505,Log,Started trial 12
-47.88889,Log,Hit!
-47.89669,Log,Hit Redzone
-47.89669,Log,Ended trial 12
-48.07425,Log,Started trial 13
-49.66667,Log,Hit!
-49.67315,Log,Hit Whitezone
-49.67315,Log,Ended trial 13
-49.89525,Log,Started trial 14
-52.52222,Log,Hit!
-52.53243,Log,Hit Whitezone
-52.53243,Log,Ended trial 14
-52.87749,Log,Started trial 15
-55.44445,Log,Hit!
-55.44743,Log,Hit Bluezone
-55.44743,Log,Ended trial 15
-55.65973,Log,Started trial 16
-58.43333,Log,Hit!
-58.43802,Log,Hit Bluezone
+3.291906,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+4.106819,Warning,Warning: Session already exists! Continuing will overwrite
+5.353483,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
+7.754066,Log,<b>SteamVR Interaction System</b> Headset placed on head
+7.899174,Log,<b>SteamVR Interaction System</b> Headset removed
+7.999709,Log,<b>SteamVR Interaction System</b> Headset placed on head
+8.480498,Log,Started trial 1
+10.37778,Log,Hit!
+10.37913,Log,Hit Redzone
+10.37913,Log,Ended trial 1
+10.78192,Log,Started trial 2
+11.9,Log,Hit!
+11.90453,Log,Hit Whitezone
+11.90453,Log,Ended trial 2
+12.17745,Log,Started trial 3
+13.80845,Log,Ended trial 3
+14.60174,Log,Started trial 4
+14.60174,Log,Started trial 5
+16.36667,Log,Hit!
+16.36667,Log,Hit!
+16.3696,Log,Hit Bluezone
+16.3696,Log,Ended trial 5
+16.63556,Log,Started trial 6
+18.84444,Log,Hit!
+18.85037,Log,Hit Whitezone
+18.85037,Log,Ended trial 6
+19.27177,Log,Started trial 7
+21.78889,Log,Hit!
+21.79965,Log,Hit Whitezone
+21.79965,Log,Ended trial 7
+22.09718,Log,Started trial 8
+22.09718,Log,Started trial 9
+24.28647,Log,Ended trial 9
+24.29773,Log,Ended trial 9
+24.56629,Log,Started trial 10
+26.24445,Log,Hit!
+26.25535,Log,Hit Blackzone
+26.25535,Log,Ended trial 10
+26.48694,Log,Started trial 11
+28.22249,Log,Ended trial 11
+28.62104,Log,Started trial 12
+28.62104,Log,Started trial 13
+30.02222,Log,Hit!
+30.02222,Log,Hit!
+30.02871,Log,Hit Redzone
+30.02871,Log,Ended trial 13
+30.46398,Log,Started trial 14
+32.88997,Log,Ended trial 14
+33.20061,Log,Started trial 15
+36.68907,Log,Ended trial 15
+36.79761,Log,Started trial 16
+36.79761,Exception,NoSuchTrialException: There is no next trial. Reached the end of trial list.

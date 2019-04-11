@@ -1064,7 +1064,7 @@ PrefabInstance:
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1191,8 +1191,63 @@ PrefabInstance:
       propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 909821348}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: RetrieveParticipantDetails
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 2026206364}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetGloveStatus
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: onSessionBegin.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1363197602275048, guid: 0a3b6392f04558844bd340e68ced1ff9, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
@@ -1214,6 +1269,21 @@ PrefabInstance:
         type: 3}
       propertyPath: saveDataLocation
       value: ThrowingStreamingAssets
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[0].dataType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[0].displayName
+      value: Use VR glove
+      objectReference: {fileID: 0}
+    - target: {fileID: 114375821934039048, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: _participantDataPoints.Array.data[0].internalName
+      value: glove_on
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a3b6392f04558844bd340e68ced1ff9, type: 3}
@@ -2101,10 +2171,12 @@ MonoBehaviour:
     actionPath: /actions/dartsplaying/in/GrabDart
     needsReinit: 0
   hand: {fileID: 0}
-  attachmentPoint: {fileID: 2050649586}
+  controllerAttachmentPoint: {fileID: 2050649586}
+  gloveAttachmentPoint: {fileID: 1723720665}
   prefabToGrab: {fileID: 3914533909977092701, guid: 51afa6707b5f4ee479e4fac4e6d28807,
     type: 3}
   audioFX: {fileID: 1333371731}
+  glove: {fileID: 2026206364}
   session: {fileID: 122676433}
   experiment: {fileID: 909821348}
 --- !u!114 &401759785
@@ -2124,10 +2196,12 @@ MonoBehaviour:
     actionPath: /actions/dartsplaying/in/GrabDart
     needsReinit: 0
   hand: {fileID: 0}
-  attachmentPoint: {fileID: 424709022}
+  controllerAttachmentPoint: {fileID: 424709022}
+  gloveAttachmentPoint: {fileID: 1723720665}
   prefabToGrab: {fileID: 3914533909977092701, guid: 51afa6707b5f4ee479e4fac4e6d28807,
     type: 3}
   audioFX: {fileID: 1333371731}
+  glove: {fileID: 2026206364}
   session: {fileID: 122676433}
   experiment: {fileID: 909821348}
 --- !u!114 &401759789 stripped
@@ -4025,7 +4099,6 @@ GameObject:
   m_Component:
   - component: {fileID: 833493569}
   - component: {fileID: 833493570}
-  - component: {fileID: 833493571}
   m_Layer: 0
   m_Name: Tracker
   m_TagString: Untagged
@@ -4040,13 +4113,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833493568}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1150717179}
-  m_Father: {fileID: 1104357295}
-  m_RootOrder: 6
+  - {fileID: 1723720665}
+  m_Father: {fileID: 2026206363}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &833493570
 MonoBehaviour:
@@ -4060,31 +4134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d37c2cf88f7c59f4c8cf5d3812568143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 1
+  index: 4
   origin: {fileID: 0}
---- !u!114 &833493571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833493568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f04cc82a5e15f96478f25e45baab54e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floor: {fileID: 1306902623}
-  grabAction:
-    actionPath: /actions/dartsplaying/in/GrabDart
-    needsReinit: 0
-  hand: {fileID: 401759789}
-  attachmentPoint: {fileID: 1150717179}
-  prefabToGrab: {fileID: 3914533909977092701, guid: 51afa6707b5f4ee479e4fac4e6d28807,
-    type: 3}
-  audioFX: {fileID: 1333371731}
-  session: {fileID: 0}
-  experiment: {fileID: 0}
 --- !u!1 &842727635
 GameObject:
   m_ObjectHideFlags: 0
@@ -7391,6 +7442,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718146488}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1723720664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723720665}
+  m_Layer: 0
+  m_Name: GloveAttachmentPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1723720665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723720664}
+  m_LocalRotation: {x: 0.041083287, y: -0.40499768, z: -0.17415118, w: -0.89663845}
+  m_LocalPosition: {x: -0.0117, y: 0.0458, z: -0.0206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 833493569}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -167.6, y: -133.2, z: -163.4}
 --- !u!1 &1760706388
 GameObject:
   m_ObjectHideFlags: 0
@@ -8191,6 +8272,79 @@ Transform:
   m_Father: {fileID: 740534359}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2026206362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2026206363}
+  - component: {fileID: 2026206364}
+  - component: {fileID: 2026206365}
+  m_Layer: 0
+  m_Name: VRGlove
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2026206363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026206362}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 833493569}
+  m_Father: {fileID: 1104357295}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2026206364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026206362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350033eb0a1f3c941859ed10c0f295c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gloveEnabled: 0
+  glove: {fileID: 833493568}
+  experiment: {fileID: 909821348}
+--- !u!114 &2026206365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026206362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04cc82a5e15f96478f25e45baab54e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floor: {fileID: 1306902623}
+  grabAction:
+    actionPath: /actions/dartsplaying/in/GrabDart
+    needsReinit: 0
+  hand: {fileID: 401759789}
+  controllerAttachmentPoint: {fileID: 424709022}
+  gloveAttachmentPoint: {fileID: 1723720665}
+  prefabToGrab: {fileID: 3914533909977092701, guid: 51afa6707b5f4ee479e4fac4e6d28807,
+    type: 3}
+  audioFX: {fileID: 1333371731}
+  glove: {fileID: 2026206364}
+  session: {fileID: 122676433}
+  experiment: {fileID: 909821348}
 --- !u!4 &2050649586 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011474053580, guid: dc06161b6d97feb419f45f03b62e14b9,

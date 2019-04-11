@@ -11,9 +11,11 @@ namespace Valve.VR.InteractionSystem.Sample
         public FloorCollision floor;
         public SteamVR_Action_Boolean grabAction;
         public Hand hand;
-        public Transform attachmentPoint;
+        public Transform controllerAttachmentPoint;
+        public Transform gloveAttachmentPoint;
         public GameObject prefabToGrab;
         public AudioSource audioFX;
+        public VRGloveController glove;
 
         // UXF
         public Session session;
@@ -33,13 +35,26 @@ namespace Valve.VR.InteractionSystem.Sample
                 Debug.LogError("<b>[SteamVR Interaction]</b> No grab action assigned");
                 return;
             }
-            grabAction.AddOnChangeListener(OnGrabActionChange, hand.handType); // SteamVR_Input_Sources.RightHand); if using tracker and glove
+            if(glove.GloveEnabled())
+            {
+                grabAction.AddOnChangeListener(OnGrabActionChange,SteamVR_Input_Sources.RightHand); // Use right hand if glove enabled
+            }
+            else
+            {
+                grabAction.AddOnChangeListener(OnGrabActionChange, hand.handType);
+            }
         }
 
         private void OnDisable()
         {
-            if (grabAction != null) // If grab action defined
-            grabAction.RemoveOnChangeListener(OnGrabActionChange, hand.handType); //SteamVR_Input_Sources.RightHand); if using tracker and glove
+            if (grabAction != null && glove.GloveEnabled()) // If grab action defined
+            {
+                grabAction.RemoveOnChangeListener(OnGrabActionChange, SteamVR_Input_Sources.RightHand); // Use right hand if glove enabled
+            }
+            else if(grabAction != null && !glove.GloveEnabled())
+            {
+                grabAction.RemoveOnChangeListener(OnGrabActionChange, hand.handType);
+            }
         }
 
         private void OnGrabActionChange(SteamVR_Action_Boolean actionIn, SteamVR_Input_Sources inputSource, bool newValue)
@@ -67,7 +82,15 @@ namespace Valve.VR.InteractionSystem.Sample
             dartCollider = dart.GetComponent<Collider>();
             dartCollider.enabled = false; // Disable dart collider
             currentFollower = dart.GetComponent<Follower>();
-            currentFollower.AttachTo(attachmentPoint); // Attach dart to hand
+            if(glove.GloveEnabled())
+            {
+                currentFollower.AttachTo(gloveAttachmentPoint); // Attach dart to glove
+            }
+            else
+            {
+                currentFollower.AttachTo(controllerAttachmentPoint); // Attach dart to hand
+            }
+
         }
 
         void ReleaseDart()

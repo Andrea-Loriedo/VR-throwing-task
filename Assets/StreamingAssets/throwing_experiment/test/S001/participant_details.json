@@ -1,3 +1,4 @@
 {
-        "ppid": "test"
+        "ppid": "test",
+        "glove_on": false
     }

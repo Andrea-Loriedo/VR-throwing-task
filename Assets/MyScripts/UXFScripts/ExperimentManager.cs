@@ -12,6 +12,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public BlockSettings settings;  
         public DartsInstructionsManager instructions;
         public DartsOptions options;
+        public ParticipantDetails ppDetails;
 
         public void StartNextTrial()
         {
@@ -29,15 +30,31 @@ namespace Valve.VR.InteractionSystem.Sample
             Debug.LogFormat("Ended trial {0}", session.currentTrialNum);
         }
 
+        public ParticipantDetails GetParticipantDetails()
+        {
+            return ppDetails;
+        }
+
         public BlockSettings GetBlockSettings()
         {
             return settings;
         }
 
+        public void RetrieveParticipantDetails()
+        {
+            ppDetails.gloveOn = (bool) session.participantDetails["glove_on"];
+        }
+
+        // Structs for session parameters
         public struct BlockSettings
         {
             public string distance;
             public string targetMode;
+        }
+
+        public struct ParticipantDetails
+        {
+            public bool gloveOn;
         }
     }
 }
