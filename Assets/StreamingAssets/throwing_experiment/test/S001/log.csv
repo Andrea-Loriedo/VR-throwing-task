@@ -1,56 +1,48 @@
 timestamp,log_type,message
-0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
 0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-3.291906,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-4.106819,Warning,Warning: Session already exists! Continuing will overwrite
-5.353483,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
-7.754066,Log,<b>SteamVR Interaction System</b> Headset placed on head
-7.899174,Log,<b>SteamVR Interaction System</b> Headset removed
-7.999709,Log,<b>SteamVR Interaction System</b> Headset placed on head
-8.480498,Log,Started trial 1
-10.37778,Log,Hit!
-10.37913,Log,Hit Redzone
-10.37913,Log,Ended trial 1
-10.78192,Log,Started trial 2
-11.9,Log,Hit!
-11.90453,Log,Hit Whitezone
-11.90453,Log,Ended trial 2
-12.17745,Log,Started trial 3
-13.80845,Log,Ended trial 3
-14.60174,Log,Started trial 4
-14.60174,Log,Started trial 5
-16.36667,Log,Hit!
-16.36667,Log,Hit!
-16.3696,Log,Hit Bluezone
-16.3696,Log,Ended trial 5
-16.63556,Log,Started trial 6
-18.84444,Log,Hit!
-18.85037,Log,Hit Whitezone
-18.85037,Log,Ended trial 6
-19.27177,Log,Started trial 7
-21.78889,Log,Hit!
-21.79965,Log,Hit Whitezone
-21.79965,Log,Ended trial 7
-22.09718,Log,Started trial 8
-22.09718,Log,Started trial 9
-24.28647,Log,Ended trial 9
-24.29773,Log,Ended trial 9
-24.56629,Log,Started trial 10
-26.24445,Log,Hit!
-26.25535,Log,Hit Blackzone
-26.25535,Log,Ended trial 10
-26.48694,Log,Started trial 11
-28.22249,Log,Ended trial 11
-28.62104,Log,Started trial 12
-28.62104,Log,Started trial 13
-30.02222,Log,Hit!
-30.02222,Log,Hit!
-30.02871,Log,Hit Redzone
-30.02871,Log,Ended trial 13
-30.46398,Log,Started trial 14
-32.88997,Log,Ended trial 14
-33.20061,Log,Started trial 15
-36.68907,Log,Ended trial 15
-36.79761,Log,Started trial 16
-36.79761,Exception,NoSuchTrialException: There is no next trial. Reached the end of trial list.
+46.13402,Warning,Skeleton action: /actions/default/in/SkeletonRightHand is not bound. Your controller may not support SteamVR Skeleton Input.
+46.15464,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
+54.4683,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+55.51825,Warning,Warning: Session already exists! Continuing will overwrite
+61.18722,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
+64.53133,Log,Started trial 1
+97.09318,Log,Ended trial 1
+101.4771,Log,<b>SteamVR Interaction System</b> Headset placed on head
+102.4934,Log,Started trial 2
+104.2026,Log,Ended trial 2
+108.4583,Log,Started trial 3
+120.6674,Log,<b>SteamVR Interaction System</b> Headset removed
+121.5052,Log,<b>SteamVR Interaction System</b> Headset placed on head
+175.2903,Log,Ended trial 3
+175.5112,Log,Started trial 4
+270.1416,Log,<b>SteamVR Interaction System</b> Headset removed
+270.2868,Log,<b>SteamVR Interaction System</b> Headset placed on head
+297.1053,Log,<b>SteamVR Interaction System</b> Headset removed
+297.8553,Log,<b>SteamVR Interaction System</b> Headset placed on head
+298.3468,Log,<b>SteamVR Interaction System</b> Headset removed
+300.7931,Log,<b>SteamVR Interaction System</b> Headset placed on head
+315.0468,Log,<b>SteamVR Interaction System</b> Headset removed
+315.2477,Log,<b>SteamVR Interaction System</b> Headset placed on head
+364.0957,Log,Started trial 5
+364.272,Log,Ended trial 5
+396.2175,Log,Started trial 6
+396.5298,Log,Ended trial 6
+397.3716,Log,Started trial 7
+397.4959,Log,Ended trial 7
+398.6185,Log,Started trial 8
+399.0543,Log,Ended trial 8
+399.9222,Log,Hit!
+399.9279,Log,Hit Whitezone
+399.9279,Log,Ended trial 8
+400.3946,Log,Started trial 9
+402.2204,Log,Ended trial 9
+402.846,Log,Started trial 10
+404.925,Log,Ended trial 10
+406.4204,Log,Started trial 11
+408.3863,Log,Ended trial 11
+408.6297,Log,Started trial 12
+410.2444,Log,Hit!
+410.2524,Log,Hit Blackzone
+410.2524,Log,Ended trial 12
+411.5023,Log,<b>SteamVR Interaction System</b> Headset removed
