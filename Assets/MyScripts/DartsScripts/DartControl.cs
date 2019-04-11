@@ -47,7 +47,7 @@ namespace Valve.VR.InteractionSystem.Sample
             if (newValue)
             {
                 DestroyDart(); // Destroy any leftover dart
-                if(session.nextTrial.numberInBlock == 1 || session.currentTrial.status == UXF.TrialStatus.Done)
+                if(session.hasInitialised && (session.nextTrial.numberInBlock == 1 || session.currentTrial.status == UXF.TrialStatus.Done))
                 {
                     experiment.StartNextTrial();
                     GrabDart();
