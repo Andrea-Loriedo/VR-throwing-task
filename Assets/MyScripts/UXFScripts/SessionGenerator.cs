@@ -6,7 +6,7 @@ using System.IO;
 using UXF;
 
 public class SessionGenerator : MonoBehaviour
-{     
+{   
     public void GenerateExperiment(Session session)
     {
         int numTrials = session.settings.GetInt("trials_per_block");

@@ -11,11 +11,12 @@ namespace Valve.VR.InteractionSystem.Sample
     {
         private TextMeshPro scoreText;
         public TextMeshPro dartsLeftText;
-        // private TextContainer m_TextContainer;
         public BullseyeController score;
-        public Session session;
-        
         public DartControl dart;
+
+        //UXF 
+        public Session session;
+        public ExperimentManager experiment;
     
         void Awake()
         {
@@ -28,6 +29,10 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void Update()
         {
+            if(experiment.NewBlockBegin() && session.currentTrial.status != UXF.TrialStatus.Done)
+            {
+                dart.SetDartsLeft(session.settings.GetInt("trials_per_block"));
+            }
             scoreText.text = "Score: " + score.GetScore();
             dartsLeftText.text = "Darts remaining: " + dart.GetDartsLeft();
         }

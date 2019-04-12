@@ -92,7 +92,6 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 currentFollower.AttachTo(controllerAttachmentPoint); // Attach dart to hand
             }
-
         }
 
         void ReleaseDart()
@@ -120,6 +119,11 @@ namespace Valve.VR.InteractionSystem.Sample
         public int GetDartsLeft()
         {
             return dartsLeft;
+        }
+
+        public void SetDartsLeft(int number)
+        {
+            dartsLeft = number;
         }
 
         public void EndBehaviour(Trial endedTrial)

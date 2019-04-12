@@ -15,6 +15,8 @@ namespace Valve.VR.InteractionSystem.Sample
         public ParticipantDetails ppDetails;
         public BullseyeController bullseye;
         public Follower dart;
+        bool sessionHasEnded;
+        bool newBlockStart;
 
         public void StartNextTrial()
         {
@@ -63,6 +65,29 @@ namespace Valve.VR.InteractionSystem.Sample
             session.currentTrial.result["ang_vel_at_release_x"] = kinematicResults.angVelocityAtReleaseX;
             session.currentTrial.result["ang_vel_at_release_y"] = kinematicResults.angVelocityAtReleaseX;
             session.currentTrial.result["ang_vel_at_release_z"] = kinematicResults.angVelocityAtReleaseX;
+        }
+
+        public void MarkBlockBegin()
+        {
+            if(session.currentTrial.numberInBlock == 1)
+            newBlockStart = true;
+            else
+            newBlockStart = false;
+        }
+
+        public bool NewBlockBegin()
+        {
+            return newBlockStart;
+        }
+
+        public void MarkSessionEnd()
+        {
+            sessionHasEnded = true;
+        }
+
+        public bool SessionHasEnded()
+        {
+            return sessionHasEnded;
         }
 
         // Structs for session parameters
