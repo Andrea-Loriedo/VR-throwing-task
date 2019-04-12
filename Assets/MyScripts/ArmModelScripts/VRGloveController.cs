@@ -13,6 +13,25 @@ namespace Valve.VR.InteractionSystem.Sample
         public GameObject glove;
         public ExperimentManager experiment;
 
+        uint index = 0;
+
+        void Start()
+        {
+            // var error = ETrackedPropertyError.TrackedProp_Success;
+            // for (uint i = 0; i < 16; i++)
+            // {
+            //     var result = new System.Text.StringBuilder((int)64);
+            //     OpenVR.System.GetStringTrackedDeviceProperty(i, ETrackedDeviceProperty.Prop_RenderModelName_String, result, 64, ref error);
+            //     if (result.ToString().Contains("Tracker"))
+            //     {
+            //         index = i;
+            //         break;
+            //     }
+            // }
+
+            // glove.GetComponent<SteamVR_TrackedObject>().index = (SteamVR_TrackedObject.EIndex)index;
+        }
+
         public void SetGloveStatus()
         {
             EnableGlove(experiment.GetParticipantDetails()); // Get the participant details struct

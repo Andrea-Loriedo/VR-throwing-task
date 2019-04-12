@@ -4351,7 +4351,7 @@ GameObject:
   - component: {fileID: 833493571}
   m_Layer: 0
   m_Name: Tracker
-  m_TagString: Untagged
+  m_TagString: Tracker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4384,7 +4384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d37c2cf88f7c59f4c8cf5d3812568143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 4
+  index: 12
   origin: {fileID: 0}
 --- !u!114 &833493571
 MonoBehaviour:
@@ -9094,7 +9094,7 @@ GameObject:
   - component: {fileID: 2026206364}
   m_Layer: 0
   m_Name: VRGlove
-  m_TagString: Untagged
+  m_TagString: Tracker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
