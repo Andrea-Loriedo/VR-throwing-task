@@ -104,7 +104,7 @@ namespace Valve.VR.InteractionSystem.Sample
             return sessionHasEnded;
         }
 
-        void DestroyAllDarts()
+        public void DestroyAllDarts()
         {
             GameObject[] allDarts; // Create an empty array of GameObjects
             allDarts =  GameObject.FindGameObjectsWithTag("DartObject"); // Append all GameObject tagged 'DartObject' to the array 'allDarts'

@@ -1,49 +1,50 @@
 timestamp,log_type,message
 0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-2.670186,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-3.409225,Warning,Warning: Session already exists! Continuing will overwrite
-6.469692,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
-7.409369,Log,<b>SteamVR Interaction System</b> Headset placed on head
-11.47609,Log,Started trial 1
-12.60613,Log,Hit White zone
-12.60613,Log,Ended trial 1
-13.80165,Log,Started trial 2
-14.96364,Log,Hit Blue zone
-14.96364,Log,Ended trial 2
-15.19736,Log,Started trial 3
-16.19237,Log,Hit Yellow zone
-16.19237,Log,Ended trial 3
-16.39234,Log,Started trial 4
-17.29823,Log,Hit Blue zone
-17.29823,Log,Ended trial 4
-17.69974,Log,Started trial 5
-18.81761,Log,Hit Blue zone
-18.81761,Log,Ended trial 5
-18.96124,Log,Started trial 6
-19.62198,Log,Hit Blue zone
-19.62198,Log,Ended trial 6
-19.69723,Log,Started trial 7
-21.18524,Log,Ended trial 7
-21.5308,Log,Started trial 8
-22.25819,Log,Hit Black zone
-22.25819,Log,Ended trial 8
-22.45608,Log,Started trial 9
-24.64827,Log,Ended trial 9
-25.09501,Log,Started trial 10
-26.77716,Log,Ended trial 10
-26.96988,Log,Started trial 11
-28.90409,Log,Hit Red zone
-28.90409,Log,Ended trial 11
-29.07072,Log,Started trial 12
-30.31165,Log,Hit Blue zone
-30.31165,Log,Ended trial 12
-30.48948,Log,Started trial 13
-32.05334,Log,Hit White zone
-32.05334,Log,Ended trial 13
-32.13152,Log,Started trial 14
-33.74158,Log,Ended trial 14
-34.13149,Log,Started trial 15
-35.51714,Log,Hit Red zone
-35.51714,Log,Ended trial 15
-35.81767,Log,Started trial 16
+0.2985911,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
+4.265511,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+4.968788,Warning,Warning: Session already exists! Continuing will overwrite
+9.312428,Log,<b>SteamVR Interaction System</b> Headset placed on head
+11.08778,Log,Started trial 1
+13.62359,Log,Ended trial 1
+14.11514,Log,Started trial 2
+15.93595,Log,Hit Red zone
+15.93595,Log,Ended trial 2
+16.14767,Log,Started trial 3
+18.85166,Log,Hit Red zone
+18.85166,Log,Ended trial 3
+19.00663,Log,Started trial 4
+20.57181,Log,Hit Blue zone
+20.57181,Log,Ended trial 4
+20.92587,Log,Started trial 5
+22.87271,Log,Hit Blue zone
+22.87271,Log,Ended trial 5
+23.49332,Log,Started trial 6
+25.19582,Log,Hit Blue zone
+25.19582,Log,Ended trial 6
+25.30695,Log,Started trial 7
+26.43637,Log,Hit Black zone
+26.43637,Log,Ended trial 7
+26.68103,Log,Started trial 8
+28.43561,Log,Hit Black zone
+28.43561,Log,Ended trial 8
+28.55792,Log,Started trial 9
+29.96566,Log,Hit Black zone
+29.96566,Log,Ended trial 9
+30.24353,Log,Started trial 10
+32.26815,Log,Ended trial 10
+32.55666,Log,Started trial 11
+34.59033,Log,Ended trial 11
+34.75659,Log,Started trial 12
+36.4444,Log,Hit Blue zone
+36.4444,Log,Ended trial 12
+36.66707,Log,Started trial 13
+38.45575,Log,Hit Yellow zone
+38.45575,Log,Ended trial 13
+38.58858,Log,Started trial 14
+41.96296,Log,Ended trial 14
+42.04011,Log,Started trial 15
+44.3323,Log,Hit Red zone
+44.3323,Log,Ended trial 15
+44.50515,Log,Started trial 16
+46.87787,Log,Hit Blue zone

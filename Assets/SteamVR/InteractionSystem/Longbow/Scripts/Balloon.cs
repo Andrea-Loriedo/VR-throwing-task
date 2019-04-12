@@ -39,6 +39,9 @@ namespace Valve.VR.InteractionSystem
 
 		private static float s_flLastDeathSound = 0f;
 
+		// CUSTOM
+		bool balloonPopped;
+
 
 		//-------------------------------------------------
 		void Start()
@@ -46,6 +49,7 @@ namespace Valve.VR.InteractionSystem
 			destructTime = Time.time + lifetime + Random.value;
 			hand = GetComponentInParent<Hand>();
 			balloonRigidbody = GetComponent<Rigidbody>();
+			balloonPopped = false;
 		}
 
 
@@ -63,6 +67,12 @@ namespace Valve.VR.InteractionSystem
 			}
 		}
 
+		// CUSTOM FUNCTION
+		void OnTriggerEnter()
+		{
+			Debug.LogFormat("Trigger entered!");
+			ApplyDamage();
+		}
 
 		//-------------------------------------------------
 		private void SpawnParticles( GameObject particlePrefab, SoundPlayOneshot sound )

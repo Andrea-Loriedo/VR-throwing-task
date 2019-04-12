@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 using UXF;
+using UnityEngine.Events;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
     public class BullseyeController : MonoBehaviour
     {
         [HideInInspector]
-        public enum ring {White, Black, Blue, Red, Yellow, Miss, Null};
+        public enum ring {White, Black, Blue, Red, Yellow, Balloon, Miss, Null};
         
         [HideInInspector]
         public ring hitZone;
@@ -19,6 +20,9 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform boundA;
         public Transform boundB;
         public FloorCollision collision;
+        public UnityEvent onEasterEggUnlocked;
+        public Balloon balloon;
+        public Follower bonusDart;
 
         // UXF
         public Session session;
@@ -26,6 +30,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public TrialResults results;
         
         bool targetHit;
+        bool balloonPop;
         int score;
         
         GameObject dart;
@@ -53,15 +58,27 @@ namespace Valve.VR.InteractionSystem.Sample
             if(TargetHitByDart())
             {
                 DetectHit();
+                // Debug.LogFormat("Hit the bullseye!");
             }
             else if(collision.MissDetected())
-            {
+            { 
+                // Debug.LogFormat("Miss!");
                 hitZone = ring.Miss;
                 results.targetZone = hitZone.ToString(); 
                 results.totalScore = GetScore();
                 experiment.EndCurrentTrial();
                 collision.HitStateReset(false); // Reset target miss to false
             }
+            // else if(bonusDart.BalloonHit())
+            // {   
+            //     Debug.LogFormat("Hit the balloon!");
+            //     hitZone = ring.Balloon;
+            //     totalScore = ComputeScore();
+            //     results.targetZone = hitZone.ToString(); 
+            //     results.totalScore = GetScore();
+            //     experiment.DestroyAllDarts();
+            //     bonusDart.SetBalloonStatus(false);
+            // }
         }
 
         void OnTriggerEnter(Collider dartCollider)
@@ -70,10 +87,10 @@ namespace Valve.VR.InteractionSystem.Sample
             dartColl = dartCollider;
             dartScale = dart.transform.localScale;
             targetHit = true;
-            // Debug.LogFormat("Hit!");
             SnapToBoard(dartCollider);
             dartColl.enabled = false;
             audioData.Play();
+            // UnlockEasterEgg();
         }
 
         public int ComputeScore()
@@ -94,6 +111,9 @@ namespace Valve.VR.InteractionSystem.Sample
                 break;
                 case ring.Yellow:
                 score += 25;
+                break;
+                case ring.Balloon:
+                score += 100;
                 break;
                 default:
                 break;
@@ -200,6 +220,19 @@ namespace Valve.VR.InteractionSystem.Sample
                 currPos = transform.localPosition; // Update current position
                 yield return null;
             }
+        }
+
+        void UnlockEasterEgg()
+        {
+            targetHit = false;
+            onEasterEggUnlocked.Invoke(); // Spawn a balloon of random colour
+            experiment.EndCurrentTrial();
+            collision.HitStateReset(false); // Reset target miss to false
+        }
+
+        public void BalloonHit(bool value)
+        {
+            balloonPop = value;
         }
 
         public TrialResults GetBullseyeResults()

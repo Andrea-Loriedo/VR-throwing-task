@@ -8,6 +8,9 @@ TagManager:
   - Darts
   - DartObject
   - RightHand
+  - projectile
+  - FxTemporaire
+  - Balloon
   layers:
   - Default
   - TransparentFX

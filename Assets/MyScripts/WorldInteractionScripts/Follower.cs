@@ -10,12 +10,15 @@ namespace Valve.VR.InteractionSystem.Sample
     {
         public float velRatio = 1f;
         public Transform target;
+
         Rigidbody rb;
         VelocityEstimator ve;
         KinematicResults results;
 
         // UXF
         Session session;
+
+        bool hitABalloon;
 
         void Awake()
         {
@@ -32,6 +35,8 @@ namespace Valve.VR.InteractionSystem.Sample
             rb.angularVelocity = Vector3.zero; // Follow target angular velocity
             rb.useGravity = false;
             ve.BeginEstimatingVelocity();
+
+            hitABalloon = false;
         }
 
         public void Detach()
@@ -66,6 +71,25 @@ namespace Valve.VR.InteractionSystem.Sample
             results.angVelocityAtReleaseX = angularVelocity.y;
             results.angVelocityAtReleaseX = angularVelocity.z;
 
+        }
+
+        void OnTriggerEnter(Collider col)
+        {
+            if (col.CompareTag("Balloon"))
+            {
+                hitABalloon = true;
+                Debug.LogFormat("Hit A Balloon!");
+            }
+        }
+
+        public bool BalloonHit()
+        {
+            return hitABalloon;
+        }
+
+        public void SetBalloonStatus(bool value)
+        {
+            hitABalloon = value;
         }
 
         public KinematicResults GetKinematicResults()
