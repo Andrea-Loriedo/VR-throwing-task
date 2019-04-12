@@ -1,20 +1,55 @@
 timestamp,log_type,message
-0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
 0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-0.12,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
-0.2195754,Warning,Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-0.2195754,Warning,To Debug enable the define: TLA_DEBUG_STACK_LEAK in ThreadsafeLinearAllocator.cpp. This will output the callstacks of the leaked allocations
-5.548748,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-6.376859,Warning,Warning: Session already exists! Continuing will overwrite
-9.570783,Log,Started trial 1
-12.48411,Log,Ended trial 1
-13.30144,Log,Started trial 2
-14.47378,Log,Ended trial 2
-15.2682,Log,Started trial 3
-16.21676,Log,Ended trial 3
-16.97678,Log,Started trial 4
-17.50935,Log,Started trial 5
-18.15016,Log,Ended trial 5
-18.51543,Log,Started trial 6
-19.19755,Log,Ended trial 6
+3.940216,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+5.503931,Warning,Warning: Session already exists! Continuing will overwrite
+13.83441,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
+21.0048,Log,<b>SteamVR Interaction System</b> Headset placed on head
+21.03168,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
+22.06234,Log,<b>SteamVR Interaction System</b> Headset placed on head
+22.16813,Log,<b>SteamVR Interaction System</b> Headset placed on head
+22.80256,Log,Started trial 1
+30.74544,Log,Hit Red zone
+30.74544,Log,Ended trial 1
+30.86024,Log,Started trial 2
+31.99383,Log,Hit Red zone
+31.99383,Log,Ended trial 2
+32.08365,Log,Started trial 3
+33.06911,Log,Hit Yellow zone
+33.06911,Log,Ended trial 3
+33.2657,Log,Started trial 4
+34.21943,Log,Hit White zone
+34.21943,Log,Ended trial 4
+34.57359,Log,Started trial 5
+35.98439,Log,Ended trial 5
+36.36073,Log,Started trial 6
+38.78831,Log,Hit White zone
+38.78831,Log,Ended trial 6
+38.90763,Log,Started trial 7
+39.85661,Log,Hit Red zone
+39.85661,Log,Ended trial 7
+39.95092,Log,Started trial 8
+41.77105,Log,Hit Yellow zone
+41.77105,Log,Ended trial 8
+41.85672,Log,Started trial 9
+43.36903,Log,Hit Red zone
+43.36903,Log,Ended trial 9
+43.44577,Log,Started trial 10
+44.73964,Log,Hit Black zone
+44.73964,Log,Ended trial 10
+44.92813,Log,Started trial 11
+46.34996,Log,Hit Black zone
+46.34996,Log,Ended trial 11
+46.49407,Log,Started trial 12
+48.14878,Log,Hit Black zone
+48.14878,Log,Ended trial 12
+48.33573,Log,Started trial 13
+50.81573,Log,Ended trial 13
+50.8273,Log,Started trial 14
+52.75113,Log,Hit Black zone
+52.75113,Log,Ended trial 14
+52.9073,Log,Started trial 15
+54.05233,Log,Hit White zone
+54.05233,Log,Ended trial 15
+54.40084,Log,Started trial 16
+55.8333,Log,Hit Blue zone
