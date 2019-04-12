@@ -70,9 +70,14 @@ namespace Valve.VR.InteractionSystem.Sample
         public void MarkBlockBegin()
         {
             if(session.currentTrial.numberInBlock == 1)
-            newBlockStart = true;
+                newBlockStart = true;
             else
-            newBlockStart = false;
+                newBlockStart = false;
+        }
+
+        public void SetBlockBegin(bool value)
+        {
+            newBlockStart = value;
         }
 
         public bool NewBlockBegin()

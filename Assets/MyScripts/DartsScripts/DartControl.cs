@@ -103,7 +103,8 @@ namespace Valve.VR.InteractionSystem.Sample
                 currentFollower.GetComponent<RotateAlongVelocity>().enabled = true;
                 currentFollower = null;
                 audioFX.Play();
-                dartsLeft = session.settings.GetInt("trials_per_block") - session.currentTrial.numberInBlock; 
+                experiment.SetBlockBegin(false);
+                dartsLeft --;
             }
         }
 
