@@ -15,6 +15,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public ParticipantDetails ppDetails;
         public BullseyeController bullseye;
         public Follower dart;
+        public AudioSource soundFX;
         bool sessionHasEnded;
         bool newBlockStart;
 
@@ -74,6 +75,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 newBlockStart = true;
                 bullseye.ResetScore(); // Reset the score after each block
                 DestroyAllDarts();
+                soundFX.Play();
             }
             else
             {
