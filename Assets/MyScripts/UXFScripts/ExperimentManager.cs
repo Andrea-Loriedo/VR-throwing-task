@@ -70,9 +70,15 @@ namespace Valve.VR.InteractionSystem.Sample
         public void MarkBlockBegin()
         {
             if(session.currentTrial.numberInBlock == 1)
+            {
                 newBlockStart = true;
+                bullseye.ResetScore(); // Reset the score after each block
+            }
             else
+            {
                 newBlockStart = false;
+            }
+
         }
 
         public void SetBlockBegin(bool value)
