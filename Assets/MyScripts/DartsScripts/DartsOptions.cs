@@ -15,6 +15,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public Transform player;
         public Transform closeDistance;
         public Transform FarDistance;
+        public Transform workspace;
 
         // UXF
         public Session session;
@@ -91,6 +92,7 @@ namespace Valve.VR.InteractionSystem.Sample
         void MovePlayer(Transform spawnPlayer)
         {
             player.localPosition = spawnPlayer.localPosition; 
+            workspace.localPosition = spawnPlayer.localPosition + new Vector3(0, 0.001f, 0);
         }
 
         void PlayAnimation()
