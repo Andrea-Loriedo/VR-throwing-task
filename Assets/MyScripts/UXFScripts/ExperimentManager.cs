@@ -73,6 +73,7 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 newBlockStart = true;
                 bullseye.ResetScore(); // Reset the score after each block
+                DestroyAllDarts();
             }
             else
             {
@@ -99,6 +100,17 @@ namespace Valve.VR.InteractionSystem.Sample
         public bool SessionHasEnded()
         {
             return sessionHasEnded;
+        }
+
+        void DestroyAllDarts()
+        {
+            GameObject[] allDarts; // Create an empty array of GameObjects
+            allDarts =  GameObject.FindGameObjectsWithTag("DartObject"); // Append all GameObject tagged 'DartObject' to the array 'allDarts'
+
+            foreach(GameObject dart in allDarts)
+            {
+                Destroy(dart); // Loop through the array and destroy each dart in it
+            }
         }
 
         // Structs for session parameters
