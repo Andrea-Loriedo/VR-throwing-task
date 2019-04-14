@@ -1,5 +1,5 @@
 {
-        "trials_per_block": 4,
+        "trials_per_block": 8,
         "block_1_settings": {
             "distance": "Close",
             "target_mode": "Still"

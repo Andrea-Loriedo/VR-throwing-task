@@ -1,50 +1,7 @@
 timestamp,log_type,message
 0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 1.13m x 1.33m
+0,Log,Connection established
 0,Log,Loaded: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-4.515809,Log,Updating: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\throwing_participant_list.csv
-5.270832,Warning,Warning: Session already exists! Continuing will overwrite
-8.190126,Log,<b>SteamVR Interaction System</b> Headset placed on head
-8.201092,Log,<b>SteamVR Interaction System</b> Headset placed on head
-11.37735,Log,Started trial 1
-12.67737,Log,Hit Red zone
-12.67737,Log,Ended trial 1
-12.94276,Log,Started trial 2
-14.05473,Log,Hit Black zone
-14.05473,Log,Ended trial 2
-14.30987,Log,Started trial 3
-15.31014,Log,Hit Red zone
-15.31014,Log,Ended trial 3
-15.52136,Log,Started trial 4
-16.45643,Log,Hit Red zone
-16.45643,Log,Ended trial 4
-16.63244,Log,Started trial 5
-17.85636,Log,Hit Black zone
-17.85636,Log,Ended trial 5
-18.08793,Log,Started trial 6
-18.96568,Log,Hit Black zone
-18.96568,Log,Ended trial 6
-19.12098,Log,Started trial 7
-20.64359,Log,Hit Blue zone
-20.64359,Log,Ended trial 7
-20.75706,Log,Started trial 8
-21.47679,Log,Hit Black zone
-21.47679,Log,Ended trial 8
-21.79906,Log,Started trial 9
-23.49978,Log,Ended trial 9
-23.57761,Log,Started trial 10
-24.833,Log,Hit White zone
-24.833,Log,Ended trial 10
-25.04375,Log,Started trial 11
-26.5218,Log,Ended trial 11
-26.66967,Log,Started trial 12
-28.08815,Log,Hit Yellow zone
-28.08815,Log,Ended trial 12
-28.288,Log,Started trial 13
-30.27724,Log,Ended trial 13
-30.58825,Log,Started trial 14
-32.63261,Log,Hit Blue zone
-32.63261,Log,Ended trial 14
-32.81003,Log,Started trial 15
-34.08791,Log,Ended trial 15
-34.25447,Log,Started trial 16
+12.09704,Log,Updating: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\throwing_participant_list.csv
+12.83958,Warning,Warning: Session already exists! Continuing will overwrite

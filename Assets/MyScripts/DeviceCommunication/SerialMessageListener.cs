@@ -24,7 +24,7 @@ public class SerialMessageListener : MonoBehaviour
     // Invoked when a line of data is received from the serial device.
     void OnMessageArrived(string msg)
     {
-        Debug.Log("Values received: " + msg);
+        // Debug.Log("Values received: " + msg);
         // parse the message to obtain x, y, z
         string values = msg; // Read the serial message
         string[] quat = values.Split(','); // Separate values
@@ -44,11 +44,23 @@ public class SerialMessageListener : MonoBehaviour
             }
         }
         
-        Quaternion elbowLinkRotation = new Quaternion(q_u_i, q_u_j, q_u_k, q_u_real);
+        Quaternion elbowLinkRotation = new Quaternion(q_u_i, q_u_j, q_u_k, q_u_real); // Unity Quaternion takes the arguments (x,y,z,w)
         Quaternion wristLinkRotation = new Quaternion(q_l_i, q_l_j, q_l_k, q_l_real);
+
+        Quaternion convertedElbowQuaternion = MapToUnityCoordinateSystem(elbowLinkRotation);
+        Quaternion convertedWristQuaternion = MapToUnityCoordinateSystem(wristLinkRotation);
         
-        elbowLink.transform.rotation = elbowLinkRotation.normalized * Quaternion.Euler(elbowRotationOffset);
-        wristLink.transform.rotation = wristLinkRotation.normalized * Quaternion.Euler(wristRotationOffset);
+        elbowLink.transform.rotation = convertedElbowQuaternion.normalized * Quaternion.Euler(elbowRotationOffset);
+        wristLink.transform.rotation = convertedWristQuaternion.normalized * Quaternion.Euler(wristRotationOffset);
+    }
+
+    Quaternion MapToUnityCoordinateSystem(Quaternion quat) {
+        return new Quaternion(
+              quat.y,   
+            - quat.z,   
+            - quat.x,   
+              quat.w
+        );
     }
 
     // Invoked when a connect/disconnect event occurs. The parameter 'success'
@@ -59,6 +71,6 @@ public class SerialMessageListener : MonoBehaviour
         if (success)
             Debug.Log("Connection established");
        // else
-//            Debug.Log("Connection attempt failed or disconnection detected");
+        // Debug.Log("Connection attempt failed or disconnection detected");
     }
 }
