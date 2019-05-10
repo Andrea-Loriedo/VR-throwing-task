@@ -25,7 +25,7 @@ namespace Valve.VR.InteractionSystem.Sample
         void retrieveLinkLengths(ExperimentManager.ParticipantDetails participantDetails)
         {
             userLinkLength = new float[3];
-            
+
             userLinkLength[0] = participantDetails.wristLength;
             userLinkLength[1] = participantDetails.lowerArmLength;
             userLinkLength[2] = participantDetails.upperArmLength;
@@ -57,8 +57,8 @@ namespace Valve.VR.InteractionSystem.Sample
                 foreach (float linkL in userLinkLength)
                 {
                     linkLength.z = linkL * 5f;
-                    limblink.link.localScale = linkLength;
                 }
+                limblink.link.localScale = linkLength;
                 // limblink.link.localScale = new Vector3(limblink.link_length, 0, 0);
             }
         }
