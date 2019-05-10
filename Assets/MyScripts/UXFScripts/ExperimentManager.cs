@@ -51,6 +51,9 @@ namespace Valve.VR.InteractionSystem.Sample
             ppDetails.age = (int) session.participantDetails["participant_age"];
             ppDetails.gender = (string) session.participantDetails["participant_gender"];
             ppDetails.gloveOn = (bool) session.participantDetails["glove_on"];
+            ppDetails.wristLength = (float) session.participantDetails["wrist_length"];
+            ppDetails.lowerArmLength = (float) session.participantDetails["lower_arm_length"];
+            ppDetails.upperArmLength = (float) session.participantDetails["upper_arm_length"];
         }
 
         public void RecordResults(BullseyeController.TrialResults bullseyeResults, Follower.KinematicResults kinematicResults)
@@ -127,6 +130,9 @@ namespace Valve.VR.InteractionSystem.Sample
             public int age;
             public string gender;
             public bool gloveOn;
+            public float wristLength;
+            public float lowerArmLength;
+            public float upperArmLength;
         }
     }
 }

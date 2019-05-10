@@ -1,7 +1,6 @@
 timestamp,log_type,message
-0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 1.13m x 1.33m
-0,Log,Connection established
-0,Log,Loaded: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\throwing_participant_list.csv
+0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
+0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-12.09704,Log,Updating: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\throwing_participant_list.csv
-12.83958,Warning,Warning: Session already exists! Continuing will overwrite
+2.885668,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+3.589795,Warning,Warning: Session already exists! Continuing will overwrite

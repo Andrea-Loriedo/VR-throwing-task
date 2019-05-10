@@ -1,13 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UXF;
 
 public class ArmKinematicsController : MonoBehaviour
 {
 
     public Limb[] arm; // Array of instances of the limb struct (one element for each joint + link)
+    public float[] userLinkLength;
+
+    // UXF
+    public Session session;
 
     // Update is called once per frame
+
+    void Start()
+    {
+        retrieveLinkLengths();
+    }
+
+    void retrieveLinkLengths()
+    {
+        userLinkLength[0] = (float) session.participantDetails["wrist_length"];
+        userLinkLength[1] = (float) session.participantDetails["lower_arm_length"];
+        userLinkLength[2] = (float) session.participantDetails["upper_arm_length"];
+    }
+
     void Update()
     {   
         ScaleLinks(arm);
@@ -31,7 +49,10 @@ public class ArmKinematicsController : MonoBehaviour
 
         foreach (Limb limblink in limb)
         {
-            linkLength.z = limblink.link_length * 5;
+            foreach (float linkL in userLinkLength)
+            {
+                linkLength.z = linkL * 5f;
+            }
             limblink.link.localScale = linkLength;
             // limblink.link.localScale = new Vector3(limblink.link_length, 0, 0);
         }
