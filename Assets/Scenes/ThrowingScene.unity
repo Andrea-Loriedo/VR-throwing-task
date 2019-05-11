@@ -2271,7 +2271,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 401759781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f04cc82a5e15f96478f25e45baab54e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ea6c93b047568b43a2894c2556ef161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 1306902623}
@@ -2297,6 +2297,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f04cc82a5e15f96478f25e45baab54e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &401759789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401759783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ea6c93b047568b43a2894c2556ef161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 1306902623}
@@ -2756,7 +2768,7 @@ MonoBehaviour:
   m_text: "Well done!\nNow try while \nthe bullseye is\nmoving"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
-  m_sharedMaterial: {fileID: 21813264511077056, guid: 04a9985f214866a4d9c6f6704d69a32e,
+  m_sharedMaterial: {fileID: 21201865170134542, guid: 04a9985f214866a4d9c6f6704d69a32e,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2882,7 +2894,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 21813264511077056, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
+  - {fileID: 21201865170134542, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3568,7 +3580,7 @@ MonoBehaviour:
   m_text: "Now try from \na bit further away!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
-  m_sharedMaterial: {fileID: 21813264511077056, guid: 04a9985f214866a4d9c6f6704d69a32e,
+  m_sharedMaterial: {fileID: 21201865170134542, guid: 04a9985f214866a4d9c6f6704d69a32e,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3694,7 +3706,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 21813264511077056, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
+  - {fileID: 21201865170134542, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4147,6 +4159,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea6c93b047568b43a2894c2556ef161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floor: {fileID: 0}
+  grabAction:
+    actionPath: 
+    needsReinit: 0
+  hand: {fileID: 0}
+  controllerAttachmentPoint: {fileID: 0}
+  gloveAttachmentPoint: {fileID: 0}
+  prefabToGrab: {fileID: 0}
+  audioFX: {fileID: 0}
+  glove: {fileID: 0}
+  session: {fileID: 0}
+  experiment: {fileID: 0}
 --- !u!1 &897189695
 GameObject:
   m_ObjectHideFlags: 0
@@ -5653,7 +5677,7 @@ MonoBehaviour:
   m_text: Target Mode
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
-  m_sharedMaterial: {fileID: 21813264511077056, guid: 04a9985f214866a4d9c6f6704d69a32e,
+  m_sharedMaterial: {fileID: 21201865170134542, guid: 04a9985f214866a4d9c6f6704d69a32e,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 1885444685}
@@ -5779,7 +5803,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 21813264511077056, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
+  - {fileID: 21201865170134542, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7661,7 +7685,7 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
-  m_sharedMaterial: {fileID: 21813264511077056, guid: 04a9985f214866a4d9c6f6704d69a32e,
+  m_sharedMaterial: {fileID: 21201865170134542, guid: 04a9985f214866a4d9c6f6704d69a32e,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7787,7 +7811,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 21813264511077056, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
+  - {fileID: 21201865170134542, guid: 04a9985f214866a4d9c6f6704d69a32e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

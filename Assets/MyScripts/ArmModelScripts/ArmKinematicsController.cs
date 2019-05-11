@@ -51,18 +51,13 @@ namespace Valve.VR.InteractionSystem.Sample
         void ScaleLinks(Limb[] limb)
         {
             Vector3 linkLength = transform.localScale;
-
-            foreach (Limb limblink in limb)
-            {
-                foreach (float linkL in userLinkLength)
-                {
-                    linkLength.z = linkL * 5f;
-                }
-                limblink.link.localScale = linkLength;
+            for(int i = 0; i < 3; i++)
+            {          
+                linkLength.z = userLinkLength[i] * 5f;
+                arm[i].link.localScale = linkLength;
                 // limblink.link.localScale = new Vector3(limblink.link_length, 0, 0);
             }
         }
-
 
         [System.Serializable]
         public struct Limb
