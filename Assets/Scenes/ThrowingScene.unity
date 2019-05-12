@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 42122408}
   - component: {fileID: 42122407}
   - component: {fileID: 42122406}
+  - component: {fileID: 42122409}
   m_Layer: 0
   m_Name: Wrist
   m_TagString: Untagged
@@ -295,6 +296,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42122404}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &42122409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42122404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dbc7aef009231419c2e645c8e8579b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: wrist
+  measurementDescriptor: movement
+  customHeader:
+  - pos_x
+  - pos_y
+  - pos_z
+  - rot_x
+  - rot_y
+  - rot_z
+  recording: 0
 --- !u!1 &54069923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,12 +1103,17 @@ PrefabInstance:
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: customHeaders.Array.size
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: onTrialBegin.m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: trackedObjects.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1280,17 +1308,17 @@ PrefabInstance:
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: customHeaders.Array.data[5]
-      value: ang_vel_at_release_x
+      value: hand_pos_x
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: customHeaders.Array.data[6]
-      value: ang_vel_at_release_y
+      value: hand_pos_y
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: customHeaders.Array.data[7]
-      value: ang_vel_at_release_z
+      value: hand_pos_z
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1357,6 +1385,21 @@ PrefabInstance:
       propertyPath: onTrialBegin.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: trackedObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 42122409}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: trackedObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 2017647272}
+    - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
+        type: 3}
+      propertyPath: trackedObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 190260626}
     - target: {fileID: 1363197602275048, guid: 0a3b6392f04558844bd340e68ced1ff9, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1527,6 +1570,7 @@ GameObject:
   - component: {fileID: 190260625}
   - component: {fileID: 190260624}
   - component: {fileID: 190260623}
+  - component: {fileID: 190260626}
   m_Layer: 0
   m_Name: Shoulder
   m_TagString: Untagged
@@ -1606,6 +1650,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190260621}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &190260626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190260621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dbc7aef009231419c2e645c8e8579b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: shoulder
+  measurementDescriptor: movement
+  customHeader:
+  - pos_x
+  - pos_y
+  - pos_z
+  - rot_x
+  - rot_y
+  - rot_z
+  recording: 0
 --- !u!1 &228721813
 GameObject:
   m_ObjectHideFlags: 0
@@ -2275,6 +2341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 1306902623}
+  armKinematics: {fileID: 1966702951}
   grabAction:
     actionPath: /actions/dartsplaying/in/GrabDart
     needsReinit: 0
@@ -2312,6 +2379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 1306902623}
+  armKinematics: {fileID: 1966702951}
   grabAction:
     actionPath: /actions/dartsplaying/in/GrabDart
     needsReinit: 0
@@ -4160,6 +4228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 0}
+  armKinematics: {fileID: 0}
   grabAction:
     actionPath: 
     needsReinit: 0
@@ -4292,7 +4361,6 @@ MonoBehaviour:
   instructions: {fileID: 1631229742}
   options: {fileID: 1413603058}
   bullseye: {fileID: 1550833298}
-  armKinematics: {fileID: 1966702951}
   dart: {fileID: 3914533909191506576, guid: 51afa6707b5f4ee479e4fac4e6d28807, type: 3}
   soundFX: {fileID: 1631229743}
 --- !u!1 &950835386
@@ -4976,9 +5044,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elbowLink: {fileID: 2017647267}
-  elbowRotationOffset: {x: 35.2, y: -171.72, z: 0}
+  elbowRotationOffset: {x: 0, y: 0, z: 0}
   wristLink: {fileID: 42122404}
-  wristRotationOffset: {x: 0, y: 16.09, z: 0}
+  wristRotationOffset: {x: 0, y: 0, z: 0}
   handOrientation: {fileID: 760838751}
 --- !u!4 &1219487948
 Transform:
@@ -7403,6 +7471,7 @@ GameObject:
   - component: {fileID: 2017647271}
   - component: {fileID: 2017647270}
   - component: {fileID: 2017647269}
+  - component: {fileID: 2017647272}
   m_Layer: 0
   m_Name: Elbow
   m_TagString: Untagged
@@ -7482,6 +7551,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017647267}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2017647272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017647267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dbc7aef009231419c2e645c8e8579b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: elbow
+  measurementDescriptor: movement
+  customHeader:
+  - pos_x
+  - pos_y
+  - pos_z
+  - rot_x
+  - rot_y
+  - rot_z
+  recording: 0
 --- !u!1 &2026206362
 GameObject:
   m_ObjectHideFlags: 0

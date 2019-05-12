@@ -1,0 +1,38 @@
+timestamp,log_type,message
+0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 1.03m x 1.78m
+0,Log,Connection established
+0,Log,Loaded: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\participant_list.csv
+0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
+33.3605,Log,Updating: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\participant_list.csv
+37.6027,Log,Started trial 1
+38.72466,Log,Hit Red zone
+38.72466,Log,Ended trial 1
+38.81329,Log,Started trial 2
+39.51371,Log,Hit Blue zone
+39.51371,Log,Ended trial 2
+39.58365,Log,Started trial 3
+40.19073,Log,Hit Blue zone
+40.19073,Log,Ended trial 3
+40.27989,Log,Started trial 4
+41.53531,Log,Ended trial 4
+41.65852,Log,Started trial 5
+42.54732,Log,Hit Blue zone
+42.54732,Log,Ended trial 5
+42.64684,Log,Started trial 6
+43.43457,Log,Hit Red zone
+43.43457,Log,Ended trial 6
+43.52421,Log,Started trial 7
+45.03639,Log,Ended trial 7
+45.7138,Log,Started trial 8
+46.95872,Log,Hit Blue zone
+46.95872,Log,Ended trial 8
+47.16022,Log,Started trial 9
+48.07875,Log,Hit Red zone
+48.07875,Log,Ended trial 9
+48.20111,Log,Started trial 10
+49.31555,Log,Hit Black zone
+49.31555,Log,Ended trial 10
+49.51451,Log,Started trial 11
+50.40275,Log,Hit Blue zone
+50.40275,Log,Ended trial 11
+50.50177,Log,Started trial 12

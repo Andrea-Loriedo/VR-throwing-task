@@ -1,7 +1,0 @@
-ppid,glove_on,participant_age,participant_gender,wrist_length,lower_arm_length,upper_arm_length
-test,True,,,,,
-P_190410170048,,,,,,
-P_190411184754,False,21,Male,,,
-P_190411205157,False,18,Male,4,4,4
-P_190411205640,False,18,Male,0.0517,0.45,0.58
-Rob,False,21,Male,47,57,78

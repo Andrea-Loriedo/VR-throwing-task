@@ -1,0 +1,9 @@
+{
+        "ppid": "Example Participant 3",
+        "participant_age": 20,
+        "participant_gender": "Male",
+        "glove_on": false,
+        "wrist_length": "0.05",
+        "lower_arm_length": "0.35",
+        "upper_arm_length": "0.36"
+    }

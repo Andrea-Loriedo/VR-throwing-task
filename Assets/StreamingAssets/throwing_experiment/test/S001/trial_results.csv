@@ -1,16 +1,28 @@
-directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time
-throwing_experiment/test/S001,throwing_experiment,test,1,1,1,1,64.53133,97.09318
-throwing_experiment/test/S001,throwing_experiment,test,1,2,1,2,102.4934,104.2026
-throwing_experiment/test/S001,throwing_experiment,test,1,3,1,3,108.4583,175.2903
-throwing_experiment/test/S001,throwing_experiment,test,1,4,1,4,175.5112,
-throwing_experiment/test/S001,throwing_experiment,test,1,5,2,1,364.0957,364.272
-throwing_experiment/test/S001,throwing_experiment,test,1,6,2,2,396.2175,396.5298
-throwing_experiment/test/S001,throwing_experiment,test,1,7,2,3,397.3716,397.4959
-throwing_experiment/test/S001,throwing_experiment,test,1,8,2,4,398.6185,399.9279
-throwing_experiment/test/S001,throwing_experiment,test,1,9,3,1,400.3946,402.2204
-throwing_experiment/test/S001,throwing_experiment,test,1,10,3,2,402.846,404.925
-throwing_experiment/test/S001,throwing_experiment,test,1,11,3,3,406.4204,408.3863
-throwing_experiment/test/S001,throwing_experiment,test,1,12,3,4,408.6297,410.2524
+directory,experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,target_zone_hit,total_score,wrist_angle,elbow_angle,shoulder_angle,hand_pos_x,hand_pos_y,hand_pos_z,wrist_movement_filename,elbow_movement_filename,shoulder_movement_filename
+throwing_experiment/test/S001,throwing_experiment,test,1,1,1,1,16.41508,17.71192,Blue,15,63.38,-2.69,1.09,0.12,1.66,2.92,wrist_movement_T001.csv,elbow_movement_T001.csv,shoulder_movement_T001.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,2,1,2,18.74165,19.78599,Red,35,43.34,6.10,-20.27,0.17,1.65,2.79,wrist_movement_T002.csv,elbow_movement_T002.csv,shoulder_movement_T002.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,3,1,3,19.92008,20.81984,Black,45,49.79,21.17,-42.57,0.20,1.63,2.79,wrist_movement_T003.csv,elbow_movement_T003.csv,shoulder_movement_T003.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,4,1,4,20.88605,21.6634,Yellow,70,63.53,15.80,-36.89,0.18,1.64,2.76,wrist_movement_T004.csv,elbow_movement_T004.csv,shoulder_movement_T004.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,5,1,5,21.87644,22.50768,Red,90,55.36,24.30,-45.62,0.15,1.64,2.77,wrist_movement_T005.csv,elbow_movement_T005.csv,shoulder_movement_T005.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,6,1,6,22.66645,23.26211,Red,110,43.00,1.84,-10.74,0.18,1.62,2.73,wrist_movement_T006.csv,elbow_movement_T006.csv,shoulder_movement_T006.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,7,1,7,23.35119,23.90751,Yellow,135,50.35,9.44,-30.16,0.19,1.63,2.75,wrist_movement_T007.csv,elbow_movement_T007.csv,shoulder_movement_T007.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,8,2,1,24.01862,25.17574,Miss,0,32.38,-7.61,-5.48,0.15,1.64,2.80,wrist_movement_T008.csv,elbow_movement_T008.csv,shoulder_movement_T008.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,9,2,2,25.93186,27.87749,Red,20,46.84,43.49,-50.80,0.34,1.65,2.75,wrist_movement_T009.csv,elbow_movement_T009.csv,shoulder_movement_T009.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,10,2,3,28.02604,28.70823,Red,40,30.96,-1.01,-6.83,0.16,1.62,2.84,wrist_movement_T010.csv,elbow_movement_T010.csv,shoulder_movement_T010.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,11,2,4,28.87567,29.454,Black,50,37.73,-25.97,-5.46,-0.03,1.59,2.87,wrist_movement_T011.csv,elbow_movement_T011.csv,shoulder_movement_T011.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,12,2,5,29.65347,30.37425,Red,70,74.94,-39.87,-5.05,-0.10,1.65,2.79,wrist_movement_T012.csv,elbow_movement_T012.csv,shoulder_movement_T012.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,13,2,6,30.48787,31.14001,Red,90,41.47,7.15,-33.47,0.12,1.64,2.84,wrist_movement_T013.csv,elbow_movement_T013.csv,shoulder_movement_T013.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,14,2,7,31.29253,31.87457,Blue,105,29.76,7.12,-10.30,0.30,1.65,2.81,wrist_movement_T014.csv,elbow_movement_T014.csv,shoulder_movement_T014.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,15,3,1,32.02999,36.12169,Miss,0,40.74,48.73,-58.35,0.20,1.66,0.89,wrist_movement_T015.csv,elbow_movement_T015.csv,shoulder_movement_T015.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,16,3,2,36.47675,37.89972,Yellow,25,31.97,20.92,-28.07,0.19,1.63,0.97,wrist_movement_T016.csv,elbow_movement_T016.csv,shoulder_movement_T016.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,17,3,3,38.35508,39.49884,Red,45,36.03,50.13,-58.63,0.19,1.65,1.00,wrist_movement_T017.csv,elbow_movement_T017.csv,shoulder_movement_T017.csv
+throwing_experiment/test/S001,throwing_experiment,test,1,18,3,4,146.0928,161.8485,Miss,45,13.49,30.67,1.13,0.15,1.57,0.48,wrist_movement_T018.csv,elbow_movement_T018.csv,shoulder_movement_T018.csv
+
+
+
+
+
+
 
 
 

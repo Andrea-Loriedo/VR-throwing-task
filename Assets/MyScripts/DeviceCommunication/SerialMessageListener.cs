@@ -52,18 +52,18 @@ public class SerialMessageListener : MonoBehaviour
         Quaternion convertedElbowQuaternion = MapToUnityCoordinateSystem(elbowLinkRotation);
         Quaternion convertedWristQuaternion = MapToUnityCoordinateSystem(wristLinkRotation);
 
-        if(messageCounter <1)
-        {
-            calibrateHand(handOrientation.rotation, convertedWristQuaternion);
-            calibrateIMUs(correctedHand, convertedElbowQuaternion);
-            wristLink.transform.rotation = correctedWrist;
-            elbowLink.transform.rotation = correctedElbow * Quaternion.Euler(elbowRotationOffset);
-        }
+        // if(messageCounter <1)
+        // {
+        //     calibrateHand(handOrientation.rotation, convertedWristQuaternion);
+        //     calibrateIMUs(correctedHand, convertedElbowQuaternion);
+        //     wristLink.transform.rotation = correctedWrist;
+        //     elbowLink.transform.rotation = correctedElbow * Quaternion.Euler(elbowRotationOffset);
+        // }
 
         elbowLink.transform.rotation = convertedElbowQuaternion.normalized * Quaternion.Euler(elbowRotationOffset);
-        wristLink.transform.rotation = convertedWristQuaternion.normalized;// * Quaternion.Euler(wristRotationOffset);
+        wristLink.transform.rotation = convertedWristQuaternion.normalized * Quaternion.Euler(wristRotationOffset);
   
-        messageCounter++;
+        // messageCounter++;
     }
 
     Quaternion MapToUnityCoordinateSystem(Quaternion quat) {

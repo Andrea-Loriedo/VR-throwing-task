@@ -1,48 +1,64 @@
 timestamp,log_type,message
-0,Log,Loaded: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
+0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 1.03m x 1.78m
+0,Log,Connection established
+0,Log,Loaded: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\participant_list.csv
 0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
-46.13402,Warning,Skeleton action: /actions/default/in/SkeletonRightHand is not bound. Your controller may not support SteamVR Skeleton Input.
-46.15464,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 2.20m x 2.10m
-54.4683,Log,Updating: C:\Users\Andrea Loriedo\Documents\Unity Projects Andrea\ThrowingTaskAndrea\Assets\StreamingAssets\throwing_participant_list.csv
-55.51825,Warning,Warning: Session already exists! Continuing will overwrite
-61.18722,Warning,Skeleton action: /actions/default/in/SkeletonLeftHand is not bound. Your controller may not support SteamVR Skeleton Input.
-64.53133,Log,Started trial 1
-97.09318,Log,Ended trial 1
-101.4771,Log,<b>SteamVR Interaction System</b> Headset placed on head
-102.4934,Log,Started trial 2
-104.2026,Log,Ended trial 2
-108.4583,Log,Started trial 3
-120.6674,Log,<b>SteamVR Interaction System</b> Headset removed
-121.5052,Log,<b>SteamVR Interaction System</b> Headset placed on head
-175.2903,Log,Ended trial 3
-175.5112,Log,Started trial 4
-270.1416,Log,<b>SteamVR Interaction System</b> Headset removed
-270.2868,Log,<b>SteamVR Interaction System</b> Headset placed on head
-297.1053,Log,<b>SteamVR Interaction System</b> Headset removed
-297.8553,Log,<b>SteamVR Interaction System</b> Headset placed on head
-298.3468,Log,<b>SteamVR Interaction System</b> Headset removed
-300.7931,Log,<b>SteamVR Interaction System</b> Headset placed on head
-315.0468,Log,<b>SteamVR Interaction System</b> Headset removed
-315.2477,Log,<b>SteamVR Interaction System</b> Headset placed on head
-364.0957,Log,Started trial 5
-364.272,Log,Ended trial 5
-396.2175,Log,Started trial 6
-396.5298,Log,Ended trial 6
-397.3716,Log,Started trial 7
-397.4959,Log,Ended trial 7
-398.6185,Log,Started trial 8
-399.0543,Log,Ended trial 8
-399.9222,Log,Hit!
-399.9279,Log,Hit Whitezone
-399.9279,Log,Ended trial 8
-400.3946,Log,Started trial 9
-402.2204,Log,Ended trial 9
-402.846,Log,Started trial 10
-404.925,Log,Ended trial 10
-406.4204,Log,Started trial 11
-408.3863,Log,Ended trial 11
-408.6297,Log,Started trial 12
-410.2444,Log,Hit!
-410.2524,Log,Hit Blackzone
-410.2524,Log,Ended trial 12
-411.5023,Log,<b>SteamVR Interaction System</b> Headset removed
+11.15702,Log,Updating: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\participant_list.csv
+12.58043,Warning,Warning: Session already exists! Continuing will overwrite
+16.24202,Log,<b>SteamVR Interaction System</b> Headset placed on head
+16.41508,Log,Started trial 1
+17.71192,Log,Hit Blue zone
+17.71192,Log,Ended trial 1
+18.74165,Log,Started trial 2
+19.78599,Log,Hit Red zone
+19.78599,Log,Ended trial 2
+19.92008,Log,Started trial 3
+20.81984,Log,Hit Black zone
+20.81984,Log,Ended trial 3
+20.88605,Log,Started trial 4
+21.6634,Log,Hit Yellow zone
+21.6634,Log,Ended trial 4
+21.87644,Log,Started trial 5
+22.50768,Log,Hit Red zone
+22.50768,Log,Ended trial 5
+22.66645,Log,Started trial 6
+23.26211,Log,Hit Red zone
+23.26211,Log,Ended trial 6
+23.35119,Log,Started trial 7
+23.90751,Log,Hit Yellow zone
+23.90751,Log,Ended trial 7
+24.01862,Log,Started trial 8
+25.17574,Log,Ended trial 8
+25.93186,Log,Started trial 9
+27.87749,Log,Hit Red zone
+27.87749,Log,Ended trial 9
+28.02604,Log,Started trial 10
+28.70823,Log,Hit Red zone
+28.70823,Log,Ended trial 10
+28.87567,Log,Started trial 11
+29.454,Log,Hit Black zone
+29.454,Log,Ended trial 11
+29.65347,Log,Started trial 12
+30.37425,Log,Hit Red zone
+30.37425,Log,Ended trial 12
+30.48787,Log,Started trial 13
+31.14001,Log,Hit Red zone
+31.14001,Log,Ended trial 13
+31.29253,Log,Started trial 14
+31.87457,Log,Hit Blue zone
+31.87457,Log,Ended trial 14
+32.02999,Log,Started trial 15
+36.12169,Log,Ended trial 15
+36.47675,Log,Started trial 16
+37.89972,Log,Hit Yellow zone
+37.89972,Log,Ended trial 16
+38.35508,Log,Started trial 17
+39.49884,Log,Hit Red zone
+39.49884,Log,Ended trial 17
+45.84573,Log,<b>SteamVR Interaction System</b> Headset removed
+46.40125,Log,<b>SteamVR Interaction System</b> Headset placed on head
+48.06629,Log,<b>SteamVR Interaction System</b> Headset removed
+98.90992,Log,<b>SteamVR Interaction System</b> Headset placed on head
+144.2917,Log,<b>SteamVR Interaction System</b> Headset removed
+146.0928,Log,Started trial 18
+161.8485,Log,Ended trial 18

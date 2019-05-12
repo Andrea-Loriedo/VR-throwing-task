@@ -14,7 +14,6 @@ namespace Valve.VR.InteractionSystem.Sample
         public DartsOptions options;
         public ParticipantDetails ppDetails;
         public BullseyeController bullseye;
-        public ArmKinematicsController armKinematics;
         public Follower dart;
         public AudioSource soundFX;
         bool sessionHasEnded;
@@ -32,7 +31,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public void EndCurrentTrial()
         {
-            RecordResults(bullseye.GetBullseyeResults(), dart.GetKinematicResults(), armKinematics.GetArmResults());
+            RecordResults(bullseye.GetBullseyeResults(), dart.GetKinematicResults());
             session.currentTrial.End();
             Debug.LogFormat("Ended trial {0}", session.currentTrialNum);
         }
@@ -57,7 +56,7 @@ namespace Valve.VR.InteractionSystem.Sample
             ppDetails.upperArmLength = (float) session.participantDetails["upper_arm_length"];
         }
 
-        public void RecordResults(BullseyeController.TrialResults bullseyeResults, Follower.KinematicResults kinematicResults, ArmKinematicsController.ArmResults armResults)
+        public void RecordResults(BullseyeController.TrialResults bullseyeResults, Follower.KinematicResults kinematicResults)
         {
             // Behavioural results
             session.currentTrial.result["target_zone_hit"] = bullseyeResults.targetZone;
@@ -70,9 +69,16 @@ namespace Valve.VR.InteractionSystem.Sample
             // session.currentTrial.result["ang_vel_at_release_x"] = kinematicResults.angVelocityAtReleaseX;
             // session.currentTrial.result["ang_vel_at_release_y"] = kinematicResults.angVelocityAtReleaseX;
             // session.currentTrial.result["ang_vel_at_release_z"] = kinematicResults.angVelocityAtReleaseX;
-            session.currentTrial.result["wrist_angle"] = armResults.wristAngle;
-            session.currentTrial.result["elbow_angle"] = armResults.elbowAngle;
-            session.currentTrial.result["shoulder_angle"] = armResults.shoulderAngle;
+        }
+
+        public void RecordCurrentJointAngles(ArmKinematicsController.ArmResults armResults, Vector3 handPos)
+        {
+            session.currentTrial.result["wrist_angle"] = armResults.wristAngle.ToString("F2");
+            session.currentTrial.result["elbow_angle"] = armResults.elbowAngle.ToString("F2");
+            session.currentTrial.result["shoulder_angle"] = armResults.shoulderAngle.ToString("F2");
+            session.currentTrial.result["hand_pos_x"] = handPos.x.ToString("F2");
+            session.currentTrial.result["hand_pos_y"] = handPos.y.ToString("F2");
+            session.currentTrial.result["hand_pos_z"] = handPos.z.ToString("F2");
         }
 
         public void MarkBlockBegin()

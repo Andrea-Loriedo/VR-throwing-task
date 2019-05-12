@@ -9,6 +9,7 @@ namespace Valve.VR.InteractionSystem.Sample
     public class DartControl : MonoBehaviour
     {
         public FloorCollision floor;
+        public ArmKinematicsController armKinematics;
         public SteamVR_Action_Boolean grabAction;
         public Hand hand;
         public Transform controllerAttachmentPoint;
@@ -106,6 +107,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 currentFollower = null;
                 audioFX.Play();
                 experiment.SetBlockBegin(false);
+                experiment.RecordCurrentJointAngles(armKinematics.GetArmResults(), this.transform.position);
                 dartsLeft --;
             }
         }
