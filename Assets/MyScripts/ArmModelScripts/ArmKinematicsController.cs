@@ -10,16 +10,18 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public Limb[] arm; // Array of instances of the limb struct (one element for each joint + link)
         public float[] userLinkLength;
+        public Transform handJoint;
 
         // UXF
         public Session session;
         public ExperimentManager experiment;
+        public ArmResults results;
 
         // Update is called once per frame
 
         void Start()
         {
-            retrieveLinkLengths(experiment.GetParticipantDetails());
+            //retrieveLinkLengths(experiment.GetParticipantDetails());
         }
 
         void retrieveLinkLengths(ExperimentManager.ParticipantDetails participantDetails)
@@ -35,6 +37,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {   
             ScaleLinks(arm);
             MoveLimb(arm);
+            calculateJointAngles();
         }
 
         void MoveLimb(Limb[] limb)
@@ -48,15 +51,44 @@ namespace Valve.VR.InteractionSystem.Sample
             }
         }
 
+        void calculateJointAngles()
+        {
+            float handPitch = 360 - handJoint.rotation.eulerAngles.x;
+            float wristPitch = 360 - arm[0].joint.rotation.eulerAngles.x;
+            float elbowPitch = 360 - arm[1].joint.rotation.eulerAngles.x;
+
+            results.wristAngle = wristPitch - handPitch;
+            results.elbowAngle = elbowPitch - wristPitch;
+            results.shoulderAngle = elbowPitch;
+            // Debug.LogFormat("Wrist: {0}, Elbow: {1}, Shoulder: {2}", results.wristAngle, results.elbowAngle, results.shoulderAngle);
+            Debug.LogFormat("W: {0}, E: {1}, S: {2}", handPitch, wristPitch, elbowPitch);
+        }
+
+        // void ScaleLinks(Limb[] limb)
+        // {
+        //     Vector3 linkLength = transform.localScale;
+        //     for(int i = 0; i < 3; i++)
+        //     {          
+        //         linkLength.z = userLinkLength[i] * 5f;
+        //         arm[i].link.localScale = linkLength;
+        //         // limblink.link.localScale = new Vector3(limblink.link_length, 0, 0);
+        //     }
+        // }
+
         void ScaleLinks(Limb[] limb)
         {
             Vector3 linkLength = transform.localScale;
-            for(int i = 0; i < 3; i++)
-            {          
-                linkLength.z = userLinkLength[i] * 5f;
-                arm[i].link.localScale = linkLength;
+            foreach (Limb limblink in limb)
+            {    
+                linkLength.z = limblink.link_length * 5;
+                limblink.link.localScale = linkLength;
                 // limblink.link.localScale = new Vector3(limblink.link_length, 0, 0);
             }
+        }
+
+        public ArmResults GetArmResults()
+        {
+            return results;
         }
 
         [System.Serializable]
@@ -66,8 +98,15 @@ namespace Valve.VR.InteractionSystem.Sample
             public Transform previousJoint;
             public Transform joint;
             public Transform link;
-            [HideInInspector]
+            //[HideInInspector]
             public float link_length;
+        }
+
+        public struct ArmResults
+        {
+            public float wristAngle;
+            public float elbowAngle;
+            public float shoulderAngle;
         }
 
     }

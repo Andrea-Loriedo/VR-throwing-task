@@ -14,6 +14,7 @@ namespace Valve.VR.InteractionSystem.Sample
         public DartsOptions options;
         public ParticipantDetails ppDetails;
         public BullseyeController bullseye;
+        public ArmKinematicsController armKinematics;
         public Follower dart;
         public AudioSource soundFX;
         bool sessionHasEnded;
@@ -31,7 +32,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public void EndCurrentTrial()
         {
-            RecordResults(bullseye.GetBullseyeResults(), dart.GetKinematicResults());
+            RecordResults(bullseye.GetBullseyeResults(), dart.GetKinematicResults(), armKinematics.GetArmResults());
             session.currentTrial.End();
             Debug.LogFormat("Ended trial {0}", session.currentTrialNum);
         }
@@ -56,19 +57,22 @@ namespace Valve.VR.InteractionSystem.Sample
             ppDetails.upperArmLength = (float) session.participantDetails["upper_arm_length"];
         }
 
-        public void RecordResults(BullseyeController.TrialResults bullseyeResults, Follower.KinematicResults kinematicResults)
+        public void RecordResults(BullseyeController.TrialResults bullseyeResults, Follower.KinematicResults kinematicResults, ArmKinematicsController.ArmResults armResults)
         {
             // Behavioural results
             session.currentTrial.result["target_zone_hit"] = bullseyeResults.targetZone;
             session.currentTrial.result["total_score"] = bullseyeResults.totalScore;
 
             // Kinematic results
-            session.currentTrial.result["vel_at_release_x"] = kinematicResults.velocityAtReleaseX;
-            session.currentTrial.result["vel_at_release_y"] = kinematicResults.velocityAtReleaseX;
-            session.currentTrial.result["vel_at_release_z"] = kinematicResults.velocityAtReleaseX;
-            session.currentTrial.result["ang_vel_at_release_x"] = kinematicResults.angVelocityAtReleaseX;
-            session.currentTrial.result["ang_vel_at_release_y"] = kinematicResults.angVelocityAtReleaseX;
-            session.currentTrial.result["ang_vel_at_release_z"] = kinematicResults.angVelocityAtReleaseX;
+            // session.currentTrial.result["vel_at_release_x"] = kinematicResults.velocityAtReleaseX;
+            // session.currentTrial.result["vel_at_release_y"] = kinematicResults.velocityAtReleaseX;
+            // session.currentTrial.result["vel_at_release_z"] = kinematicResults.velocityAtReleaseX;
+            // session.currentTrial.result["ang_vel_at_release_x"] = kinematicResults.angVelocityAtReleaseX;
+            // session.currentTrial.result["ang_vel_at_release_y"] = kinematicResults.angVelocityAtReleaseX;
+            // session.currentTrial.result["ang_vel_at_release_z"] = kinematicResults.angVelocityAtReleaseX;
+            session.currentTrial.result["wrist_angle"] = armResults.wristAngle;
+            session.currentTrial.result["elbow_angle"] = armResults.elbowAngle;
+            session.currentTrial.result["shoulder_angle"] = armResults.shoulderAngle;
         }
 
         public void MarkBlockBegin()

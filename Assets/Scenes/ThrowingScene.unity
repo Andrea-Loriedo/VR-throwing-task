@@ -232,7 +232,7 @@ Transform:
   m_GameObject: {fileID: 42122404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
   m_Children: []
   m_Father: {fileID: 1134043668}
   m_RootOrder: 0
@@ -1080,7 +1080,7 @@ PrefabInstance:
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: customHeaders.Array.size
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -1265,17 +1265,17 @@ PrefabInstance:
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: customHeaders.Array.data[2]
-      value: vel_at_release_x
+      value: wrist_angle
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: customHeaders.Array.data[3]
-      value: vel_at_release_y
+      value: elbow_angle
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
       propertyPath: customHeaders.Array.data[4]
-      value: vel_at_release_z
+      value: shoulder_angle
       objectReference: {fileID: 0}
     - target: {fileID: 114916036141644208, guid: 0a3b6392f04558844bd340e68ced1ff9,
         type: 3}
@@ -2379,7 +2379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &460975185
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3886,7 +3886,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760838750}
   m_LocalRotation: {x: 0.4198457, y: -0.03950163, z: 0.018294165, w: 0.9065509}
-  m_LocalPosition: {x: 0.0293, y: 0.0026, z: -0.1265}
+  m_LocalPosition: {x: 0.035, y: 0.0026, z: -0.1265}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children: []
   m_Father: {fileID: 1485262426}
@@ -4292,6 +4292,7 @@ MonoBehaviour:
   instructions: {fileID: 1631229742}
   options: {fileID: 1413603058}
   bullseye: {fileID: 1550833298}
+  armKinematics: {fileID: 1966702951}
   dart: {fileID: 3914533909191506576, guid: 51afa6707b5f4ee479e4fac4e6d28807, type: 3}
   soundFX: {fileID: 1631229743}
 --- !u!1 &950835386
@@ -4383,7 +4384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11442534, guid: a65acf0cbf56b80419f74ebf0bc845f4, type: 3}
       propertyPath: portName
-      value: COM8
+      value: COM5
       objectReference: {fileID: 0}
     - target: {fileID: 11442534, guid: a65acf0cbf56b80419f74ebf0bc845f4, type: 3}
       propertyPath: messageListener
@@ -4423,7 +4424,7 @@ Transform:
   m_GameObject: {fileID: 1078578116}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0, y: -0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.10000004, z: 0.05}
+  m_LocalScale: {x: 0.02, y: 0.10000004, z: 0.02}
   m_Children: []
   m_Father: {fileID: 950835387}
   m_RootOrder: 0
@@ -7048,7 +7049,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1966702950
 Transform:
   m_ObjectHideFlags: 0
@@ -7082,18 +7083,19 @@ MonoBehaviour:
     previousJoint: {fileID: 760838751}
     joint: {fileID: 42122405}
     link: {fileID: 950835387}
-    link_length: 0
+    link_length: 0.0517
   - internalName: Elbow
     previousJoint: {fileID: 42122405}
     joint: {fileID: 2017647268}
     link: {fileID: 2122210700}
-    link_length: 0
+    link_length: 0.46
   - internalName: Shoulder
     previousJoint: {fileID: 2017647268}
     joint: {fileID: 190260622}
     link: {fileID: 897189696}
-    link_length: 0
+    link_length: 0.59
   userLinkLength: []
+  handJoint: {fileID: 760838751}
   session: {fileID: 122676433}
   experiment: {fileID: 909821348}
 --- !u!1 &1983685271

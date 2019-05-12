@@ -1,0 +1,9 @@
+{
+        "ppid": "Rob",
+        "participant_age": 21,
+        "participant_gender": "Male",
+        "glove_on": false,
+        "wrist_length": "47",
+        "lower_arm_length": "57",
+        "upper_arm_length": "78"
+    }
