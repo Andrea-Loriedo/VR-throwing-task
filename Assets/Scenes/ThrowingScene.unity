@@ -4976,9 +4976,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elbowLink: {fileID: 2017647267}
-  elbowRotationOffset: {x: 0, y: 0, z: 0}
+  elbowRotationOffset: {x: 35.2, y: -171.72, z: 0}
   wristLink: {fileID: 42122404}
-  wristRotationOffset: {x: 0, y: 0, z: 0}
+  wristRotationOffset: {x: 0, y: 16.09, z: 0}
+  handOrientation: {fileID: 760838751}
 --- !u!4 &1219487948
 Transform:
   m_ObjectHideFlags: 0
@@ -7088,12 +7089,12 @@ MonoBehaviour:
     previousJoint: {fileID: 42122405}
     joint: {fileID: 2017647268}
     link: {fileID: 2122210700}
-    link_length: 0.46
+    link_length: 0.35
   - internalName: Shoulder
     previousJoint: {fileID: 2017647268}
     joint: {fileID: 190260622}
     link: {fileID: 897189696}
-    link_length: 0.59
+    link_length: 0.37
   userLinkLength: []
   handJoint: {fileID: 760838751}
   session: {fileID: 122676433}

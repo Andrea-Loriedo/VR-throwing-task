@@ -64,11 +64,11 @@ namespace Valve.VR.InteractionSystem.Sample
             if(elbowPitch > 180)
             elbowPitch -= 360;
 
-            results.wristAngle = wristPitch - handPitch;
-            results.elbowAngle = elbowPitch - wristPitch;
+            results.wristAngle = - (wristPitch - handPitch);
+            results.elbowAngle = - (elbowPitch - wristPitch);
             results.shoulderAngle = elbowPitch;
             // Debug.LogFormat("Wrist: {0}, Elbow: {1}, Shoulder: {2}", results.wristAngle, results.elbowAngle, results.shoulderAngle);
-            Debug.LogFormat("W: {0}, E: {1}, S: {2}", handPitch, wristPitch, elbowPitch);
+            // Debug.LogFormat("W: {0}, E: {1}, S: {2}", handPitch, wristPitch, elbowPitch);
         }
 
         // void ScaleLinks(Limb[] limb)
