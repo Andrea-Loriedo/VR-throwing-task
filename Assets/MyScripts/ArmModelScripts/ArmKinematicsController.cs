@@ -57,6 +57,13 @@ namespace Valve.VR.InteractionSystem.Sample
             float wristPitch = 360 - arm[0].joint.rotation.eulerAngles.x;
             float elbowPitch = 360 - arm[1].joint.rotation.eulerAngles.x;
 
+            if(handPitch >180)
+            handPitch -= 360;
+            if(wristPitch > 180)
+            wristPitch -= 360;
+            if(elbowPitch > 180)
+            elbowPitch -= 360;
+
             results.wristAngle = wristPitch - handPitch;
             results.elbowAngle = elbowPitch - wristPitch;
             results.shoulderAngle = elbowPitch;
