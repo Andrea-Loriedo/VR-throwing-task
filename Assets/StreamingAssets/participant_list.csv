@@ -1,10 +1,11 @@
-ppid,participant_age,participant_gender,glove_on,wrist_length,lower_arm_length,upper_arm_length
-test,25,Male,False,0.05,0.36,0.39
-Example Participant 0,21,Male,False,0.0517,0.35,0.37
-Example Participant 1,18,Male,False,0.05,0.32,0.35
-Example Participant 2,24,Male,False,0.06,0.37,0.39
-Example Participant 3,20,Male,False,0.05,0.35,0.36
-Example Participant 4,22,Female,False,0.05,0.32,0.35
-Example Participant 5,27,Male,False,0.055,0.37,0.4
-Example Participant 6,21,Female,False,0.05,0.35,0.35
-Example Participant 7,27,Female,False,0.05,0.36,0.37
+ppid,participant_age,participant_gender,glove_on,wrist_length,lower_arm_length,upper_arm_length,arm_on
+test,25,Male,False,0.05,0.36,0.39,
+Example Participant 0,21,Male,False,0.0517,0.35,0.37,
+Example Participant 1,18,Male,False,0.05,0.32,0.35,
+Example Participant 2,24,Male,False,0.06,0.37,0.39,
+Example Participant 3,20,Male,False,0.05,0.35,0.36,
+Example Participant 4,22,Female,False,0.05,0.32,0.35,
+Example Participant 5,27,Male,False,0.055,0.37,0.4,
+Example Participant 6,21,Female,False,0.05,0.35,0.35,True
+Example Participant 7,27,Female,False,0.05,0.36,0.37,
+Exhibition Demo,21,Male,False,0.0517,0.35,0.36,False

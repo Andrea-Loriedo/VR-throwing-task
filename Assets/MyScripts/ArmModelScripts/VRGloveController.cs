@@ -9,8 +9,11 @@ namespace Valve.VR.InteractionSystem.Sample
     {
         [HideInInspector]
         public bool gloveEnabled;
+        [HideInInspector]
+        public bool armEnabled;
 
         public GameObject glove;
+        public GameObject arm; 
         public ExperimentManager experiment;
 
         uint index = 0;
@@ -39,6 +42,23 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 glove.SetActive(true);
             }
+            else
+            {
+                glove.SetActive(false);
+            }
+        }
+        
+        public void SetArmStatus()
+        {
+            EnableArm(experiment.GetParticipantDetails()); // Get the participant details struct
+            if(armEnabled == true)
+            {
+                arm.SetActive(true);
+            }
+            else
+            {
+                arm.SetActive(false);
+            }
         }
 
         public bool GloveEnabled()
@@ -49,6 +69,11 @@ namespace Valve.VR.InteractionSystem.Sample
         public void EnableGlove(ExperimentManager.ParticipantDetails participantDetails)
         {
             gloveEnabled = participantDetails.gloveOn;
+        }
+
+        public void EnableArm(ExperimentManager.ParticipantDetails participantDetails)
+        {
+            armEnabled = participantDetails.armOn;
         }
     }
 }

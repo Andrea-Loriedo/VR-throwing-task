@@ -1,0 +1,10 @@
+{
+        "ppid": "Exhibition Demo",
+        "participant_age": 21,
+        "participant_gender": "Male",
+        "glove_on": false,
+        "wrist_length": "0.0517",
+        "lower_arm_length": "0.35",
+        "upper_arm_length": "0.36",
+        "arm_on": false
+    }

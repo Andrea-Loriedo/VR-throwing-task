@@ -54,6 +54,7 @@ namespace Valve.VR.InteractionSystem.Sample
             ppDetails.wristLength = (float) session.participantDetails["wrist_length"];
             ppDetails.lowerArmLength = (float) session.participantDetails["lower_arm_length"];
             ppDetails.upperArmLength = (float) session.participantDetails["upper_arm_length"];
+            ppDetails.armOn = (bool) session.participantDetails["arm_on"];
         }
 
         public void RecordResults(BullseyeController.TrialResults bullseyeResults, Follower.KinematicResults kinematicResults)
@@ -140,6 +141,7 @@ namespace Valve.VR.InteractionSystem.Sample
             public int age;
             public string gender;
             public bool gloveOn;
+            public bool armOn;
             public float wristLength;
             public float lowerArmLength;
             public float upperArmLength;

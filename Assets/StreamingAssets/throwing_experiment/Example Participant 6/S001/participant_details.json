@@ -5,5 +5,6 @@
         "glove_on": false,
         "wrist_length": "0.05",
         "lower_arm_length": "0.35",
-        "upper_arm_length": "0.35"
+        "upper_arm_length": "0.35",
+        "arm_on": true
     }

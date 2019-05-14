@@ -1,0 +1,90 @@
+timestamp,log_type,message
+0,Log,<b>[SteamVR Interaction]</b> ChaperoneInfo initialized. Roomscale play area 1.03m x 1.78m
+0,Log,Loaded: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\participant_list.csv
+0.02,Warning,"A Canvas named ""[UXF_UI]"" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost but will not be visible while in VR. Is this intentional?"
+12.19345,Log,Updating: C:\Users\andrea\Documents\Andrea Level 3 Project\Throwing Task Andrea\vrmat-throwing-task\Assets\StreamingAssets\participant_list.csv
+12.97099,Warning,Warning: Session already exists! Continuing will overwrite
+25.6013,Log,<b>SteamVR Interaction System</b> Headset placed on head
+25.61149,Log,<b>SteamVR Interaction System</b> Headset placed on head
+26.30119,Log,Started trial 1
+27.814,Log,Hit Black zone
+27.814,Log,Ended trial 1
+28.12538,Log,Started trial 2
+29.28354,Log,Hit Red zone
+29.28354,Log,Ended trial 2
+29.50626,Log,Started trial 3
+30.59478,Log,Hit Yellow zone
+30.59478,Log,Ended trial 3
+30.84017,Log,Started trial 4
+31.73014,Log,Hit Blue zone
+31.73014,Log,Ended trial 4
+31.89772,Log,Started trial 5
+32.76185,Log,Hit Blue zone
+32.76185,Log,Ended trial 5
+32.90573,Log,Started trial 6
+33.75116,Log,Hit Red zone
+33.75116,Log,Ended trial 6
+33.95204,Log,Started trial 7
+34.87406,Log,Hit Yellow zone
+34.87406,Log,Ended trial 7
+35.07356,Log,Started trial 8
+36.23021,Log,Hit Yellow zone
+36.23021,Log,Ended trial 8
+36.36401,Log,Started trial 9
+37.1405,Log,Hit Blue zone
+37.1405,Log,Ended trial 9
+37.363,Log,Started trial 10
+38.98885,Log,Hit Yellow zone
+38.98885,Log,Ended trial 10
+39.16553,Log,Started trial 11
+39.89476,Log,Hit Yellow zone
+39.89476,Log,Ended trial 11
+40.16132,Log,Started trial 12
+40.86098,Log,Hit Red zone
+40.86098,Log,Ended trial 12
+41.1943,Log,Started trial 13
+42.139,Log,Hit Red zone
+42.139,Log,Ended trial 13
+42.38235,Log,Started trial 14
+43.08328,Log,Hit Red zone
+43.08328,Log,Ended trial 14
+43.27246,Log,Started trial 15
+44.77468,Log,Hit Black zone
+44.77468,Log,Ended trial 15
+44.84504,Log,Started trial 16
+45.93095,Log,Hit Red zone
+45.93095,Log,Ended trial 16
+46.1086,Log,Started trial 17
+47.13024,Log,Hit Yellow zone
+47.13024,Log,Ended trial 17
+47.26075,Log,Started trial 18
+48.35012,Log,Hit Blue zone
+48.35012,Log,Ended trial 18
+48.47231,Log,Started trial 19
+49.46125,Log,Hit Black zone
+49.46125,Log,Ended trial 19
+49.78362,Log,Started trial 20
+50.80752,Log,Hit Blue zone
+50.80752,Log,Ended trial 20
+51.18563,Log,Started trial 21
+52.56412,Log,Hit White zone
+52.56412,Log,Ended trial 21
+52.83001,Log,Started trial 22
+54.53135,Log,Ended trial 22
+54.86417,Log,Started trial 23
+56.51022,Log,Hit White zone
+56.51022,Log,Ended trial 23
+56.75305,Log,Started trial 24
+57.81945,Log,Hit Yellow zone
+57.81945,Log,Ended trial 24
+57.99764,Log,Started trial 25
+59.00791,Log,Hit Black zone
+59.00791,Log,Ended trial 25
+59.47424,Log,Started trial 26
+60.77458,Log,Hit White zone
+60.77458,Log,Ended trial 26
+61.15215,Log,Started trial 27
+63.87416,Log,Hit Black zone
+63.87416,Log,Ended trial 27
+64.09766,Log,Started trial 28
+66.11998,Log,Hit Red zone

@@ -28,6 +28,7 @@ public class SessionGenerator : MonoBehaviour
         AssignBlockSettings(Block2Settings, block2);
         AssignBlockSettings(Block3Settings, block3);
         AssignBlockSettings(Block4Settings, block4);
+
     }
 
     void AssignBlockSettings(Dictionary<string, object> settings, Block block)
