@@ -18,22 +18,22 @@ The understanding of fundamental motor skills such as throwing, lifting or reach
 ## The System ⚙️
 
 <p align="center">
- <img src="Media/System.PNG">
+ <img src="Media/System.png">
 </p>
 
 ## Complementary IMU Data Filtering 💻
 
 To ensure a virtually drift and noise-free output from the IMUs used to sense joint rotations, a Complementary Filter was implemented, based on the equation below:
- <img src="Media/CompFilterEqn.PNG" align="center">
+ <img src="Media/CompFilterEqn.png" align="center">
   
 Conceptually, a Complementary Filter involves combining data from all three on-board sensors to obtain a more accurate and drift-free response to the device’s rotation. This can be achieved by applying a high-pass filter and a low-pass filter to the angular data obtained from the gyroscope and accelerometer/magnetometer respectively and in complementary proportions.
 
- <img src="Media/CompFilter.PNG" align="center">
+ <img src="Media/CompFilter.png" align="center">
  
 ## Virtually Modelling the Arm
 Despite their intuitiveness, Euler rotations suffer from Gimbal lock issues, causing the loss of a degree of freedom when certain rotation sequences are performed. This concern led to recurring to quaternions as a tool to solve this forward kinematics problem. The kinematic chain was hence modelled as shown in the schematic below, using a HTC Vive tracker to set the hand coordinate system as the base frame {H}.
 
- <img src="Media/KinematicChain.PNG" align="center">
+ <img src="Media/KinematicChain.png" align="center">
 
 The quaternion for the orientation of each joint obtained from the IMUs could hence be transformed by a 3D vector containing link length information. Given the manually input link lengths, this allowed to translate each joint by the length of the next link in the chain and rotate it based on the IMU input quaternions. 
 
@@ -44,20 +44,20 @@ This method allowed to retrieve the positional 3D coordinates of each joint, off
 A Printed Circuit Board (PCB) was designed to encapsulate all the main electronic components that the system required in a small portable package. Designed using the `CAD` software _Eagle_. 
 
 <p>
- <img src="Media/PCB.PNG" align="center" length="500">
+ <img src="Media/PCB.png" align="center" length="500">
  <p>
  
  The board features a _ATmega328P-AU_ core, 5V power supply via Li-Ion battery (with integrated protection circuitry), a charging circuit managed by a ``MCP73831`` chip and a 4-pin socket for a ``HC-05`` Bluetooth module . Communication with the IMUs acting as daughterboards worn on the player's arm was established using the $I^2C$ protocol.
  
 <p>
- <img src="Media/CustomController.PNG" align="center" length="500">
+ <img src="Media/CustomController.png" align="center" length="500">
  <p>
 
 This glove-like VR controller was built taking advantage of the _HTC Vive_ tracker and its _pogo pins_ to enable participants to move their hand in a more naturalistic way while attempting the motor task.
 
 ### The Final Hardware System
 <p>
- <img src="Media/PCBIMUS.PNG" align="center" length="500">
+ <img src="Media/PCBIMUS.png" align="center" length="500">
  <p>
 
 ## The Game 🎯
@@ -73,17 +73,17 @@ public struct Limb
 }
 ```
 
- <img src="Media/Demo.PNG" align="center">
+ <img src="Media/Demo.png" align="center">
 
 Aided by the  [Unity Experiment Framework](https://github.com/immersivecognition/unity-experiment-framework) (UXF), a behavioural experiment was designed to model dart throwing. The aim was to track behavioural and continuous data throughout each trial (i.e. each dart throw). 
 
- <img src="Media/GameStructure.PNG" align="center">
+ <img src="Media/GameStructure.png" align="center">
 
 The game also maps a computer-generated model of the arm onto the real limb to provide live visual feedback, aiding the participant in perceiving their motion as natural while in VR.
 
 ### Overall Software Architecture
 
- <img src="Media/SoftwareBlocks.PNG" align="center">
+ <img src="Media/SoftwareBlocks.png" align="center">
 
 ## Data Output 📈
 
@@ -99,10 +99,10 @@ Experimental data is recorded continuously and discretely throughout the task.
 | Hand position at release time        |                                                    |
 | 2D Joint Angles at Release Time      |                                                    |
 ###  Behavioural Results Example
-<img src="Media/BehavData.PNG" align="center">
+<img src="Media/BehavData.png" align="center">
  
 ### Continuous Results Example
- <img src="Media/ContData.PNG" align="center">
+ <img src="Media/ContData.png" align="center">
  
 ### Future Works
 The main aims of the project were met, successfully achieving tracking of the data points of interest (as mentioned in the software development section) using wearable sensors. The device’s overall functionality was tested in the bespoke Virtual Reality environment developed alongside the hardware. Nevertheless, the following points would benefit from future improvements:
