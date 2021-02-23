@@ -99,7 +99,6 @@ The game also maps a computer-generated model of the arm onto the real limb to p
 
 Experimental data is recorded continuously and discretely throughout the task.
 
-
 | Behavioural Data                     | Continuous Data                                    |
 |--------------------------------------|----------------------------------------------------|
 | Dart release time window             | 3D orientation of each joint throughout each trial |
@@ -109,12 +108,16 @@ Experimental data is recorded continuously and discretely throughout the task.
 | Hand position at release time        |                                                    |
 | 2D Joint Angles at Release Time      |                                                    |
 ###  Behavioural Results Example
-<img src="Media/BehavData.png" align="center">
- 
+<p align="center">
+<img src="Media/BehavData.png">
+</p>
+
 ### Continuous Results Example
+<p align="center">
  <img src="Media/ContData.png" align="center">
+ </p>
  
-### Future Works
+## Future Works
 The main aims of the project were met, successfully achieving tracking of the data points of interest (as mentioned in the software development section) using wearable sensors. The device’s overall functionality was tested in the bespoke Virtual Reality environment developed alongside the hardware. Nevertheless, the following points would benefit from future improvements:
 
 > In terms of overall accuracy, the elbow and shoulder joint continuous positional tracking suffers from some jitter due to error carrying forward as joint positions and rotations are mathematically inferred from the status of the previous joint. This could be improved by adding a second HTC Vive tracker attached to the shoulder and using it as a further point of reference for kinematic calculations.
