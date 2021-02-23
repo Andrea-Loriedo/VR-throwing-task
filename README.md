@@ -18,22 +18,28 @@ The understanding of fundamental motor skills such as throwing, lifting or reach
 ## The System ⚙️
 
 <p align="center">
- <img src="Media/System.png">
+ <img src="Media/System.png" height="400">
 </p>
 
 ## Complementary IMU Data Filtering 💻
 
 To ensure a virtually drift and noise-free output from the IMUs used to sense joint rotations, a Complementary Filter was implemented, based on the equation below:
- <img src="Media/CompFilterEqn.png" align="center">
+<p align="center">
+ <img src="Media/CompFilterEqn.png" align="center" height="50">
+ </p>
   
 Conceptually, a Complementary Filter involves combining data from all three on-board sensors to obtain a more accurate and drift-free response to the device’s rotation. This can be achieved by applying a high-pass filter and a low-pass filter to the angular data obtained from the gyroscope and accelerometer/magnetometer respectively and in complementary proportions.
 
- <img src="Media/CompFilter.png" align="center">
+ <p align="center">
+  <img src="Media/CompFilter.png" align="center" height="200">
+ </p>
  
 ## Virtually Modelling the Arm
 Despite their intuitiveness, Euler rotations suffer from Gimbal lock issues, causing the loss of a degree of freedom when certain rotation sequences are performed. This concern led to recurring to quaternions as a tool to solve this forward kinematics problem. The kinematic chain was hence modelled as shown in the schematic below, using a HTC Vive tracker to set the hand coordinate system as the base frame {H}.
 
- <img src="Media/KinematicChain.png" align="center">
+ <p align="center">
+ <img src="Media/KinematicChain.png" align="center" height="200">
+ </p>
 
 The quaternion for the orientation of each joint obtained from the IMUs could hence be transformed by a 3D vector containing link length information. Given the manually input link lengths, this allowed to translate each joint by the length of the next link in the chain and rotate it based on the IMU input quaternions. 
 
@@ -43,22 +49,22 @@ This method allowed to retrieve the positional 3D coordinates of each joint, off
 
 A Printed Circuit Board (PCB) was designed to encapsulate all the main electronic components that the system required in a small portable package. Designed using the `CAD` software _Eagle_. 
 
-<p>
- <img src="Media/PCB.png" align="center" length="500">
- <p>
+<p align="center">
+  <img src="Media/PCB.png" height="400">
+<p/>
  
  The board features a _ATmega328P-AU_ core, 5V power supply via Li-Ion battery (with integrated protection circuitry), a charging circuit managed by a ``MCP73831`` chip and a 4-pin socket for a ``HC-05`` Bluetooth module . Communication with the IMUs acting as daughterboards worn on the player's arm was established using the $I^2C$ protocol.
  
-<p>
- <img src="Media/CustomController.png" align="center" length="500">
- <p>
+ <p align="center">
+  <img src="Media/CustomController.png" height="300">
+ </p>
 
 This glove-like VR controller was built taking advantage of the _HTC Vive_ tracker and its _pogo pins_ to enable participants to move their hand in a more naturalistic way while attempting the motor task.
 
 ### The Final Hardware System
-<p>
- <img src="Media/PCBIMUS.png" align="center" length="500">
- <p>
+ <p align="center">
+ <img src="Media/PCBIMUS.png" height="200">
+ </p>
 
 ## The Game 🎯
 In software, an object-oriented approach was adopted to animate the VR arm. A `struct` was built, containing kinematic data about each joint, including the previous joint’s ``transform``, link length and link `GameObject`. This also opened up the possibility to implement finger tracking, simply requiring IMUs to be attached to the fingers and new instances of the data structure to be created.
@@ -73,7 +79,9 @@ public struct Limb
 }
 ```
 
- <img src="Media/Demo.png" align="center">
+<p align="center">
+ <img src="Media/Demo.png" align="center" height="300">
+</p>
 
 Aided by the  [Unity Experiment Framework](https://github.com/immersivecognition/unity-experiment-framework) (UXF), a behavioural experiment was designed to model dart throwing. The aim was to track behavioural and continuous data throughout each trial (i.e. each dart throw). 
 
@@ -83,8 +91,10 @@ The game also maps a computer-generated model of the arm onto the real limb to p
 
 ### Overall Software Architecture
 
- <img src="Media/SoftwareBlocks.png" align="center">
-
+ <p align="center">
+  <img src="Media/SoftwareBlocks.png" height="700">
+ </p>
+ 
 ## Data Output 📈
 
 Experimental data is recorded continuously and discretely throughout the task.
